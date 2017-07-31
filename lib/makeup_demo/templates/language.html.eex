@@ -1,0 +1,56 @@
+<h1 id="heading">
+  <%= @language.name %> Language<a class="headerlink" href="#heading" title="Permalink">¶</a>
+</h1>
+
+<%= @language.intro %>
+
+<p>
+  This page shows examples of source files lexed by the same lexer,
+  but rendered into HTML using different styles.
+</p>
+
+<p>
+  Some styles are richer than others in that they define more different token categories.
+  
+  Examples of such richer styles are the <a href="#default">Default</a> style,
+  the <a href="#tango">Tango</a> style and the <a href="#colorful">Colorful</a> style.
+</p>
+
+<p>
+  In all cases the lexer is the same, and the only difference is the colors defined by the styles.
+</p>
+
+<%= for style <- @html_styles do %>
+  <h2 id="<%= style.short_name %>">
+    <%= style.long_name %> (<%= style.short_name %>)<a class="headerlink" href="#<%= style.short_name %>" title="Permalink">¶</a>
+  </h2>
+
+  <p>
+    To use this style just <code>require</code> the <code>Makeup.Styles.HTML.StyleMap</code> module
+    and access the <code><%= style.short_name %></code> constant:
+  </p>
+
+  <%= MakeupDemo.Languages.highlight_html("""
+  # styles are macros that expand to constants
+  require Makeup.Styles.HTML.StyleMap
+  alias Makeup.Styles.HTML.StyleMap
+  StyleMap.#{style.short_name}
+  """, Makeup.Lexers.Elixir, style) %>
+  
+  <p>
+    Or <code>import</code> the module and use the constant defined there:
+  </p>
+
+  <%= MakeupDemo.Languages.highlight_html("""
+  import Makeup.Styles.HTML.StyleMap
+  #{style.short_name}
+  """, Makeup.Lexers.Elixir, style) %>
+
+  <%= for {filename, source} <- @sources do %>
+    <h3 id="<%= style.short_name %>-<%= filename %>">
+      <%= filename %><a class="headerlink" href="#<%= style.short_name %>-<%= filename %>" title="Permalink">¶</a>
+    </h3>
+
+    <%= MakeupDemo.Languages.highlight_html(source, @language.lexer, style) %>
+  <% end %>
+<% end %>

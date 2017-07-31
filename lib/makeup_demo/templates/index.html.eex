@@ -1,0 +1,27 @@
+<h1 id="#makeup-demo" >
+  Makeup Demo<a class="headerlink" href="#makeup-demo" title="Permalink to this headline">¶</a>
+</h1>
+
+<p>
+  Makeup currently supports the following languages (in alphabetical order).
+</p>
+
+<ul>
+  <%= for %{name: name, slug: slug} <- @languages do %>
+    <li><a href="<%= slug %>.html"><%= name %></a></li>
+  <% end %>
+</ul>
+
+<h2 id="makeup-documentation">
+  Documentation<a class="headerlink" href="#makeup-documentation" title="Permalink to this headline">¶</a>
+</h2>
+
+<p>
+  Makeup is documented on hexdocs.
+  This page is not meant to serve as documentation.
+  It's merely a demo of the several lexers and styles.
+</p>
+
+<p>
+  The formatter is the SimpleHTML formatter.
+</p>

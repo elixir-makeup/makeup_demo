@@ -1,0 +1,4 @@
+%{"ex_const": {:hex, :ex_const, "0.1.0", "7b04d0b65f00cfb8afc0b778bd58dec4804612a54f57122524ee097e9f2c5443", [:mix], []},
+  "ex_spirit": {:git, "https://github.com/OvermindDL1/ex_spirit.git", "f1a627e0b75c17db946e7c90ee8cc5e1d8f0cbd4", []},
+  "exconstructor": {:hex, :exconstructor, "1.1.0", "272623a7b203cb2901c20cbb92c5c3ab103cc0087ff7c881979e046043346752", [:mix], []},
+  "html_entities": {:hex, :html_entities, "0.3.0", "2f278ffc69c3f0cbd5996628fef37cf922fa715f3e04b9f38924c8adced3f25a", [:mix], []}}
