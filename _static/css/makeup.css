@@ -8,8 +8,10 @@
 .highlight-abap .cp {color: #888; font-style: italic; } /* Tok.comment_preproc */
 .highlight-abap .cpf {color: #888; font-style: italic; } /* Tok.comment_preproc_file */
 .highlight-abap .cs {color: #888; font-style: italic; } /* Tok.comment_special */
+.highlight-abap .dl {color: #5a2; } /* Tok.string_delimiter */
 .highlight-abap .err {color: #F00; } /* Tok.error */
 .highlight-abap .fm {color: #000; } /* Tok.name_function_magic */
+.highlight-abap .il {color: #3af; } /* Tok.number_integer_long */
 .highlight-abap .k {color: #00f; } /* Tok.keyword */
 .highlight-abap .kc {color: #00f; } /* Tok.keyword_constant */
 .highlight-abap .kd {color: #00f; } /* Tok.keyword_declaration */
@@ -17,6 +19,12 @@
 .highlight-abap .kp {color: #00f; } /* Tok.keyword_pseudo */
 .highlight-abap .kr {color: #00f; } /* Tok.keyword_reserved */
 .highlight-abap .kt {color: #00f; } /* Tok.keyword_type */
+.highlight-abap .m {color: #3af; } /* Tok.number */
+.highlight-abap .mb {color: #3af; } /* Tok.number_bin */
+.highlight-abap .mf {color: #3af; } /* Tok.number_float */
+.highlight-abap .mh {color: #3af; } /* Tok.number_hex */
+.highlight-abap .mi {color: #3af; } /* Tok.number_integer */
+.highlight-abap .mo {color: #3af; } /* Tok.number_oct */
 .highlight-abap .n {color: #000; } /* Tok.name */
 .highlight-abap .na {color: #000; } /* Tok.name_attribute */
 .highlight-abap .nb {color: #000; } /* Tok.name_builtin */
@@ -33,6 +41,20 @@
 .highlight-abap .nx {color: #000; } /* Tok.name_other */
 .highlight-abap .ow {color: #00f; } /* Tok.operator_word */
 .highlight-abap .py {color: #000; } /* Tok.name_property */
+.highlight-abap .s {color: #5a2; } /* Tok.string */
+.highlight-abap .s1 {color: #5a2; } /* Tok.string_single */
+.highlight-abap .s2 {color: #5a2; } /* Tok.string_double */
+.highlight-abap .sa {color: #5a2; } /* Tok.string_affix */
+.highlight-abap .sb {color: #5a2; } /* Tok.string_backtick */
+.highlight-abap .sc {color: #5a2; } /* Tok.string_char */
+.highlight-abap .sd {color: #5a2; } /* Tok.string_doc */
+.highlight-abap .se {color: #5a2; } /* Tok.string_escape */
+.highlight-abap .sh {color: #5a2; } /* Tok.string_heredoc */
+.highlight-abap .si {color: #5a2; } /* Tok.string_interpol */
+.highlight-abap .sr {color: #5a2; } /* Tok.string_regex */
+.highlight-abap .ss {color: #5a2; } /* Tok.string_symbol */
+.highlight-abap .sx {color: #5a2; } /* Tok.string_other */
+.highlight-abap .sx {color: #5a2; } /* Tok.string_sigil */
 .highlight-abap .vc {color: #000; } /* Tok.name_variable_class */
 .highlight-abap .vg {color: #000; } /* Tok.name_variable_global */
 .highlight-abap .vi {color: #000; } /* Tok.name_variable_instance */
@@ -48,6 +70,7 @@
 .highlight-algol .cp {color: #888; font-style: normal; font-weight: bold; } /* Tok.comment_preproc */
 .highlight-algol .cpf {color: #888; font-style: normal; font-weight: bold; } /* Tok.comment_preproc_file */
 .highlight-algol .cs {color: #888; font-style: normal; font-weight: bold; } /* Tok.comment_special */
+.highlight-algol .dl {color: #666; font-style: italic; } /* Tok.string_delimiter */
 .highlight-algol .err {border: #FF0000; } /* Tok.error */
 .highlight-algol .fm {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_function_magic */
 .highlight-algol .k {font-weight: bold; text-decoration: underline; } /* Tok.keyword */
@@ -64,6 +87,20 @@
 .highlight-algol .no {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_constant */
 .highlight-algol .nv {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable */
 .highlight-algol .ow {font-weight: bold; } /* Tok.operator_word */
+.highlight-algol .s {color: #666; font-style: italic; } /* Tok.string */
+.highlight-algol .s1 {color: #666; font-style: italic; } /* Tok.string_single */
+.highlight-algol .s2 {color: #666; font-style: italic; } /* Tok.string_double */
+.highlight-algol .sa {color: #666; font-style: italic; } /* Tok.string_affix */
+.highlight-algol .sb {color: #666; font-style: italic; } /* Tok.string_backtick */
+.highlight-algol .sc {color: #666; font-style: italic; } /* Tok.string_char */
+.highlight-algol .sd {color: #666; font-style: italic; } /* Tok.string_doc */
+.highlight-algol .se {color: #666; font-style: italic; } /* Tok.string_escape */
+.highlight-algol .sh {color: #666; font-style: italic; } /* Tok.string_heredoc */
+.highlight-algol .si {color: #666; font-style: italic; } /* Tok.string_interpol */
+.highlight-algol .sr {color: #666; font-style: italic; } /* Tok.string_regex */
+.highlight-algol .ss {color: #666; font-style: italic; } /* Tok.string_symbol */
+.highlight-algol .sx {color: #666; font-style: italic; } /* Tok.string_other */
+.highlight-algol .sx {color: #666; font-style: italic; } /* Tok.string_sigil */
 .highlight-algol .vc {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable_class */
 .highlight-algol .vg {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable_global */
 .highlight-algol .vi {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable_instance */
@@ -79,6 +116,7 @@
 .highlight-algol_nu .cp {color: #888; font-style: normal; font-weight: bold; } /* Tok.comment_preproc */
 .highlight-algol_nu .cpf {color: #888; font-style: normal; font-weight: bold; } /* Tok.comment_preproc_file */
 .highlight-algol_nu .cs {color: #888; font-style: normal; font-weight: bold; } /* Tok.comment_special */
+.highlight-algol_nu .dl {color: #666; font-style: italic; } /* Tok.string_delimiter */
 .highlight-algol_nu .err {border: #FF0000; } /* Tok.error */
 .highlight-algol_nu .fm {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_function_magic */
 .highlight-algol_nu .k {font-weight: bold; } /* Tok.keyword */
@@ -95,6 +133,20 @@
 .highlight-algol_nu .no {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_constant */
 .highlight-algol_nu .nv {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable */
 .highlight-algol_nu .ow {font-weight: bold; } /* Tok.operator_word */
+.highlight-algol_nu .s {color: #666; font-style: italic; } /* Tok.string */
+.highlight-algol_nu .s1 {color: #666; font-style: italic; } /* Tok.string_single */
+.highlight-algol_nu .s2 {color: #666; font-style: italic; } /* Tok.string_double */
+.highlight-algol_nu .sa {color: #666; font-style: italic; } /* Tok.string_affix */
+.highlight-algol_nu .sb {color: #666; font-style: italic; } /* Tok.string_backtick */
+.highlight-algol_nu .sc {color: #666; font-style: italic; } /* Tok.string_char */
+.highlight-algol_nu .sd {color: #666; font-style: italic; } /* Tok.string_doc */
+.highlight-algol_nu .se {color: #666; font-style: italic; } /* Tok.string_escape */
+.highlight-algol_nu .sh {color: #666; font-style: italic; } /* Tok.string_heredoc */
+.highlight-algol_nu .si {color: #666; font-style: italic; } /* Tok.string_interpol */
+.highlight-algol_nu .sr {color: #666; font-style: italic; } /* Tok.string_regex */
+.highlight-algol_nu .ss {color: #666; font-style: italic; } /* Tok.string_symbol */
+.highlight-algol_nu .sx {color: #666; font-style: italic; } /* Tok.string_other */
+.highlight-algol_nu .sx {color: #666; font-style: italic; } /* Tok.string_sigil */
 .highlight-algol_nu .vc {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable_class */
 .highlight-algol_nu .vg {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable_global */
 .highlight-algol_nu .vi {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable_instance */
@@ -110,8 +162,10 @@
 .highlight-arduino .cp {color: #728E00; } /* Tok.comment_preproc */
 .highlight-arduino .cpf {color: #728E00; } /* Tok.comment_preproc_file */
 .highlight-arduino .cs {color: #95a5a6; } /* Tok.comment_special */
+.highlight-arduino .dl {color: #7F8C8D; } /* Tok.string_delimiter */
 .highlight-arduino .err {color: #a61717; } /* Tok.error */
 .highlight-arduino .fm {color: #D35400; } /* Tok.name_function_magic */
+.highlight-arduino .il {color: #8A7B52; } /* Tok.number_integer_long */
 .highlight-arduino .k {color: #728E00; } /* Tok.keyword */
 .highlight-arduino .kc {color: #00979D; } /* Tok.keyword_constant */
 .highlight-arduino .kd {color: #728E00; } /* Tok.keyword_declaration */
@@ -119,6 +173,12 @@
 .highlight-arduino .kp {color: #00979D; } /* Tok.keyword_pseudo */
 .highlight-arduino .kr {color: #00979D; } /* Tok.keyword_reserved */
 .highlight-arduino .kt {color: #00979D; } /* Tok.keyword_type */
+.highlight-arduino .m {color: #8A7B52; } /* Tok.number */
+.highlight-arduino .mb {color: #8A7B52; } /* Tok.number_bin */
+.highlight-arduino .mf {color: #8A7B52; } /* Tok.number_float */
+.highlight-arduino .mh {color: #8A7B52; } /* Tok.number_hex */
+.highlight-arduino .mi {color: #8A7B52; } /* Tok.number_integer */
+.highlight-arduino .mo {color: #8A7B52; } /* Tok.number_oct */
 .highlight-arduino .n {color: #434f54; } /* Tok.name */
 .highlight-arduino .na {color: #434f54; } /* Tok.name_attribute */
 .highlight-arduino .nb {color: #728E00; } /* Tok.name_builtin */
@@ -136,6 +196,20 @@
 .highlight-arduino .o {color: #728E00; } /* Tok.operator */
 .highlight-arduino .ow {color: #728E00; } /* Tok.operator_word */
 .highlight-arduino .py {color: #434f54; } /* Tok.name_property */
+.highlight-arduino .s {color: #7F8C8D; } /* Tok.string */
+.highlight-arduino .s1 {color: #7F8C8D; } /* Tok.string_single */
+.highlight-arduino .s2 {color: #7F8C8D; } /* Tok.string_double */
+.highlight-arduino .sa {color: #7F8C8D; } /* Tok.string_affix */
+.highlight-arduino .sb {color: #7F8C8D; } /* Tok.string_backtick */
+.highlight-arduino .sc {color: #7F8C8D; } /* Tok.string_char */
+.highlight-arduino .sd {color: #7F8C8D; } /* Tok.string_doc */
+.highlight-arduino .se {color: #7F8C8D; } /* Tok.string_escape */
+.highlight-arduino .sh {color: #7F8C8D; } /* Tok.string_heredoc */
+.highlight-arduino .si {color: #7F8C8D; } /* Tok.string_interpol */
+.highlight-arduino .sr {color: #7F8C8D; } /* Tok.string_regex */
+.highlight-arduino .ss {color: #7F8C8D; } /* Tok.string_symbol */
+.highlight-arduino .sx {color: #7F8C8D; } /* Tok.string_other */
+.highlight-arduino .sx {color: #7F8C8D; } /* Tok.string_sigil */
 .highlight-arduino .vc {color: #434f54; } /* Tok.name_variable_class */
 .highlight-arduino .vg {color: #434f54; } /* Tok.name_variable_global */
 .highlight-arduino .vi {color: #434f54; } /* Tok.name_variable_instance */
@@ -151,6 +225,7 @@
 .highlight-autumn .cp {color: #4c8317; font-style: normal; } /* Tok.comment_preproc */
 .highlight-autumn .cpf {color: #4c8317; font-style: normal; } /* Tok.comment_preproc_file */
 .highlight-autumn .cs {color: #0000aa; font-style: italic; } /* Tok.comment_special */
+.highlight-autumn .dl {color: #aa5500; } /* Tok.string_delimiter */
 .highlight-autumn .err {color: #F00; background-color: #FAA; } /* Tok.error */
 .highlight-autumn .fm {color: #00aa00; } /* Tok.name_function_magic */
 .highlight-autumn .gd {color: #aa0000; } /* Tok.generic_deleted */
@@ -163,6 +238,7 @@
 .highlight-autumn .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-autumn .gt {color: #aa0000; } /* Tok.generic_traceback */
 .highlight-autumn .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-autumn .il {color: #009999; } /* Tok.number_integer_long */
 .highlight-autumn .k {color: #0000aa; } /* Tok.keyword */
 .highlight-autumn .kc {color: #0000aa; } /* Tok.keyword_constant */
 .highlight-autumn .kd {color: #0000aa; } /* Tok.keyword_declaration */
@@ -170,6 +246,12 @@
 .highlight-autumn .kp {color: #0000aa; } /* Tok.keyword_pseudo */
 .highlight-autumn .kr {color: #0000aa; } /* Tok.keyword_reserved */
 .highlight-autumn .kt {color: #00aaaa; } /* Tok.keyword_type */
+.highlight-autumn .m {color: #009999; } /* Tok.number */
+.highlight-autumn .mb {color: #009999; } /* Tok.number_bin */
+.highlight-autumn .mf {color: #009999; } /* Tok.number_float */
+.highlight-autumn .mh {color: #009999; } /* Tok.number_hex */
+.highlight-autumn .mi {color: #009999; } /* Tok.number_integer */
+.highlight-autumn .mo {color: #009999; } /* Tok.number_oct */
 .highlight-autumn .na {color: #1e90ff; } /* Tok.name_attribute */
 .highlight-autumn .nb {color: #00aaaa; } /* Tok.name_builtin */
 .highlight-autumn .nc {color: #00aa00; text-decoration: underline; } /* Tok.name_class */
@@ -181,6 +263,20 @@
 .highlight-autumn .nt {color: #1e90ff; font-weight: bold; } /* Tok.name_tag */
 .highlight-autumn .nv {color: #aa0000; } /* Tok.name_variable */
 .highlight-autumn .ow {color: #0000aa; } /* Tok.operator_word */
+.highlight-autumn .s {color: #aa5500; } /* Tok.string */
+.highlight-autumn .s1 {color: #aa5500; } /* Tok.string_single */
+.highlight-autumn .s2 {color: #aa5500; } /* Tok.string_double */
+.highlight-autumn .sa {color: #aa5500; } /* Tok.string_affix */
+.highlight-autumn .sb {color: #aa5500; } /* Tok.string_backtick */
+.highlight-autumn .sc {color: #aa5500; } /* Tok.string_char */
+.highlight-autumn .sd {color: #aa5500; } /* Tok.string_doc */
+.highlight-autumn .se {color: #aa5500; } /* Tok.string_escape */
+.highlight-autumn .sh {color: #aa5500; } /* Tok.string_heredoc */
+.highlight-autumn .si {color: #aa5500; } /* Tok.string_interpol */
+.highlight-autumn .sr {color: #009999; } /* Tok.string_regex */
+.highlight-autumn .ss {color: #0000aa; } /* Tok.string_symbol */
+.highlight-autumn .sx {color: #aa5500; } /* Tok.string_other */
+.highlight-autumn .sx {color: #aa5500; } /* Tok.string_sigil */
 .highlight-autumn .vc {color: #aa0000; } /* Tok.name_variable_class */
 .highlight-autumn .vg {color: #aa0000; } /* Tok.name_variable_global */
 .highlight-autumn .vi {color: #aa0000; } /* Tok.name_variable_instance */
@@ -195,6 +291,7 @@
 .highlight-borland .cp {color: #008080; font-style: normal; } /* Tok.comment_preproc */
 .highlight-borland .cpf {color: #008080; font-style: normal; } /* Tok.comment_preproc_file */
 .highlight-borland .cs {color: #008800; font-style: normal; font-weight: bold; } /* Tok.comment_special */
+.highlight-borland .dl {color: #0000FF; } /* Tok.string_delimiter */
 .highlight-borland .err {color: #a61717; background-color: #e3d2d2; } /* Tok.error */
 .highlight-borland .gd {color: #000000; background-color: #ffdddd; } /* Tok.generic_deleted */
 .highlight-borland .ge {font-style: italic; } /* Tok.generic_emph */
@@ -206,6 +303,7 @@
 .highlight-borland .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-borland .gt {color: #aa0000; } /* Tok.generic_traceback */
 .highlight-borland .gu {color: #aaaaaa; } /* Tok.generic_subheading */
+.highlight-borland .il {color: #0000FF; } /* Tok.number_integer_long */
 .highlight-borland .k {color: #000080; font-weight: bold; } /* Tok.keyword */
 .highlight-borland .kc {color: #000080; font-weight: bold; } /* Tok.keyword_constant */
 .highlight-borland .kd {color: #000080; font-weight: bold; } /* Tok.keyword_declaration */
@@ -213,9 +311,29 @@
 .highlight-borland .kp {color: #000080; font-weight: bold; } /* Tok.keyword_pseudo */
 .highlight-borland .kr {color: #000080; font-weight: bold; } /* Tok.keyword_reserved */
 .highlight-borland .kt {color: #000080; font-weight: bold; } /* Tok.keyword_type */
+.highlight-borland .m {color: #0000FF; } /* Tok.number */
+.highlight-borland .mb {color: #0000FF; } /* Tok.number_bin */
+.highlight-borland .mf {color: #0000FF; } /* Tok.number_float */
+.highlight-borland .mh {color: #0000FF; } /* Tok.number_hex */
+.highlight-borland .mi {color: #0000FF; } /* Tok.number_integer */
+.highlight-borland .mo {color: #0000FF; } /* Tok.number_oct */
 .highlight-borland .na {color: #FF0000; } /* Tok.name_attribute */
 .highlight-borland .nt {color: #000080; font-weight: bold; } /* Tok.name_tag */
 .highlight-borland .ow {font-weight: bold; } /* Tok.operator_word */
+.highlight-borland .s {color: #0000FF; } /* Tok.string */
+.highlight-borland .s1 {color: #0000FF; } /* Tok.string_single */
+.highlight-borland .s2 {color: #0000FF; } /* Tok.string_double */
+.highlight-borland .sa {color: #0000FF; } /* Tok.string_affix */
+.highlight-borland .sb {color: #0000FF; } /* Tok.string_backtick */
+.highlight-borland .sc {color: #800080; } /* Tok.string_char */
+.highlight-borland .sd {color: #0000FF; } /* Tok.string_doc */
+.highlight-borland .se {color: #0000FF; } /* Tok.string_escape */
+.highlight-borland .sh {color: #0000FF; } /* Tok.string_heredoc */
+.highlight-borland .si {color: #0000FF; } /* Tok.string_interpol */
+.highlight-borland .sr {color: #0000FF; } /* Tok.string_regex */
+.highlight-borland .ss {color: #0000FF; } /* Tok.string_symbol */
+.highlight-borland .sx {color: #0000FF; } /* Tok.string_other */
+.highlight-borland .sx {color: #0000FF; } /* Tok.string_sigil */
 
 .highlight-bw .hll {background-color: #ffffcc}
 .highlight-bw {background-color: #ffffff}
@@ -226,6 +344,7 @@
 .highlight-bw .cp {font-style: normal; } /* Tok.comment_preproc */
 .highlight-bw .cpf {font-style: normal; } /* Tok.comment_preproc_file */
 .highlight-bw .cs {font-style: italic; } /* Tok.comment_special */
+.highlight-bw .dl {font-style: italic; } /* Tok.string_delimiter */
 .highlight-bw .err {border: #FF0000; } /* Tok.error */
 .highlight-bw .ge {font-style: italic; } /* Tok.generic_emph */
 .highlight-bw .gh {font-weight: bold; } /* Tok.generic_heading */
@@ -245,6 +364,20 @@
 .highlight-bw .nn {font-weight: bold; } /* Tok.name_namespace */
 .highlight-bw .nt {font-weight: bold; } /* Tok.name_tag */
 .highlight-bw .ow {font-weight: bold; } /* Tok.operator_word */
+.highlight-bw .s {font-style: italic; } /* Tok.string */
+.highlight-bw .s1 {font-style: italic; } /* Tok.string_single */
+.highlight-bw .s2 {font-style: italic; } /* Tok.string_double */
+.highlight-bw .sa {font-style: italic; } /* Tok.string_affix */
+.highlight-bw .sb {font-style: italic; } /* Tok.string_backtick */
+.highlight-bw .sc {font-style: italic; } /* Tok.string_char */
+.highlight-bw .sd {font-style: italic; } /* Tok.string_doc */
+.highlight-bw .se {font-style: italic; font-weight: bold; } /* Tok.string_escape */
+.highlight-bw .sh {font-style: italic; } /* Tok.string_heredoc */
+.highlight-bw .si {font-style: italic; font-weight: bold; } /* Tok.string_interpol */
+.highlight-bw .sr {font-style: italic; } /* Tok.string_regex */
+.highlight-bw .ss {font-style: italic; } /* Tok.string_symbol */
+.highlight-bw .sx {font-style: italic; } /* Tok.string_other */
+.highlight-bw .sx {font-style: italic; } /* Tok.string_sigil */
 
 .highlight-colorful .hll {background-color: #ffffcc}
 .highlight-colorful {background-color: #ffffff}
@@ -256,6 +389,7 @@
 .highlight-colorful .cp {color: #579; } /* Tok.comment_preproc */
 .highlight-colorful .cpf {color: #579; } /* Tok.comment_preproc_file */
 .highlight-colorful .cs {color: #cc0000; font-weight: bold; } /* Tok.comment_special */
+.highlight-colorful .dl {background-color: #fff0f0; } /* Tok.string_delimiter */
 .highlight-colorful .err {color: #F00; background-color: #FAA; } /* Tok.error */
 .highlight-colorful .fm {color: #06B; font-weight: bold; } /* Tok.name_function_magic */
 .highlight-colorful .gd {color: #A00000; } /* Tok.generic_deleted */
@@ -268,6 +402,7 @@
 .highlight-colorful .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-colorful .gt {color: #04D; } /* Tok.generic_traceback */
 .highlight-colorful .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-colorful .il {color: #00D; font-weight: bold; } /* Tok.number_integer_long */
 .highlight-colorful .k {color: #080; font-weight: bold; } /* Tok.keyword */
 .highlight-colorful .kc {color: #080; font-weight: bold; } /* Tok.keyword_constant */
 .highlight-colorful .kd {color: #080; font-weight: bold; } /* Tok.keyword_declaration */
@@ -275,6 +410,12 @@
 .highlight-colorful .kp {color: #038; font-weight: bold; } /* Tok.keyword_pseudo */
 .highlight-colorful .kr {color: #080; font-weight: bold; } /* Tok.keyword_reserved */
 .highlight-colorful .kt {color: #339; font-weight: bold; } /* Tok.keyword_type */
+.highlight-colorful .m {color: #60E; font-weight: bold; } /* Tok.number */
+.highlight-colorful .mb {color: #60E; font-weight: bold; } /* Tok.number_bin */
+.highlight-colorful .mf {color: #60E; font-weight: bold; } /* Tok.number_float */
+.highlight-colorful .mh {color: #058; font-weight: bold; } /* Tok.number_hex */
+.highlight-colorful .mi {color: #00D; font-weight: bold; } /* Tok.number_integer */
+.highlight-colorful .mo {color: #40E; font-weight: bold; } /* Tok.number_oct */
 .highlight-colorful .na {color: #00C; } /* Tok.name_attribute */
 .highlight-colorful .nb {color: #007020; } /* Tok.name_builtin */
 .highlight-colorful .nc {color: #B06; font-weight: bold; } /* Tok.name_class */
@@ -289,6 +430,20 @@
 .highlight-colorful .nv {color: #963; } /* Tok.name_variable */
 .highlight-colorful .o {color: #333; } /* Tok.operator */
 .highlight-colorful .ow {color: #000; font-weight: bold; } /* Tok.operator_word */
+.highlight-colorful .s {background-color: #fff0f0; } /* Tok.string */
+.highlight-colorful .s1 {background-color: #fff0f0; } /* Tok.string_single */
+.highlight-colorful .s2 {background-color: #fff0f0; } /* Tok.string_double */
+.highlight-colorful .sa {background-color: #fff0f0; } /* Tok.string_affix */
+.highlight-colorful .sb {background-color: #fff0f0; } /* Tok.string_backtick */
+.highlight-colorful .sc {color: #04D; background-color: ; } /* Tok.string_char */
+.highlight-colorful .sd {color: #D42; background-color: ; } /* Tok.string_doc */
+.highlight-colorful .se {color: #666; font-weight: bold; background-color: #fff0f0; } /* Tok.string_escape */
+.highlight-colorful .sh {background-color: #fff0f0; } /* Tok.string_heredoc */
+.highlight-colorful .si {background-color: #eee; } /* Tok.string_interpol */
+.highlight-colorful .sr {color: #000; background-color: #fff0ff; } /* Tok.string_regex */
+.highlight-colorful .ss {color: #A60; background-color: ; } /* Tok.string_symbol */
+.highlight-colorful .sx {background-color: #fff0f0; } /* Tok.string_sigil */
+.highlight-colorful .sx {color: #D20; background-color: #fff0f0; } /* Tok.string_other */
 .highlight-colorful .vc {color: #369; } /* Tok.name_variable_class */
 .highlight-colorful .vg {color: #d70; font-weight: bold; } /* Tok.name_variable_global */
 .highlight-colorful .vi {color: #33B; } /* Tok.name_variable_instance */
@@ -304,6 +459,7 @@
 .highlight-default .cp {color: #BC7A00; font-style: normal; } /* Tok.comment_preproc */
 .highlight-default .cpf {color: #BC7A00; font-style: normal; } /* Tok.comment_preproc_file */
 .highlight-default .cs {color: #408080; font-style: italic; } /* Tok.comment_special */
+.highlight-default .dl {color: #BA2121; } /* Tok.string_delimiter */
 .highlight-default .err {border: #FF0000; } /* Tok.error */
 .highlight-default .fm {color: #0000FF; } /* Tok.name_function_magic */
 .highlight-default .gd {color: #A00000; } /* Tok.generic_deleted */
@@ -316,6 +472,7 @@
 .highlight-default .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-default .gt {color: #04D; } /* Tok.generic_traceback */
 .highlight-default .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-default .il {color: #666666; } /* Tok.number_integer_long */
 .highlight-default .k {color: #008000; font-weight: bold; } /* Tok.keyword */
 .highlight-default .kc {color: #008000; font-weight: bold; } /* Tok.keyword_constant */
 .highlight-default .kd {color: #008000; font-weight: bold; } /* Tok.keyword_declaration */
@@ -323,6 +480,12 @@
 .highlight-default .kp {color: #008000; font-weight: normal; } /* Tok.keyword_pseudo */
 .highlight-default .kr {color: #008000; font-weight: bold; } /* Tok.keyword_reserved */
 .highlight-default .kt {color: #B00040; font-weight: normal; } /* Tok.keyword_type */
+.highlight-default .m {color: #666666; } /* Tok.number */
+.highlight-default .mb {color: #666666; } /* Tok.number_bin */
+.highlight-default .mf {color: #666666; } /* Tok.number_float */
+.highlight-default .mh {color: #666666; } /* Tok.number_hex */
+.highlight-default .mi {color: #666666; } /* Tok.number_integer */
+.highlight-default .mo {color: #666666; } /* Tok.number_oct */
 .highlight-default .na {color: #7D9029; } /* Tok.name_attribute */
 .highlight-default .nb {color: #008000; } /* Tok.name_builtin */
 .highlight-default .nc {color: #0000FF; font-weight: bold; } /* Tok.name_class */
@@ -337,6 +500,20 @@
 .highlight-default .nv {color: #19177C; } /* Tok.name_variable */
 .highlight-default .o {color: #666666; } /* Tok.operator */
 .highlight-default .ow {color: #AA22FF; font-weight: bold; } /* Tok.operator_word */
+.highlight-default .s {color: #BA2121; } /* Tok.string */
+.highlight-default .s1 {color: #BA2121; } /* Tok.string_single */
+.highlight-default .s2 {color: #BA2121; } /* Tok.string_double */
+.highlight-default .sa {color: #BA2121; } /* Tok.string_affix */
+.highlight-default .sb {color: #BA2121; } /* Tok.string_backtick */
+.highlight-default .sc {color: #BA2121; } /* Tok.string_char */
+.highlight-default .sd {color: #BA2121; font-style: italic; } /* Tok.string_doc */
+.highlight-default .se {color: #BB6622; font-weight: bold; } /* Tok.string_escape */
+.highlight-default .sh {color: #BA2121; } /* Tok.string_heredoc */
+.highlight-default .si {color: #BB6688; font-weight: bold; } /* Tok.string_interpol */
+.highlight-default .sr {color: #BB6688; } /* Tok.string_regex */
+.highlight-default .ss {color: #19177C; } /* Tok.string_symbol */
+.highlight-default .sx {color: #008000; } /* Tok.string_other */
+.highlight-default .sx {color: #BA2121; } /* Tok.string_sigil */
 .highlight-default .vc {color: #19177C; } /* Tok.name_variable_class */
 .highlight-default .vg {color: #19177C; } /* Tok.name_variable_global */
 .highlight-default .vi {color: #19177C; } /* Tok.name_variable_instance */
@@ -352,6 +529,7 @@
 .highlight-emacs .cp {color: #008800; font-style: normal; } /* Tok.comment_preproc */
 .highlight-emacs .cpf {color: #008800; font-style: normal; } /* Tok.comment_preproc_file */
 .highlight-emacs .cs {color: #008800; font-style: normal; font-weight: bold; } /* Tok.comment_special */
+.highlight-emacs .dl {color: #BB4444; } /* Tok.string_delimiter */
 .highlight-emacs .err {border: #FF0000; } /* Tok.error */
 .highlight-emacs .fm {color: #00A000; } /* Tok.name_function_magic */
 .highlight-emacs .gd {color: #A00000; } /* Tok.generic_deleted */
@@ -364,6 +542,7 @@
 .highlight-emacs .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-emacs .gt {color: #04D; } /* Tok.generic_traceback */
 .highlight-emacs .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-emacs .il {color: #666666; } /* Tok.number_integer_long */
 .highlight-emacs .k {color: #AA22FF; font-weight: bold; } /* Tok.keyword */
 .highlight-emacs .kc {color: #AA22FF; font-weight: bold; } /* Tok.keyword_constant */
 .highlight-emacs .kd {color: #AA22FF; font-weight: bold; } /* Tok.keyword_declaration */
@@ -371,6 +550,12 @@
 .highlight-emacs .kp {color: #AA22FF; font-weight: normal; } /* Tok.keyword_pseudo */
 .highlight-emacs .kr {color: #AA22FF; font-weight: bold; } /* Tok.keyword_reserved */
 .highlight-emacs .kt {color: #00BB00; font-weight: bold; } /* Tok.keyword_type */
+.highlight-emacs .m {color: #666666; } /* Tok.number */
+.highlight-emacs .mb {color: #666666; } /* Tok.number_bin */
+.highlight-emacs .mf {color: #666666; } /* Tok.number_float */
+.highlight-emacs .mh {color: #666666; } /* Tok.number_hex */
+.highlight-emacs .mi {color: #666666; } /* Tok.number_integer */
+.highlight-emacs .mo {color: #666666; } /* Tok.number_oct */
 .highlight-emacs .na {color: #BB4444; } /* Tok.name_attribute */
 .highlight-emacs .nb {color: #AA22FF; } /* Tok.name_builtin */
 .highlight-emacs .nc {color: #0000FF; } /* Tok.name_class */
@@ -385,6 +570,20 @@
 .highlight-emacs .nv {color: #B8860B; } /* Tok.name_variable */
 .highlight-emacs .o {color: #666666; } /* Tok.operator */
 .highlight-emacs .ow {color: #AA22FF; font-weight: bold; } /* Tok.operator_word */
+.highlight-emacs .s {color: #BB4444; } /* Tok.string */
+.highlight-emacs .s1 {color: #BB4444; } /* Tok.string_single */
+.highlight-emacs .s2 {color: #BB4444; } /* Tok.string_double */
+.highlight-emacs .sa {color: #BB4444; } /* Tok.string_affix */
+.highlight-emacs .sb {color: #BB4444; } /* Tok.string_backtick */
+.highlight-emacs .sc {color: #BB4444; } /* Tok.string_char */
+.highlight-emacs .sd {color: #BB4444; font-style: italic; } /* Tok.string_doc */
+.highlight-emacs .se {color: #BB6622; font-weight: bold; } /* Tok.string_escape */
+.highlight-emacs .sh {color: #BB4444; } /* Tok.string_heredoc */
+.highlight-emacs .si {color: #BB6688; font-weight: bold; } /* Tok.string_interpol */
+.highlight-emacs .sr {color: #BB6688; } /* Tok.string_regex */
+.highlight-emacs .ss {color: #B8860B; } /* Tok.string_symbol */
+.highlight-emacs .sx {color: #008000; } /* Tok.string_other */
+.highlight-emacs .sx {color: #BB4444; } /* Tok.string_sigil */
 .highlight-emacs .vc {color: #B8860B; } /* Tok.name_variable_class */
 .highlight-emacs .vg {color: #B8860B; } /* Tok.name_variable_global */
 .highlight-emacs .vi {color: #B8860B; } /* Tok.name_variable_instance */
@@ -400,6 +599,7 @@
 .highlight-friendly .cp {color: #007020; font-style: normal; } /* Tok.comment_preproc */
 .highlight-friendly .cpf {color: #007020; font-style: normal; } /* Tok.comment_preproc_file */
 .highlight-friendly .cs {color: #60a0b0; font-style: normal; background-color: #fff0f0; } /* Tok.comment_special */
+.highlight-friendly .dl {color: #4070a0; } /* Tok.string_delimiter */
 .highlight-friendly .err {border: #FF0000; } /* Tok.error */
 .highlight-friendly .fm {color: #06287e; } /* Tok.name_function_magic */
 .highlight-friendly .gd {color: #A00000; } /* Tok.generic_deleted */
@@ -412,6 +612,7 @@
 .highlight-friendly .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-friendly .gt {color: #04D; } /* Tok.generic_traceback */
 .highlight-friendly .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-friendly .il {color: #40a070; } /* Tok.number_integer_long */
 .highlight-friendly .k {color: #007020; font-weight: bold; } /* Tok.keyword */
 .highlight-friendly .kc {color: #007020; font-weight: bold; } /* Tok.keyword_constant */
 .highlight-friendly .kd {color: #007020; font-weight: bold; } /* Tok.keyword_declaration */
@@ -419,6 +620,12 @@
 .highlight-friendly .kp {color: #007020; font-weight: normal; } /* Tok.keyword_pseudo */
 .highlight-friendly .kr {color: #007020; font-weight: bold; } /* Tok.keyword_reserved */
 .highlight-friendly .kt {color: #902000; font-weight: normal; } /* Tok.keyword_type */
+.highlight-friendly .m {color: #40a070; } /* Tok.number */
+.highlight-friendly .mb {color: #40a070; } /* Tok.number_bin */
+.highlight-friendly .mf {color: #40a070; } /* Tok.number_float */
+.highlight-friendly .mh {color: #40a070; } /* Tok.number_hex */
+.highlight-friendly .mi {color: #40a070; } /* Tok.number_integer */
+.highlight-friendly .mo {color: #40a070; } /* Tok.number_oct */
 .highlight-friendly .na {color: #4070a0; } /* Tok.name_attribute */
 .highlight-friendly .nb {color: #007020; } /* Tok.name_builtin */
 .highlight-friendly .nc {color: #0e84b5; font-weight: bold; } /* Tok.name_class */
@@ -433,6 +640,20 @@
 .highlight-friendly .nv {color: #bb60d5; } /* Tok.name_variable */
 .highlight-friendly .o {color: #666666; } /* Tok.operator */
 .highlight-friendly .ow {color: #007020; font-weight: bold; } /* Tok.operator_word */
+.highlight-friendly .s {color: #4070a0; } /* Tok.string */
+.highlight-friendly .s1 {color: #4070a0; } /* Tok.string_single */
+.highlight-friendly .s2 {color: #4070a0; } /* Tok.string_double */
+.highlight-friendly .sa {color: #4070a0; } /* Tok.string_affix */
+.highlight-friendly .sb {color: #4070a0; } /* Tok.string_backtick */
+.highlight-friendly .sc {color: #4070a0; } /* Tok.string_char */
+.highlight-friendly .sd {color: #4070a0; font-style: italic; } /* Tok.string_doc */
+.highlight-friendly .se {color: #4070a0; font-weight: bold; } /* Tok.string_escape */
+.highlight-friendly .sh {color: #4070a0; } /* Tok.string_heredoc */
+.highlight-friendly .si {color: #70a0d0; font-style: italic; } /* Tok.string_interpol */
+.highlight-friendly .sr {color: #235388; } /* Tok.string_regex */
+.highlight-friendly .ss {color: #517918; } /* Tok.string_symbol */
+.highlight-friendly .sx {color: #4070a0; } /* Tok.string_sigil */
+.highlight-friendly .sx {color: #c65d09; } /* Tok.string_other */
 .highlight-friendly .vc {color: #bb60d5; } /* Tok.name_variable_class */
 .highlight-friendly .vg {color: #bb60d5; } /* Tok.name_variable_global */
 .highlight-friendly .vi {color: #bb60d5; } /* Tok.name_variable_instance */
@@ -447,10 +668,12 @@
 .highlight-fruity .cp {color: #ff0007; font-style: italic; font-weight: bold; background-color: #0f140f; } /* Tok.comment_preproc */
 .highlight-fruity .cpf {color: #ff0007; font-style: italic; font-weight: bold; background-color: #0f140f; } /* Tok.comment_preproc_file */
 .highlight-fruity .cs {color: #008800; font-style: italic; background-color: #0f140f; } /* Tok.comment_special */
+.highlight-fruity .dl {color: #0086d2; } /* Tok.string_delimiter */
 .highlight-fruity .fm {color: #ff0086; font-weight: bold; } /* Tok.name_function_magic */
 .highlight-fruity .gh {color: #ffffff; font-weight: bold; } /* Tok.generic_heading */
 .highlight-fruity .go {color: #444444; background-color: #222222; } /* Tok.generic_output */
 .highlight-fruity .gu {color: #ffffff; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-fruity .il {color: #0086f7; font-weight: bold; } /* Tok.number_integer_long */
 .highlight-fruity .k {color: #fb660a; font-weight: bold; } /* Tok.keyword */
 .highlight-fruity .kc {color: #fb660a; font-weight: bold; } /* Tok.keyword_constant */
 .highlight-fruity .kd {color: #fb660a; font-weight: bold; } /* Tok.keyword_declaration */
@@ -458,11 +681,31 @@
 .highlight-fruity .kp {color: #fb660a; font-weight: normal; } /* Tok.keyword_pseudo */
 .highlight-fruity .kr {color: #fb660a; font-weight: bold; } /* Tok.keyword_reserved */
 .highlight-fruity .kt {color: #cdcaa9; font-weight: bold; } /* Tok.keyword_type */
+.highlight-fruity .m {color: #0086f7; font-weight: bold; } /* Tok.number */
+.highlight-fruity .mb {color: #0086f7; font-weight: bold; } /* Tok.number_bin */
+.highlight-fruity .mf {color: #0086f7; font-weight: bold; } /* Tok.number_float */
+.highlight-fruity .mh {color: #0086f7; font-weight: bold; } /* Tok.number_hex */
+.highlight-fruity .mi {color: #0086f7; font-weight: bold; } /* Tok.number_integer */
+.highlight-fruity .mo {color: #0086f7; font-weight: bold; } /* Tok.number_oct */
 .highlight-fruity .na {color: #ff0086; font-weight: bold; } /* Tok.name_attribute */
 .highlight-fruity .nf {color: #ff0086; font-weight: bold; } /* Tok.name_function */
 .highlight-fruity .no {color: #0086d2; } /* Tok.name_constant */
 .highlight-fruity .nt {color: #fb660a; font-weight: bold; } /* Tok.name_tag */
 .highlight-fruity .nv {color: #fb660a; } /* Tok.name_variable */
+.highlight-fruity .s {color: #0086d2; } /* Tok.string */
+.highlight-fruity .s1 {color: #0086d2; } /* Tok.string_single */
+.highlight-fruity .s2 {color: #0086d2; } /* Tok.string_double */
+.highlight-fruity .sa {color: #0086d2; } /* Tok.string_affix */
+.highlight-fruity .sb {color: #0086d2; } /* Tok.string_backtick */
+.highlight-fruity .sc {color: #0086d2; } /* Tok.string_char */
+.highlight-fruity .sd {color: #0086d2; } /* Tok.string_doc */
+.highlight-fruity .se {color: #0086d2; } /* Tok.string_escape */
+.highlight-fruity .sh {color: #0086d2; } /* Tok.string_heredoc */
+.highlight-fruity .si {color: #0086d2; } /* Tok.string_interpol */
+.highlight-fruity .sr {color: #0086d2; } /* Tok.string_regex */
+.highlight-fruity .ss {color: #0086d2; } /* Tok.string_symbol */
+.highlight-fruity .sx {color: #0086d2; } /* Tok.string_other */
+.highlight-fruity .sx {color: #0086d2; } /* Tok.string_sigil */
 .highlight-fruity .vc {color: #fb660a; } /* Tok.name_variable_class */
 .highlight-fruity .vg {color: #fb660a; } /* Tok.name_variable_global */
 .highlight-fruity .vi {color: #fb660a; } /* Tok.name_variable_instance */
@@ -477,6 +720,7 @@
 .highlight-igor .cp {color: #FF0000; font-style: italic; } /* Tok.comment_preproc */
 .highlight-igor .cpf {color: #FF0000; font-style: italic; } /* Tok.comment_preproc_file */
 .highlight-igor .cs {color: #FF0000; font-style: italic; } /* Tok.comment_special */
+.highlight-igor .dl {color: #009C00; } /* Tok.string_delimiter */
 .highlight-igor .fm {color: #C34E00; } /* Tok.name_function_magic */
 .highlight-igor .k {color: #0000FF; } /* Tok.keyword */
 .highlight-igor .kc {color: #0000FF; } /* Tok.keyword_constant */
@@ -488,6 +732,20 @@
 .highlight-igor .nc {color: #007575; } /* Tok.name_class */
 .highlight-igor .nd {color: #CC00A3; } /* Tok.name_decorator */
 .highlight-igor .nf {color: #C34E00; } /* Tok.name_function */
+.highlight-igor .s {color: #009C00; } /* Tok.string */
+.highlight-igor .s1 {color: #009C00; } /* Tok.string_single */
+.highlight-igor .s2 {color: #009C00; } /* Tok.string_double */
+.highlight-igor .sa {color: #009C00; } /* Tok.string_affix */
+.highlight-igor .sb {color: #009C00; } /* Tok.string_backtick */
+.highlight-igor .sc {color: #009C00; } /* Tok.string_char */
+.highlight-igor .sd {color: #009C00; } /* Tok.string_doc */
+.highlight-igor .se {color: #009C00; } /* Tok.string_escape */
+.highlight-igor .sh {color: #009C00; } /* Tok.string_heredoc */
+.highlight-igor .si {color: #009C00; } /* Tok.string_interpol */
+.highlight-igor .sr {color: #009C00; } /* Tok.string_regex */
+.highlight-igor .ss {color: #009C00; } /* Tok.string_symbol */
+.highlight-igor .sx {color: #009C00; } /* Tok.string_other */
+.highlight-igor .sx {color: #009C00; } /* Tok.string_sigil */
 
 .highlight-lovelace .hll {background-color: #ffffcc}
 .highlight-lovelace {background-color: #ffffff}
@@ -499,6 +757,7 @@
 .highlight-lovelace .cp {color: #289870; font-style: normal; } /* Tok.comment_preproc */
 .highlight-lovelace .cpf {color: #289870; font-style: normal; } /* Tok.comment_preproc_file */
 .highlight-lovelace .cs {color: #888888; font-style: italic; } /* Tok.comment_special */
+.highlight-lovelace .dl {color: #b85820; } /* Tok.string_delimiter */
 .highlight-lovelace .err {background-color: #a848a8; } /* Tok.error */
 .highlight-lovelace .fm {color: #b85820; } /* Tok.name_function_magic */
 .highlight-lovelace .gd {color: #c02828; } /* Tok.generic_deleted */
@@ -511,6 +770,7 @@
 .highlight-lovelace .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-lovelace .gt {color: #2838b0; } /* Tok.generic_traceback */
 .highlight-lovelace .gu {color: #444444; } /* Tok.generic_subheading */
+.highlight-lovelace .il {color: #444444; } /* Tok.number_integer_long */
 .highlight-lovelace .k {color: #2838b0; } /* Tok.keyword */
 .highlight-lovelace .kc {color: #444444; font-style: italic; } /* Tok.keyword_constant */
 .highlight-lovelace .kd {color: #2838b0; font-style: italic; } /* Tok.keyword_declaration */
@@ -518,6 +778,12 @@
 .highlight-lovelace .kp {color: #2838b0; } /* Tok.keyword_pseudo */
 .highlight-lovelace .kr {color: #2838b0; } /* Tok.keyword_reserved */
 .highlight-lovelace .kt {color: #2838b0; font-style: italic; } /* Tok.keyword_type */
+.highlight-lovelace .m {color: #444444; } /* Tok.number */
+.highlight-lovelace .mb {color: #444444; } /* Tok.number_bin */
+.highlight-lovelace .mf {color: #444444; } /* Tok.number_float */
+.highlight-lovelace .mh {color: #444444; } /* Tok.number_hex */
+.highlight-lovelace .mi {color: #444444; } /* Tok.number_integer */
+.highlight-lovelace .mo {color: #444444; } /* Tok.number_oct */
 .highlight-lovelace .na {color: #388038; } /* Tok.name_attribute */
 .highlight-lovelace .nb {color: #388038; } /* Tok.name_builtin */
 .highlight-lovelace .nc {color: #287088; } /* Tok.name_class */
@@ -533,6 +799,20 @@
 .highlight-lovelace .o {color: #666666; } /* Tok.operator */
 .highlight-lovelace .ow {color: #a848a8; } /* Tok.operator_word */
 .highlight-lovelace .p {color: #888888; } /* Tok.punctuation */
+.highlight-lovelace .s {color: #b83838; } /* Tok.string */
+.highlight-lovelace .s1 {color: #b83838; } /* Tok.string_single */
+.highlight-lovelace .s2 {color: #b83838; } /* Tok.string_double */
+.highlight-lovelace .sa {color: #444444; } /* Tok.string_affix */
+.highlight-lovelace .sb {color: #b83838; } /* Tok.string_backtick */
+.highlight-lovelace .sc {color: #a848a8; } /* Tok.string_char */
+.highlight-lovelace .sd {color: #b85820; font-style: italic; } /* Tok.string_doc */
+.highlight-lovelace .se {color: #709030; } /* Tok.string_escape */
+.highlight-lovelace .sh {color: #b83838; } /* Tok.string_heredoc */
+.highlight-lovelace .si {color: #b83838; text-decoration: underline; } /* Tok.string_interpol */
+.highlight-lovelace .sr {color: #a848a8; } /* Tok.string_regex */
+.highlight-lovelace .ss {color: #b83838; } /* Tok.string_symbol */
+.highlight-lovelace .sx {color: #a848a8; } /* Tok.string_other */
+.highlight-lovelace .sx {color: #b83838; } /* Tok.string_sigil */
 .highlight-lovelace .vc {color: #b04040; } /* Tok.name_variable_class */
 .highlight-lovelace .vg {color: #908828; } /* Tok.name_variable_global */
 .highlight-lovelace .vi {color: #b04040; } /* Tok.name_variable_instance */
@@ -548,6 +828,7 @@
 .highlight-manni .cp {color: #009999; font-style: normal; } /* Tok.comment_preproc */
 .highlight-manni .cpf {color: #009999; font-style: normal; } /* Tok.comment_preproc_file */
 .highlight-manni .cs {color: #0099FF; font-style: italic; font-weight: bold; } /* Tok.comment_special */
+.highlight-manni .dl {color: #CC3300; } /* Tok.string_delimiter */
 .highlight-manni .err {color: #AA0000; background-color: #FFAAAA; } /* Tok.error */
 .highlight-manni .fm {color: #CC00FF; } /* Tok.name_function_magic */
 .highlight-manni .gd {border: #CC0000; background-color: #FFCCCC; } /* Tok.generic_deleted */
@@ -560,6 +841,7 @@
 .highlight-manni .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-manni .gt {color: #99CC66; } /* Tok.generic_traceback */
 .highlight-manni .gu {color: #003300; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-manni .il {color: #FF6600; } /* Tok.number_integer_long */
 .highlight-manni .k {color: #006699; font-weight: bold; } /* Tok.keyword */
 .highlight-manni .kc {color: #006699; font-weight: bold; } /* Tok.keyword_constant */
 .highlight-manni .kd {color: #006699; font-weight: bold; } /* Tok.keyword_declaration */
@@ -567,6 +849,12 @@
 .highlight-manni .kp {color: #006699; font-weight: normal; } /* Tok.keyword_pseudo */
 .highlight-manni .kr {color: #006699; font-weight: bold; } /* Tok.keyword_reserved */
 .highlight-manni .kt {color: #007788; font-weight: bold; } /* Tok.keyword_type */
+.highlight-manni .m {color: #FF6600; } /* Tok.number */
+.highlight-manni .mb {color: #FF6600; } /* Tok.number_bin */
+.highlight-manni .mf {color: #FF6600; } /* Tok.number_float */
+.highlight-manni .mh {color: #FF6600; } /* Tok.number_hex */
+.highlight-manni .mi {color: #FF6600; } /* Tok.number_integer */
+.highlight-manni .mo {color: #FF6600; } /* Tok.number_oct */
 .highlight-manni .na {color: #330099; } /* Tok.name_attribute */
 .highlight-manni .nb {color: #336666; } /* Tok.name_builtin */
 .highlight-manni .nc {color: #00AA88; font-weight: bold; } /* Tok.name_class */
@@ -581,6 +869,20 @@
 .highlight-manni .nv {color: #003333; } /* Tok.name_variable */
 .highlight-manni .o {color: #555555; } /* Tok.operator */
 .highlight-manni .ow {color: #000000; font-weight: bold; } /* Tok.operator_word */
+.highlight-manni .s {color: #CC3300; } /* Tok.string */
+.highlight-manni .s1 {color: #CC3300; } /* Tok.string_single */
+.highlight-manni .s2 {color: #CC3300; } /* Tok.string_double */
+.highlight-manni .sa {color: #CC3300; } /* Tok.string_affix */
+.highlight-manni .sb {color: #CC3300; } /* Tok.string_backtick */
+.highlight-manni .sc {color: #CC3300; } /* Tok.string_char */
+.highlight-manni .sd {color: #CC3300; font-style: italic; } /* Tok.string_doc */
+.highlight-manni .se {color: #CC3300; font-weight: bold; } /* Tok.string_escape */
+.highlight-manni .sh {color: #CC3300; } /* Tok.string_heredoc */
+.highlight-manni .si {color: #AA0000; } /* Tok.string_interpol */
+.highlight-manni .sr {color: #33AAAA; } /* Tok.string_regex */
+.highlight-manni .ss {color: #FFCC33; } /* Tok.string_symbol */
+.highlight-manni .sx {color: #CC3300; } /* Tok.string_other */
+.highlight-manni .sx {color: #CC3300; } /* Tok.string_sigil */
 .highlight-manni .vc {color: #003333; } /* Tok.name_variable_class */
 .highlight-manni .vg {color: #003333; } /* Tok.name_variable_global */
 .highlight-manni .vi {color: #003333; } /* Tok.name_variable_instance */
@@ -596,6 +898,7 @@
 .highlight-monokai .cp {color: #75715e; } /* Tok.comment_preproc */
 .highlight-monokai .cpf {color: #75715e; } /* Tok.comment_preproc_file */
 .highlight-monokai .cs {color: #75715e; } /* Tok.comment_special */
+.highlight-monokai .dl {color: #e6db74; } /* Tok.string_delimiter */
 .highlight-monokai .err {color: #960050; background-color: #1e0010; } /* Tok.error */
 .highlight-monokai .fm {color: #a6e22e; } /* Tok.name_function_magic */
 .highlight-monokai .gd {color: #f92672; } /* Tok.generic_deleted */
@@ -603,6 +906,7 @@
 .highlight-monokai .gi {color: #a6e22e; } /* Tok.generic_inserted */
 .highlight-monokai .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-monokai .gu {color: #75715e; } /* Tok.generic_subheading */
+.highlight-monokai .il {color: #ae81ff; } /* Tok.number_integer_long */
 .highlight-monokai .k {color: #66d9ef; } /* Tok.keyword */
 .highlight-monokai .kc {color: #66d9ef; } /* Tok.keyword_constant */
 .highlight-monokai .kd {color: #66d9ef; } /* Tok.keyword_declaration */
@@ -611,7 +915,13 @@
 .highlight-monokai .kr {color: #66d9ef; } /* Tok.keyword_reserved */
 .highlight-monokai .kt {color: #66d9ef; } /* Tok.keyword_type */
 .highlight-monokai .l {color: #ae81ff; } /* Tok.literal */
-.highlight-monokai .ld {color: #e6db74; } /* Tok.literal_date */
+.highlight-monokai .ld {color: #ae81ff; } /* Tok.literal_date */
+.highlight-monokai .m {color: #ae81ff; } /* Tok.number */
+.highlight-monokai .mb {color: #ae81ff; } /* Tok.number_bin */
+.highlight-monokai .mf {color: #ae81ff; } /* Tok.number_float */
+.highlight-monokai .mh {color: #ae81ff; } /* Tok.number_hex */
+.highlight-monokai .mi {color: #ae81ff; } /* Tok.number_integer */
+.highlight-monokai .mo {color: #ae81ff; } /* Tok.number_oct */
 .highlight-monokai .n {color: #f8f8f2; } /* Tok.name */
 .highlight-monokai .na {color: #a6e22e; } /* Tok.name_attribute */
 .highlight-monokai .nb {color: #f8f8f2; } /* Tok.name_builtin */
@@ -630,6 +940,20 @@
 .highlight-monokai .ow {color: #f92672; } /* Tok.operator_word */
 .highlight-monokai .p {color: #f8f8f2; } /* Tok.punctuation */
 .highlight-monokai .py {color: #f8f8f2; } /* Tok.name_property */
+.highlight-monokai .s {color: #e6db74; } /* Tok.string */
+.highlight-monokai .s1 {color: #e6db74; } /* Tok.string_single */
+.highlight-monokai .s2 {color: #e6db74; } /* Tok.string_double */
+.highlight-monokai .sa {color: #e6db74; } /* Tok.string_affix */
+.highlight-monokai .sb {color: #e6db74; } /* Tok.string_backtick */
+.highlight-monokai .sc {color: #e6db74; } /* Tok.string_char */
+.highlight-monokai .sd {color: #e6db74; } /* Tok.string_doc */
+.highlight-monokai .se {color: #ae81ff; } /* Tok.string_escape */
+.highlight-monokai .sh {color: #e6db74; } /* Tok.string_heredoc */
+.highlight-monokai .si {color: #e6db74; } /* Tok.string_interpol */
+.highlight-monokai .sr {color: #e6db74; } /* Tok.string_regex */
+.highlight-monokai .ss {color: #e6db74; } /* Tok.string_symbol */
+.highlight-monokai .sx {color: #e6db74; } /* Tok.string_other */
+.highlight-monokai .sx {color: #e6db74; } /* Tok.string_sigil */
 .highlight-monokai .vc {color: #f8f8f2; } /* Tok.name_variable_class */
 .highlight-monokai .vg {color: #f8f8f2; } /* Tok.name_variable_global */
 .highlight-monokai .vi {color: #f8f8f2; } /* Tok.name_variable_instance */
@@ -645,6 +969,7 @@
 .highlight-murphy .cp {color: #579; font-style: normal; } /* Tok.comment_preproc */
 .highlight-murphy .cpf {color: #579; font-style: normal; } /* Tok.comment_preproc_file */
 .highlight-murphy .cs {color: #c00; font-style: italic; font-weight: bold; } /* Tok.comment_special */
+.highlight-murphy .dl {background-color: #e0e0ff; } /* Tok.string_delimiter */
 .highlight-murphy .err {color: #F00; background-color: #FAA; } /* Tok.error */
 .highlight-murphy .fm {color: #5ed; font-weight: bold; } /* Tok.name_function_magic */
 .highlight-murphy .gd {color: #A00000; } /* Tok.generic_deleted */
@@ -657,6 +982,7 @@
 .highlight-murphy .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-murphy .gt {color: #04D; } /* Tok.generic_traceback */
 .highlight-murphy .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-murphy .il {color: #66f; font-weight: bold; } /* Tok.number_integer_long */
 .highlight-murphy .k {color: #289; font-weight: bold; } /* Tok.keyword */
 .highlight-murphy .kc {color: #289; font-weight: bold; } /* Tok.keyword_constant */
 .highlight-murphy .kd {color: #289; font-weight: bold; } /* Tok.keyword_declaration */
@@ -664,6 +990,12 @@
 .highlight-murphy .kp {color: #08f; font-weight: bold; } /* Tok.keyword_pseudo */
 .highlight-murphy .kr {color: #289; font-weight: bold; } /* Tok.keyword_reserved */
 .highlight-murphy .kt {color: #66f; font-weight: bold; } /* Tok.keyword_type */
+.highlight-murphy .m {color: #60E; font-weight: bold; } /* Tok.number */
+.highlight-murphy .mb {color: #60E; font-weight: bold; } /* Tok.number_bin */
+.highlight-murphy .mf {color: #60E; font-weight: bold; } /* Tok.number_float */
+.highlight-murphy .mh {color: #058; font-weight: bold; } /* Tok.number_hex */
+.highlight-murphy .mi {color: #66f; font-weight: bold; } /* Tok.number_integer */
+.highlight-murphy .mo {color: #40E; font-weight: bold; } /* Tok.number_oct */
 .highlight-murphy .na {color: #007; } /* Tok.name_attribute */
 .highlight-murphy .nb {color: #072; } /* Tok.name_builtin */
 .highlight-murphy .nc {color: #e9e; font-weight: bold; } /* Tok.name_class */
@@ -678,6 +1010,20 @@
 .highlight-murphy .nv {color: #036; } /* Tok.name_variable */
 .highlight-murphy .o {color: #333; } /* Tok.operator */
 .highlight-murphy .ow {color: #000; font-weight: bold; } /* Tok.operator_word */
+.highlight-murphy .s {background-color: #e0e0ff; } /* Tok.string */
+.highlight-murphy .s1 {background-color: #e0e0ff; } /* Tok.string_single */
+.highlight-murphy .s2 {background-color: #e0e0ff; } /* Tok.string_double */
+.highlight-murphy .sa {background-color: #e0e0ff; } /* Tok.string_affix */
+.highlight-murphy .sb {background-color: #e0e0ff; } /* Tok.string_backtick */
+.highlight-murphy .sc {color: #88F; background-color: ; } /* Tok.string_char */
+.highlight-murphy .sd {color: #D42; background-color: ; } /* Tok.string_doc */
+.highlight-murphy .se {color: #666; font-weight: bold; background-color: #e0e0ff; } /* Tok.string_escape */
+.highlight-murphy .sh {background-color: #e0e0ff; } /* Tok.string_heredoc */
+.highlight-murphy .si {background-color: #eee; } /* Tok.string_interpol */
+.highlight-murphy .sr {color: #000; background-color: #e0e0ff; } /* Tok.string_regex */
+.highlight-murphy .ss {color: #fc8; background-color: ; } /* Tok.string_symbol */
+.highlight-murphy .sx {background-color: #e0e0ff; } /* Tok.string_sigil */
+.highlight-murphy .sx {color: #f88; background-color: #e0e0ff; } /* Tok.string_other */
 .highlight-murphy .vc {color: #ccf; } /* Tok.name_variable_class */
 .highlight-murphy .vg {color: #f84; } /* Tok.name_variable_global */
 .highlight-murphy .vi {color: #aaf; } /* Tok.name_variable_instance */
@@ -693,6 +1039,7 @@
 .highlight-native .cp {color: #cd2828; font-style: normal; font-weight: bold; } /* Tok.comment_preproc */
 .highlight-native .cpf {color: #cd2828; font-style: normal; font-weight: bold; } /* Tok.comment_preproc_file */
 .highlight-native .cs {color: #e50808; font-style: normal; font-weight: bold; background-color: #520000; } /* Tok.comment_special */
+.highlight-native .dl {color: #ed9d13; } /* Tok.string_delimiter */
 .highlight-native .err {color: #a61717; background-color: #e3d2d2; } /* Tok.error */
 .highlight-native .fm {color: #447fcf; } /* Tok.name_function_magic */
 .highlight-native .gd {color: #d22323; } /* Tok.generic_deleted */
@@ -705,6 +1052,7 @@
 .highlight-native .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-native .gt {color: #d22323; } /* Tok.generic_traceback */
 .highlight-native .gu {color: #ffffff; text-decoration: underline; } /* Tok.generic_subheading */
+.highlight-native .il {color: #3677a9; } /* Tok.number_integer_long */
 .highlight-native .k {color: #6ab825; font-weight: bold; } /* Tok.keyword */
 .highlight-native .kc {color: #6ab825; font-weight: bold; } /* Tok.keyword_constant */
 .highlight-native .kd {color: #6ab825; font-weight: bold; } /* Tok.keyword_declaration */
@@ -712,6 +1060,12 @@
 .highlight-native .kp {color: #6ab825; font-weight: normal; } /* Tok.keyword_pseudo */
 .highlight-native .kr {color: #6ab825; font-weight: bold; } /* Tok.keyword_reserved */
 .highlight-native .kt {color: #6ab825; font-weight: bold; } /* Tok.keyword_type */
+.highlight-native .m {color: #3677a9; } /* Tok.number */
+.highlight-native .mb {color: #3677a9; } /* Tok.number_bin */
+.highlight-native .mf {color: #3677a9; } /* Tok.number_float */
+.highlight-native .mh {color: #3677a9; } /* Tok.number_hex */
+.highlight-native .mi {color: #3677a9; } /* Tok.number_integer */
+.highlight-native .mo {color: #3677a9; } /* Tok.number_oct */
 .highlight-native .na {color: #bbbbbb; } /* Tok.name_attribute */
 .highlight-native .nb {color: #24909d; } /* Tok.name_builtin */
 .highlight-native .nc {color: #447fcf; text-decoration: underline; } /* Tok.name_class */
@@ -723,6 +1077,20 @@
 .highlight-native .nt {color: #6ab825; font-weight: bold; } /* Tok.name_tag */
 .highlight-native .nv {color: #40ffff; } /* Tok.name_variable */
 .highlight-native .ow {color: #6ab825; font-weight: bold; } /* Tok.operator_word */
+.highlight-native .s {color: #ed9d13; } /* Tok.string */
+.highlight-native .s1 {color: #ed9d13; } /* Tok.string_single */
+.highlight-native .s2 {color: #ed9d13; } /* Tok.string_double */
+.highlight-native .sa {color: #ed9d13; } /* Tok.string_affix */
+.highlight-native .sb {color: #ed9d13; } /* Tok.string_backtick */
+.highlight-native .sc {color: #ed9d13; } /* Tok.string_char */
+.highlight-native .sd {color: #ed9d13; } /* Tok.string_doc */
+.highlight-native .se {color: #ed9d13; } /* Tok.string_escape */
+.highlight-native .sh {color: #ed9d13; } /* Tok.string_heredoc */
+.highlight-native .si {color: #ed9d13; } /* Tok.string_interpol */
+.highlight-native .sr {color: #ed9d13; } /* Tok.string_regex */
+.highlight-native .ss {color: #ed9d13; } /* Tok.string_symbol */
+.highlight-native .sx {color: #ed9d13; } /* Tok.string_sigil */
+.highlight-native .sx {color: #ffa500; } /* Tok.string_other */
 .highlight-native .vc {color: #40ffff; } /* Tok.name_variable_class */
 .highlight-native .vg {color: #40ffff; } /* Tok.name_variable_global */
 .highlight-native .vi {color: #40ffff; } /* Tok.name_variable_instance */
@@ -738,6 +1106,7 @@
 .highlight-paraiso_dark .cp {color: #776e71; } /* Tok.comment_preproc */
 .highlight-paraiso_dark .cpf {color: #776e71; } /* Tok.comment_preproc_file */
 .highlight-paraiso_dark .cs {color: #776e71; } /* Tok.comment_special */
+.highlight-paraiso_dark .dl {color: #48b685; } /* Tok.string_delimiter */
 .highlight-paraiso_dark .err {color: #ef6155; } /* Tok.error */
 .highlight-paraiso_dark .fm {color: #06b6ef; } /* Tok.name_function_magic */
 .highlight-paraiso_dark .gd {color: #ef6155; } /* Tok.generic_deleted */
@@ -747,6 +1116,7 @@
 .highlight-paraiso_dark .gp {color: #776e71; font-weight: bold; } /* Tok.generic_prompt */
 .highlight-paraiso_dark .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-paraiso_dark .gu {color: #5bc4bf; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-paraiso_dark .il {color: #f99b15; } /* Tok.number_integer_long */
 .highlight-paraiso_dark .k {color: #815ba4; } /* Tok.keyword */
 .highlight-paraiso_dark .kc {color: #815ba4; } /* Tok.keyword_constant */
 .highlight-paraiso_dark .kd {color: #815ba4; } /* Tok.keyword_declaration */
@@ -755,7 +1125,13 @@
 .highlight-paraiso_dark .kr {color: #815ba4; } /* Tok.keyword_reserved */
 .highlight-paraiso_dark .kt {color: #fec418; } /* Tok.keyword_type */
 .highlight-paraiso_dark .l {color: #f99b15; } /* Tok.literal */
-.highlight-paraiso_dark .ld {color: #48b685; } /* Tok.literal_date */
+.highlight-paraiso_dark .ld {color: #f99b15; } /* Tok.literal_date */
+.highlight-paraiso_dark .m {color: #f99b15; } /* Tok.number */
+.highlight-paraiso_dark .mb {color: #f99b15; } /* Tok.number_bin */
+.highlight-paraiso_dark .mf {color: #f99b15; } /* Tok.number_float */
+.highlight-paraiso_dark .mh {color: #f99b15; } /* Tok.number_hex */
+.highlight-paraiso_dark .mi {color: #f99b15; } /* Tok.number_integer */
+.highlight-paraiso_dark .mo {color: #f99b15; } /* Tok.number_oct */
 .highlight-paraiso_dark .n {color: #e7e9db; } /* Tok.name */
 .highlight-paraiso_dark .na {color: #06b6ef; } /* Tok.name_attribute */
 .highlight-paraiso_dark .nb {color: #e7e9db; } /* Tok.name_builtin */
@@ -774,6 +1150,20 @@
 .highlight-paraiso_dark .ow {color: #5bc4bf; } /* Tok.operator_word */
 .highlight-paraiso_dark .p {color: #e7e9db; } /* Tok.punctuation */
 .highlight-paraiso_dark .py {color: #e7e9db; } /* Tok.name_property */
+.highlight-paraiso_dark .s {color: #48b685; } /* Tok.string */
+.highlight-paraiso_dark .s1 {color: #48b685; } /* Tok.string_single */
+.highlight-paraiso_dark .s2 {color: #48b685; } /* Tok.string_double */
+.highlight-paraiso_dark .sa {color: #48b685; } /* Tok.string_affix */
+.highlight-paraiso_dark .sb {color: #48b685; } /* Tok.string_backtick */
+.highlight-paraiso_dark .sc {color: #e7e9db; } /* Tok.string_char */
+.highlight-paraiso_dark .sd {color: #776e71; } /* Tok.string_doc */
+.highlight-paraiso_dark .se {color: #f99b15; } /* Tok.string_escape */
+.highlight-paraiso_dark .sh {color: #48b685; } /* Tok.string_heredoc */
+.highlight-paraiso_dark .si {color: #f99b15; } /* Tok.string_interpol */
+.highlight-paraiso_dark .sr {color: #48b685; } /* Tok.string_regex */
+.highlight-paraiso_dark .ss {color: #48b685; } /* Tok.string_symbol */
+.highlight-paraiso_dark .sx {color: #48b685; } /* Tok.string_other */
+.highlight-paraiso_dark .sx {color: #48b685; } /* Tok.string_sigil */
 .highlight-paraiso_dark .vc {color: #ef6155; } /* Tok.name_variable_class */
 .highlight-paraiso_dark .vg {color: #ef6155; } /* Tok.name_variable_global */
 .highlight-paraiso_dark .vi {color: #ef6155; } /* Tok.name_variable_instance */
@@ -789,6 +1179,7 @@
 .highlight-paraiso_light .cp {color: #8d8687; } /* Tok.comment_preproc */
 .highlight-paraiso_light .cpf {color: #8d8687; } /* Tok.comment_preproc_file */
 .highlight-paraiso_light .cs {color: #8d8687; } /* Tok.comment_special */
+.highlight-paraiso_light .dl {color: #48b685; } /* Tok.string_delimiter */
 .highlight-paraiso_light .err {color: #ef6155; } /* Tok.error */
 .highlight-paraiso_light .fm {color: #06b6ef; } /* Tok.name_function_magic */
 .highlight-paraiso_light .gd {color: #ef6155; } /* Tok.generic_deleted */
@@ -798,6 +1189,7 @@
 .highlight-paraiso_light .gp {color: #8d8687; font-weight: bold; } /* Tok.generic_prompt */
 .highlight-paraiso_light .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-paraiso_light .gu {color: #5bc4bf; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-paraiso_light .il {color: #f99b15; } /* Tok.number_integer_long */
 .highlight-paraiso_light .k {color: #815ba4; } /* Tok.keyword */
 .highlight-paraiso_light .kc {color: #815ba4; } /* Tok.keyword_constant */
 .highlight-paraiso_light .kd {color: #815ba4; } /* Tok.keyword_declaration */
@@ -806,7 +1198,13 @@
 .highlight-paraiso_light .kr {color: #815ba4; } /* Tok.keyword_reserved */
 .highlight-paraiso_light .kt {color: #fec418; } /* Tok.keyword_type */
 .highlight-paraiso_light .l {color: #f99b15; } /* Tok.literal */
-.highlight-paraiso_light .ld {color: #48b685; } /* Tok.literal_date */
+.highlight-paraiso_light .ld {color: #f99b15; } /* Tok.literal_date */
+.highlight-paraiso_light .m {color: #f99b15; } /* Tok.number */
+.highlight-paraiso_light .mb {color: #f99b15; } /* Tok.number_bin */
+.highlight-paraiso_light .mf {color: #f99b15; } /* Tok.number_float */
+.highlight-paraiso_light .mh {color: #f99b15; } /* Tok.number_hex */
+.highlight-paraiso_light .mi {color: #f99b15; } /* Tok.number_integer */
+.highlight-paraiso_light .mo {color: #f99b15; } /* Tok.number_oct */
 .highlight-paraiso_light .n {color: #2f1e2e; } /* Tok.name */
 .highlight-paraiso_light .na {color: #06b6ef; } /* Tok.name_attribute */
 .highlight-paraiso_light .nb {color: #2f1e2e; } /* Tok.name_builtin */
@@ -825,6 +1223,20 @@
 .highlight-paraiso_light .ow {color: #5bc4bf; } /* Tok.operator_word */
 .highlight-paraiso_light .p {color: #2f1e2e; } /* Tok.punctuation */
 .highlight-paraiso_light .py {color: #2f1e2e; } /* Tok.name_property */
+.highlight-paraiso_light .s {color: #48b685; } /* Tok.string */
+.highlight-paraiso_light .s1 {color: #48b685; } /* Tok.string_single */
+.highlight-paraiso_light .s2 {color: #48b685; } /* Tok.string_double */
+.highlight-paraiso_light .sa {color: #48b685; } /* Tok.string_affix */
+.highlight-paraiso_light .sb {color: #48b685; } /* Tok.string_backtick */
+.highlight-paraiso_light .sc {color: #2f1e2e; } /* Tok.string_char */
+.highlight-paraiso_light .sd {color: #8d8687; } /* Tok.string_doc */
+.highlight-paraiso_light .se {color: #f99b15; } /* Tok.string_escape */
+.highlight-paraiso_light .sh {color: #48b685; } /* Tok.string_heredoc */
+.highlight-paraiso_light .si {color: #f99b15; } /* Tok.string_interpol */
+.highlight-paraiso_light .sr {color: #48b685; } /* Tok.string_regex */
+.highlight-paraiso_light .ss {color: #48b685; } /* Tok.string_symbol */
+.highlight-paraiso_light .sx {color: #48b685; } /* Tok.string_other */
+.highlight-paraiso_light .sx {color: #48b685; } /* Tok.string_sigil */
 .highlight-paraiso_light .vc {color: #ef6155; } /* Tok.name_variable_class */
 .highlight-paraiso_light .vg {color: #ef6155; } /* Tok.name_variable_global */
 .highlight-paraiso_light .vi {color: #ef6155; } /* Tok.name_variable_instance */
@@ -840,6 +1252,7 @@
 .highlight-pastie .cp {color: #cc0000; font-weight: bold; } /* Tok.comment_preproc */
 .highlight-pastie .cpf {color: #cc0000; font-weight: bold; } /* Tok.comment_preproc_file */
 .highlight-pastie .cs {color: #cc0000; font-weight: bold; background-color: #fff0f0; } /* Tok.comment_special */
+.highlight-pastie .dl {color: #dd2200; background-color: #fff0f0; } /* Tok.string_delimiter */
 .highlight-pastie .err {color: #a61717; background-color: #e3d2d2; } /* Tok.error */
 .highlight-pastie .fm {color: #0066bb; font-weight: bold; } /* Tok.name_function_magic */
 .highlight-pastie .gd {color: #000000; background-color: #ffdddd; } /* Tok.generic_deleted */
@@ -852,6 +1265,7 @@
 .highlight-pastie .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-pastie .gt {color: #aa0000; } /* Tok.generic_traceback */
 .highlight-pastie .gu {color: #666; } /* Tok.generic_subheading */
+.highlight-pastie .il {color: #0000DD; font-weight: bold; } /* Tok.number_integer_long */
 .highlight-pastie .k {color: #008800; font-weight: bold; } /* Tok.keyword */
 .highlight-pastie .kc {color: #008800; font-weight: bold; } /* Tok.keyword_constant */
 .highlight-pastie .kd {color: #008800; font-weight: bold; } /* Tok.keyword_declaration */
@@ -859,6 +1273,12 @@
 .highlight-pastie .kp {color: #008800; font-weight: normal; } /* Tok.keyword_pseudo */
 .highlight-pastie .kr {color: #008800; font-weight: bold; } /* Tok.keyword_reserved */
 .highlight-pastie .kt {color: #888888; font-weight: bold; } /* Tok.keyword_type */
+.highlight-pastie .m {color: #0000DD; font-weight: bold; } /* Tok.number */
+.highlight-pastie .mb {color: #0000DD; font-weight: bold; } /* Tok.number_bin */
+.highlight-pastie .mf {color: #0000DD; font-weight: bold; } /* Tok.number_float */
+.highlight-pastie .mh {color: #0000DD; font-weight: bold; } /* Tok.number_hex */
+.highlight-pastie .mi {color: #0000DD; font-weight: bold; } /* Tok.number_integer */
+.highlight-pastie .mo {color: #0000DD; font-weight: bold; } /* Tok.number_oct */
 .highlight-pastie .na {color: #336699; } /* Tok.name_attribute */
 .highlight-pastie .nb {color: #003388; } /* Tok.name_builtin */
 .highlight-pastie .nc {color: #bb0066; font-weight: bold; } /* Tok.name_class */
@@ -872,6 +1292,20 @@
 .highlight-pastie .nv {color: #336699; } /* Tok.name_variable */
 .highlight-pastie .ow {color: #008800; } /* Tok.operator_word */
 .highlight-pastie .py {color: #336699; font-weight: bold; } /* Tok.name_property */
+.highlight-pastie .s {color: #dd2200; background-color: #fff0f0; } /* Tok.string */
+.highlight-pastie .s1 {color: #dd2200; background-color: #fff0f0; } /* Tok.string_single */
+.highlight-pastie .s2 {color: #dd2200; background-color: #fff0f0; } /* Tok.string_double */
+.highlight-pastie .sa {color: #dd2200; background-color: #fff0f0; } /* Tok.string_affix */
+.highlight-pastie .sb {color: #dd2200; background-color: #fff0f0; } /* Tok.string_backtick */
+.highlight-pastie .sc {color: #dd2200; background-color: #fff0f0; } /* Tok.string_char */
+.highlight-pastie .sd {color: #dd2200; background-color: #fff0f0; } /* Tok.string_doc */
+.highlight-pastie .se {color: #0044dd; background-color: #fff0f0; } /* Tok.string_escape */
+.highlight-pastie .sh {color: #dd2200; background-color: #fff0f0; } /* Tok.string_heredoc */
+.highlight-pastie .si {color: #3333bb; background-color: #fff0f0; } /* Tok.string_interpol */
+.highlight-pastie .sr {color: #008800; background-color: #fff0ff; } /* Tok.string_regex */
+.highlight-pastie .ss {color: #aa6600; background-color: #fff0f0; } /* Tok.string_symbol */
+.highlight-pastie .sx {color: #22bb22; background-color: #f0fff0; } /* Tok.string_other */
+.highlight-pastie .sx {color: #dd2200; background-color: #fff0f0; } /* Tok.string_sigil */
 .highlight-pastie .vc {color: #336699; } /* Tok.name_variable_class */
 .highlight-pastie .vg {color: #dd7700; } /* Tok.name_variable_global */
 .highlight-pastie .vi {color: #3333bb; } /* Tok.name_variable_instance */
@@ -887,6 +1321,7 @@
 .highlight-perldoc .cp {color: #1e889b; } /* Tok.comment_preproc */
 .highlight-perldoc .cpf {color: #1e889b; } /* Tok.comment_preproc_file */
 .highlight-perldoc .cs {color: #8B008B; font-weight: bold; } /* Tok.comment_special */
+.highlight-perldoc .dl {color: #CD5555; } /* Tok.string_delimiter */
 .highlight-perldoc .err {color: #a61717; background-color: #e3d2d2; } /* Tok.error */
 .highlight-perldoc .fm {color: #008b45; } /* Tok.name_function_magic */
 .highlight-perldoc .gd {color: #aa0000; } /* Tok.generic_deleted */
@@ -899,6 +1334,7 @@
 .highlight-perldoc .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-perldoc .gt {color: #aa0000; } /* Tok.generic_traceback */
 .highlight-perldoc .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-perldoc .il {color: #B452CD; } /* Tok.number_integer_long */
 .highlight-perldoc .k {color: #8B008B; font-weight: bold; } /* Tok.keyword */
 .highlight-perldoc .kc {color: #8B008B; font-weight: bold; } /* Tok.keyword_constant */
 .highlight-perldoc .kd {color: #8B008B; font-weight: bold; } /* Tok.keyword_declaration */
@@ -906,6 +1342,12 @@
 .highlight-perldoc .kp {color: #8B008B; font-weight: bold; } /* Tok.keyword_pseudo */
 .highlight-perldoc .kr {color: #8B008B; font-weight: bold; } /* Tok.keyword_reserved */
 .highlight-perldoc .kt {color: #00688B; font-weight: bold; } /* Tok.keyword_type */
+.highlight-perldoc .m {color: #B452CD; } /* Tok.number */
+.highlight-perldoc .mb {color: #B452CD; } /* Tok.number_bin */
+.highlight-perldoc .mf {color: #B452CD; } /* Tok.number_float */
+.highlight-perldoc .mh {color: #B452CD; } /* Tok.number_hex */
+.highlight-perldoc .mi {color: #B452CD; } /* Tok.number_integer */
+.highlight-perldoc .mo {color: #B452CD; } /* Tok.number_oct */
 .highlight-perldoc .na {color: #658b00; } /* Tok.name_attribute */
 .highlight-perldoc .nb {color: #658b00; } /* Tok.name_builtin */
 .highlight-perldoc .nc {color: #008b45; font-weight: bold; } /* Tok.name_class */
@@ -917,6 +1359,20 @@
 .highlight-perldoc .nt {color: #8B008B; font-weight: bold; } /* Tok.name_tag */
 .highlight-perldoc .nv {color: #00688B; } /* Tok.name_variable */
 .highlight-perldoc .ow {color: #8B008B; } /* Tok.operator_word */
+.highlight-perldoc .s {color: #CD5555; } /* Tok.string */
+.highlight-perldoc .s1 {color: #CD5555; } /* Tok.string_single */
+.highlight-perldoc .s2 {color: #CD5555; } /* Tok.string_double */
+.highlight-perldoc .sa {color: #CD5555; } /* Tok.string_affix */
+.highlight-perldoc .sb {color: #CD5555; } /* Tok.string_backtick */
+.highlight-perldoc .sc {color: #CD5555; } /* Tok.string_char */
+.highlight-perldoc .sd {color: #CD5555; } /* Tok.string_doc */
+.highlight-perldoc .se {color: #CD5555; } /* Tok.string_escape */
+.highlight-perldoc .sh {color: #1c7e71; font-style: italic; } /* Tok.string_heredoc */
+.highlight-perldoc .si {color: #CD5555; } /* Tok.string_interpol */
+.highlight-perldoc .sr {color: #1c7e71; } /* Tok.string_regex */
+.highlight-perldoc .ss {color: #CD5555; } /* Tok.string_symbol */
+.highlight-perldoc .sx {color: #CD5555; } /* Tok.string_sigil */
+.highlight-perldoc .sx {color: #cb6c20; } /* Tok.string_other */
 .highlight-perldoc .vc {color: #00688B; } /* Tok.name_variable_class */
 .highlight-perldoc .vg {color: #00688B; } /* Tok.name_variable_global */
 .highlight-perldoc .vi {color: #00688B; } /* Tok.name_variable_instance */
@@ -932,6 +1388,7 @@
 .highlight-rainbow_dash .cp {color: #0080ff; font-style: normal; } /* Tok.comment_preproc */
 .highlight-rainbow_dash .cpf {color: #0080ff; font-style: normal; } /* Tok.comment_preproc_file */
 .highlight-rainbow_dash .cs {color: #0080ff; font-style: italic; font-weight: bold; } /* Tok.comment_special */
+.highlight-rainbow_dash .dl {color: #00cc66; } /* Tok.string_delimiter */
 .highlight-rainbow_dash .err {color: #ffffff; background-color: #cc0000; } /* Tok.error */
 .highlight-rainbow_dash .fm {color: #ff8000; font-weight: bold; } /* Tok.name_function_magic */
 .highlight-rainbow_dash .gd {border: #c5060b; background-color: #ffcccc; } /* Tok.generic_deleted */
@@ -944,6 +1401,7 @@
 .highlight-rainbow_dash .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-rainbow_dash .gt {color: #c5060b; } /* Tok.generic_traceback */
 .highlight-rainbow_dash .gu {color: #2c5dcd; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-rainbow_dash .il {color: #5918bb; font-weight: bold; } /* Tok.number_integer_long */
 .highlight-rainbow_dash .k {color: #2c5dcd; font-weight: bold; } /* Tok.keyword */
 .highlight-rainbow_dash .kc {color: #2c5dcd; font-weight: bold; } /* Tok.keyword_constant */
 .highlight-rainbow_dash .kd {color: #2c5dcd; font-weight: bold; } /* Tok.keyword_declaration */
@@ -951,6 +1409,12 @@
 .highlight-rainbow_dash .kp {color: #2c5dcd; font-weight: normal; } /* Tok.keyword_pseudo */
 .highlight-rainbow_dash .kr {color: #2c5dcd; font-weight: bold; } /* Tok.keyword_reserved */
 .highlight-rainbow_dash .kt {color: #5918bb; font-weight: bold; } /* Tok.keyword_type */
+.highlight-rainbow_dash .m {color: #5918bb; font-weight: bold; } /* Tok.number */
+.highlight-rainbow_dash .mb {color: #5918bb; font-weight: bold; } /* Tok.number_bin */
+.highlight-rainbow_dash .mf {color: #5918bb; font-weight: bold; } /* Tok.number_float */
+.highlight-rainbow_dash .mh {color: #5918bb; font-weight: bold; } /* Tok.number_hex */
+.highlight-rainbow_dash .mi {color: #5918bb; font-weight: bold; } /* Tok.number_integer */
+.highlight-rainbow_dash .mo {color: #5918bb; font-weight: bold; } /* Tok.number_oct */
 .highlight-rainbow_dash .na {color: #2c5dcd; font-style: italic; } /* Tok.name_attribute */
 .highlight-rainbow_dash .nb {color: #5918bb; font-weight: bold; } /* Tok.name_builtin */
 .highlight-rainbow_dash .nc {text-decoration: underline; } /* Tok.name_class */
@@ -962,6 +1426,20 @@
 .highlight-rainbow_dash .nt {color: #2c5dcd; font-weight: bold; } /* Tok.name_tag */
 .highlight-rainbow_dash .o {color: #2c5dcd; } /* Tok.operator */
 .highlight-rainbow_dash .ow {color: #2c5dcd; font-weight: bold; } /* Tok.operator_word */
+.highlight-rainbow_dash .s {color: #00cc66; } /* Tok.string */
+.highlight-rainbow_dash .s1 {color: #00cc66; } /* Tok.string_single */
+.highlight-rainbow_dash .s2 {color: #00cc66; } /* Tok.string_double */
+.highlight-rainbow_dash .sa {color: #00cc66; } /* Tok.string_affix */
+.highlight-rainbow_dash .sb {color: #00cc66; } /* Tok.string_backtick */
+.highlight-rainbow_dash .sc {color: #00cc66; } /* Tok.string_char */
+.highlight-rainbow_dash .sd {color: #00cc66; font-style: italic; } /* Tok.string_doc */
+.highlight-rainbow_dash .se {color: #c5060b; font-weight: bold; } /* Tok.string_escape */
+.highlight-rainbow_dash .sh {color: #00cc66; } /* Tok.string_heredoc */
+.highlight-rainbow_dash .si {color: #00cc66; } /* Tok.string_interpol */
+.highlight-rainbow_dash .sr {color: #00cc66; } /* Tok.string_regex */
+.highlight-rainbow_dash .ss {color: #c5060b; font-weight: bold; } /* Tok.string_symbol */
+.highlight-rainbow_dash .sx {color: #00cc66; } /* Tok.string_sigil */
+.highlight-rainbow_dash .sx {color: #318495; } /* Tok.string_other */
 
 .highlight-rrt .hll {background-color: #0000ff}
 .highlight-rrt {background-color: #000000}
@@ -972,6 +1450,7 @@
 .highlight-rrt .cp {color: #e5e5e5; } /* Tok.comment_preproc */
 .highlight-rrt .cpf {color: #e5e5e5; } /* Tok.comment_preproc_file */
 .highlight-rrt .cs {color: #00ff00; } /* Tok.comment_special */
+.highlight-rrt .dl {color: #87ceeb; } /* Tok.string_delimiter */
 .highlight-rrt .fm {color: #ffff00; } /* Tok.name_function_magic */
 .highlight-rrt .k {color: #ff0000; } /* Tok.keyword */
 .highlight-rrt .kc {color: #ff0000; } /* Tok.keyword_constant */
@@ -983,6 +1462,20 @@
 .highlight-rrt .nf {color: #ffff00; } /* Tok.name_function */
 .highlight-rrt .no {color: #7fffd4; } /* Tok.name_constant */
 .highlight-rrt .nv {color: #eedd82; } /* Tok.name_variable */
+.highlight-rrt .s {color: #87ceeb; } /* Tok.string */
+.highlight-rrt .s1 {color: #87ceeb; } /* Tok.string_single */
+.highlight-rrt .s2 {color: #87ceeb; } /* Tok.string_double */
+.highlight-rrt .sa {color: #87ceeb; } /* Tok.string_affix */
+.highlight-rrt .sb {color: #87ceeb; } /* Tok.string_backtick */
+.highlight-rrt .sc {color: #87ceeb; } /* Tok.string_char */
+.highlight-rrt .sd {color: #87ceeb; } /* Tok.string_doc */
+.highlight-rrt .se {color: #87ceeb; } /* Tok.string_escape */
+.highlight-rrt .sh {color: #87ceeb; } /* Tok.string_heredoc */
+.highlight-rrt .si {color: #87ceeb; } /* Tok.string_interpol */
+.highlight-rrt .sr {color: #87ceeb; } /* Tok.string_regex */
+.highlight-rrt .ss {color: #87ceeb; } /* Tok.string_symbol */
+.highlight-rrt .sx {color: #87ceeb; } /* Tok.string_other */
+.highlight-rrt .sx {color: #87ceeb; } /* Tok.string_sigil */
 .highlight-rrt .vc {color: #eedd82; } /* Tok.name_variable_class */
 .highlight-rrt .vg {color: #eedd82; } /* Tok.name_variable_global */
 .highlight-rrt .vi {color: #eedd82; } /* Tok.name_variable_instance */
@@ -998,6 +1491,7 @@
 .highlight-tango .cp {color: #8f5902; font-style: italic; } /* Tok.comment_preproc */
 .highlight-tango .cpf {color: #8f5902; font-style: italic; } /* Tok.comment_preproc_file */
 .highlight-tango .cs {color: #8f5902; font-style: italic; } /* Tok.comment_special */
+.highlight-tango .dl {color: #4e9a06; } /* Tok.string_delimiter */
 .highlight-tango .err {color: #a40000; border: #ef2929; } /* Tok.error */
 .highlight-tango .fm {color: #000000; } /* Tok.name_function_magic */
 .highlight-tango .g {color: #000000; } /* Tok.generic */
@@ -1011,6 +1505,7 @@
 .highlight-tango .gs {color: #000000; font-weight: bold; } /* Tok.generic_strong */
 .highlight-tango .gt {color: #a40000; font-weight: bold; } /* Tok.generic_traceback */
 .highlight-tango .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-tango .il {color: #0000cf; font-weight: bold; } /* Tok.number_integer_long */
 .highlight-tango .k {color: #204a87; font-weight: bold; } /* Tok.keyword */
 .highlight-tango .kc {color: #204a87; font-weight: bold; } /* Tok.keyword_constant */
 .highlight-tango .kd {color: #204a87; font-weight: bold; } /* Tok.keyword_declaration */
@@ -1020,6 +1515,12 @@
 .highlight-tango .kt {color: #204a87; font-weight: bold; } /* Tok.keyword_type */
 .highlight-tango .l {color: #000000; } /* Tok.literal */
 .highlight-tango .ld {color: #000000; } /* Tok.literal_date */
+.highlight-tango .m {color: #0000cf; font-weight: bold; } /* Tok.number */
+.highlight-tango .mb {color: #0000cf; font-weight: bold; } /* Tok.number_bin */
+.highlight-tango .mf {color: #0000cf; font-weight: bold; } /* Tok.number_float */
+.highlight-tango .mh {color: #0000cf; font-weight: bold; } /* Tok.number_hex */
+.highlight-tango .mi {color: #0000cf; font-weight: bold; } /* Tok.number_integer */
+.highlight-tango .mo {color: #0000cf; font-weight: bold; } /* Tok.number_oct */
 .highlight-tango .n {color: #000000; } /* Tok.name */
 .highlight-tango .na {color: #c4a000; } /* Tok.name_attribute */
 .highlight-tango .nb {color: #204a87; } /* Tok.name_builtin */
@@ -1038,6 +1539,20 @@
 .highlight-tango .ow {color: #204a87; font-weight: bold; } /* Tok.operator_word */
 .highlight-tango .p {color: #000000; font-weight: bold; } /* Tok.punctuation */
 .highlight-tango .py {color: #000000; } /* Tok.name_property */
+.highlight-tango .s {color: #4e9a06; } /* Tok.string */
+.highlight-tango .s1 {color: #4e9a06; } /* Tok.string_single */
+.highlight-tango .s2 {color: #4e9a06; } /* Tok.string_double */
+.highlight-tango .sa {color: #4e9a06; } /* Tok.string_affix */
+.highlight-tango .sb {color: #4e9a06; } /* Tok.string_backtick */
+.highlight-tango .sc {color: #4e9a06; } /* Tok.string_char */
+.highlight-tango .sd {color: #8f5902; font-style: italic; } /* Tok.string_doc */
+.highlight-tango .se {color: #4e9a06; } /* Tok.string_escape */
+.highlight-tango .sh {color: #4e9a06; } /* Tok.string_heredoc */
+.highlight-tango .si {color: #4e9a06; } /* Tok.string_interpol */
+.highlight-tango .sr {color: #4e9a06; } /* Tok.string_regex */
+.highlight-tango .ss {color: #4e9a06; } /* Tok.string_symbol */
+.highlight-tango .sx {color: #4e9a06; } /* Tok.string_other */
+.highlight-tango .sx {color: #4e9a06; } /* Tok.string_sigil */
 .highlight-tango .vc {color: #000000; } /* Tok.name_variable_class */
 .highlight-tango .vg {color: #000000; } /* Tok.name_variable_global */
 .highlight-tango .vi {color: #000000; } /* Tok.name_variable_instance */
@@ -1054,6 +1569,7 @@
 .highlight-trac .cp {color: #999999; font-style: normal; font-weight: bold; } /* Tok.comment_preproc */
 .highlight-trac .cpf {color: #999999; font-style: normal; font-weight: bold; } /* Tok.comment_preproc_file */
 .highlight-trac .cs {color: #999999; font-style: italic; font-weight: bold; } /* Tok.comment_special */
+.highlight-trac .dl {color: #bb8844; } /* Tok.string_delimiter */
 .highlight-trac .err {color: #a61717; background-color: #e3d2d2; } /* Tok.error */
 .highlight-trac .fm {color: #990000; font-weight: bold; } /* Tok.name_function_magic */
 .highlight-trac .gd {color: #000000; background-color: #ffdddd; } /* Tok.generic_deleted */
@@ -1066,6 +1582,7 @@
 .highlight-trac .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-trac .gt {color: #aa0000; } /* Tok.generic_traceback */
 .highlight-trac .gu {color: #aaaaaa; } /* Tok.generic_subheading */
+.highlight-trac .il {color: #009999; } /* Tok.number_integer_long */
 .highlight-trac .k {font-weight: bold; } /* Tok.keyword */
 .highlight-trac .kc {font-weight: bold; } /* Tok.keyword_constant */
 .highlight-trac .kd {font-weight: bold; } /* Tok.keyword_declaration */
@@ -1073,6 +1590,12 @@
 .highlight-trac .kp {font-weight: bold; } /* Tok.keyword_pseudo */
 .highlight-trac .kr {font-weight: bold; } /* Tok.keyword_reserved */
 .highlight-trac .kt {color: #445588; font-weight: bold; } /* Tok.keyword_type */
+.highlight-trac .m {color: #009999; } /* Tok.number */
+.highlight-trac .mb {color: #009999; } /* Tok.number_bin */
+.highlight-trac .mf {color: #009999; } /* Tok.number_float */
+.highlight-trac .mh {color: #009999; } /* Tok.number_hex */
+.highlight-trac .mi {color: #009999; } /* Tok.number_integer */
+.highlight-trac .mo {color: #009999; } /* Tok.number_oct */
 .highlight-trac .na {color: #008080; } /* Tok.name_attribute */
 .highlight-trac .nb {color: #999999; } /* Tok.name_builtin */
 .highlight-trac .nc {color: #445588; font-weight: bold; } /* Tok.name_class */
@@ -1085,6 +1608,20 @@
 .highlight-trac .nv {color: #008080; } /* Tok.name_variable */
 .highlight-trac .o {font-weight: bold; } /* Tok.operator */
 .highlight-trac .ow {font-weight: bold; } /* Tok.operator_word */
+.highlight-trac .s {color: #bb8844; } /* Tok.string */
+.highlight-trac .s1 {color: #bb8844; } /* Tok.string_single */
+.highlight-trac .s2 {color: #bb8844; } /* Tok.string_double */
+.highlight-trac .sa {color: #bb8844; } /* Tok.string_affix */
+.highlight-trac .sb {color: #bb8844; } /* Tok.string_backtick */
+.highlight-trac .sc {color: #bb8844; } /* Tok.string_char */
+.highlight-trac .sd {color: #bb8844; } /* Tok.string_doc */
+.highlight-trac .se {color: #bb8844; } /* Tok.string_escape */
+.highlight-trac .sh {color: #bb8844; } /* Tok.string_heredoc */
+.highlight-trac .si {color: #bb8844; } /* Tok.string_interpol */
+.highlight-trac .sr {color: #808000; } /* Tok.string_regex */
+.highlight-trac .ss {color: #bb8844; } /* Tok.string_symbol */
+.highlight-trac .sx {color: #bb8844; } /* Tok.string_other */
+.highlight-trac .sx {color: #bb8844; } /* Tok.string_sigil */
 .highlight-trac .vc {color: #008080; } /* Tok.name_variable_class */
 .highlight-trac .vg {color: #008080; } /* Tok.name_variable_global */
 .highlight-trac .vi {color: #008080; } /* Tok.name_variable_instance */
@@ -1100,6 +1637,7 @@
 .highlight-vim .cp {color: #000080; } /* Tok.comment_preproc */
 .highlight-vim .cpf {color: #000080; } /* Tok.comment_preproc_file */
 .highlight-vim .cs {color: #cd0000; font-weight: bold; } /* Tok.comment_special */
+.highlight-vim .dl {color: #cd0000; } /* Tok.string_delimiter */
 .highlight-vim .err {border: #FF0000; } /* Tok.error */
 .highlight-vim .gd {color: #cd0000; } /* Tok.generic_deleted */
 .highlight-vim .ge {font-style: italic; } /* Tok.generic_emph */
@@ -1111,6 +1649,7 @@
 .highlight-vim .gs {font-weight: bold; } /* Tok.generic_strong */
 .highlight-vim .gt {color: #04D; } /* Tok.generic_traceback */
 .highlight-vim .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-vim .il {color: #cd00cd; } /* Tok.number_integer_long */
 .highlight-vim .k {color: #cdcd00; } /* Tok.keyword */
 .highlight-vim .kc {color: #cdcd00; } /* Tok.keyword_constant */
 .highlight-vim .kd {color: #00cd00; } /* Tok.keyword_declaration */
@@ -1118,12 +1657,32 @@
 .highlight-vim .kp {color: #cdcd00; } /* Tok.keyword_pseudo */
 .highlight-vim .kr {color: #cdcd00; } /* Tok.keyword_reserved */
 .highlight-vim .kt {color: #00cd00; } /* Tok.keyword_type */
+.highlight-vim .m {color: #cd00cd; } /* Tok.number */
+.highlight-vim .mb {color: #cd00cd; } /* Tok.number_bin */
+.highlight-vim .mf {color: #cd00cd; } /* Tok.number_float */
+.highlight-vim .mh {color: #cd00cd; } /* Tok.number_hex */
+.highlight-vim .mi {color: #cd00cd; } /* Tok.number_integer */
+.highlight-vim .mo {color: #cd00cd; } /* Tok.number_oct */
 .highlight-vim .nb {color: #cd00cd; } /* Tok.name_builtin */
 .highlight-vim .nc {color: #00cdcd; } /* Tok.name_class */
 .highlight-vim .ne {color: #666699; font-weight: bold; } /* Tok.name_exception */
 .highlight-vim .nv {color: #00cdcd; } /* Tok.name_variable */
 .highlight-vim .o {color: #3399cc; } /* Tok.operator */
 .highlight-vim .ow {color: #cdcd00; } /* Tok.operator_word */
+.highlight-vim .s {color: #cd0000; } /* Tok.string */
+.highlight-vim .s1 {color: #cd0000; } /* Tok.string_single */
+.highlight-vim .s2 {color: #cd0000; } /* Tok.string_double */
+.highlight-vim .sa {color: #cd0000; } /* Tok.string_affix */
+.highlight-vim .sb {color: #cd0000; } /* Tok.string_backtick */
+.highlight-vim .sc {color: #cd0000; } /* Tok.string_char */
+.highlight-vim .sd {color: #cd0000; } /* Tok.string_doc */
+.highlight-vim .se {color: #cd0000; } /* Tok.string_escape */
+.highlight-vim .sh {color: #cd0000; } /* Tok.string_heredoc */
+.highlight-vim .si {color: #cd0000; } /* Tok.string_interpol */
+.highlight-vim .sr {color: #cd0000; } /* Tok.string_regex */
+.highlight-vim .ss {color: #cd0000; } /* Tok.string_symbol */
+.highlight-vim .sx {color: #cd0000; } /* Tok.string_other */
+.highlight-vim .sx {color: #cd0000; } /* Tok.string_sigil */
 .highlight-vim .vc {color: #00cdcd; } /* Tok.name_variable_class */
 .highlight-vim .vg {color: #00cdcd; } /* Tok.name_variable_global */
 .highlight-vim .vi {color: #00cdcd; } /* Tok.name_variable_instance */
@@ -1138,6 +1697,7 @@
 .highlight-vs .cp {color: #0000ff; } /* Tok.comment_preproc */
 .highlight-vs .cpf {color: #0000ff; } /* Tok.comment_preproc_file */
 .highlight-vs .cs {color: #008000; } /* Tok.comment_special */
+.highlight-vs .dl {color: #a31515; } /* Tok.string_delimiter */
 .highlight-vs .err {border: #FF0000; } /* Tok.error */
 .highlight-vs .ge {font-style: italic; } /* Tok.generic_emph */
 .highlight-vs .gh {font-weight: bold; } /* Tok.generic_heading */
@@ -1153,6 +1713,20 @@
 .highlight-vs .kt {color: #2b91af; } /* Tok.keyword_type */
 .highlight-vs .nc {color: #2b91af; } /* Tok.name_class */
 .highlight-vs .ow {color: #0000ff; } /* Tok.operator_word */
+.highlight-vs .s {color: #a31515; } /* Tok.string */
+.highlight-vs .s1 {color: #a31515; } /* Tok.string_single */
+.highlight-vs .s2 {color: #a31515; } /* Tok.string_double */
+.highlight-vs .sa {color: #a31515; } /* Tok.string_affix */
+.highlight-vs .sb {color: #a31515; } /* Tok.string_backtick */
+.highlight-vs .sc {color: #a31515; } /* Tok.string_char */
+.highlight-vs .sd {color: #a31515; } /* Tok.string_doc */
+.highlight-vs .se {color: #a31515; } /* Tok.string_escape */
+.highlight-vs .sh {color: #a31515; } /* Tok.string_heredoc */
+.highlight-vs .si {color: #a31515; } /* Tok.string_interpol */
+.highlight-vs .sr {color: #a31515; } /* Tok.string_regex */
+.highlight-vs .ss {color: #a31515; } /* Tok.string_symbol */
+.highlight-vs .sx {color: #a31515; } /* Tok.string_other */
+.highlight-vs .sx {color: #a31515; } /* Tok.string_sigil */
 
 .highlight-xcode .hll {background-color: #ffffcc}
 .highlight-xcode {background-color: #ffffff}
@@ -1164,8 +1738,10 @@
 .highlight-xcode .cp {color: #633820; } /* Tok.comment_preproc */
 .highlight-xcode .cpf {color: #633820; } /* Tok.comment_preproc_file */
 .highlight-xcode .cs {color: #177500; } /* Tok.comment_special */
+.highlight-xcode .dl {color: #C41A16; } /* Tok.string_delimiter */
 .highlight-xcode .err {color: #000000; } /* Tok.error */
 .highlight-xcode .fm {color: #000000; } /* Tok.name_function_magic */
+.highlight-xcode .il {color: #1C01CE; } /* Tok.number_integer_long */
 .highlight-xcode .k {color: #A90D91; } /* Tok.keyword */
 .highlight-xcode .kc {color: #A90D91; } /* Tok.keyword_constant */
 .highlight-xcode .kd {color: #A90D91; } /* Tok.keyword_declaration */
@@ -1175,6 +1751,12 @@
 .highlight-xcode .kt {color: #A90D91; } /* Tok.keyword_type */
 .highlight-xcode .l {color: #1C01CE; } /* Tok.literal */
 .highlight-xcode .ld {color: #1C01CE; } /* Tok.literal_date */
+.highlight-xcode .m {color: #1C01CE; } /* Tok.number */
+.highlight-xcode .mb {color: #1C01CE; } /* Tok.number_bin */
+.highlight-xcode .mf {color: #1C01CE; } /* Tok.number_float */
+.highlight-xcode .mh {color: #1C01CE; } /* Tok.number_hex */
+.highlight-xcode .mi {color: #1C01CE; } /* Tok.number_integer */
+.highlight-xcode .mo {color: #1C01CE; } /* Tok.number_oct */
 .highlight-xcode .n {color: #000000; } /* Tok.name */
 .highlight-xcode .na {color: #836C28; } /* Tok.name_attribute */
 .highlight-xcode .nb {color: #A90D91; } /* Tok.name_builtin */
@@ -1192,6 +1774,20 @@
 .highlight-xcode .o {color: #000000; } /* Tok.operator */
 .highlight-xcode .ow {color: #000000; } /* Tok.operator_word */
 .highlight-xcode .py {color: #000000; } /* Tok.name_property */
+.highlight-xcode .s {color: #C41A16; } /* Tok.string */
+.highlight-xcode .s1 {color: #C41A16; } /* Tok.string_single */
+.highlight-xcode .s2 {color: #C41A16; } /* Tok.string_double */
+.highlight-xcode .sa {color: #C41A16; } /* Tok.string_affix */
+.highlight-xcode .sb {color: #C41A16; } /* Tok.string_backtick */
+.highlight-xcode .sc {color: #2300CE; } /* Tok.string_char */
+.highlight-xcode .sd {color: #C41A16; } /* Tok.string_doc */
+.highlight-xcode .se {color: #C41A16; } /* Tok.string_escape */
+.highlight-xcode .sh {color: #C41A16; } /* Tok.string_heredoc */
+.highlight-xcode .si {color: #C41A16; } /* Tok.string_interpol */
+.highlight-xcode .sr {color: #C41A16; } /* Tok.string_regex */
+.highlight-xcode .ss {color: #C41A16; } /* Tok.string_symbol */
+.highlight-xcode .sx {color: #C41A16; } /* Tok.string_other */
+.highlight-xcode .sx {color: #C41A16; } /* Tok.string_sigil */
 .highlight-xcode .vc {color: #000000; } /* Tok.name_variable_class */
 .highlight-xcode .vg {color: #000000; } /* Tok.name_variable_global */
 .highlight-xcode .vi {color: #000000; } /* Tok.name_variable_instance */
