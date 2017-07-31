@@ -1,0 +1,1198 @@
+.highlight-abap .hll {background-color: #ffffcc}
+.highlight-abap {background-color: #ffffff}
+.highlight-abap .bp {color: #000; } /* Tok.name_builtin_pseudo */
+.highlight-abap .c {color: #888; font-style: italic; } /* Tok.comment */
+.highlight-abap .c1 {color: #888; font-style: italic; } /* Tok.comment_single */
+.highlight-abap .ch {color: #888; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-abap .cm {color: #888; font-style: italic; } /* Tok.comment_multiline */
+.highlight-abap .cp {color: #888; font-style: italic; } /* Tok.comment_preproc */
+.highlight-abap .cpf {color: #888; font-style: italic; } /* Tok.comment_preproc_file */
+.highlight-abap .cs {color: #888; font-style: italic; } /* Tok.comment_special */
+.highlight-abap .err {color: #F00; } /* Tok.error */
+.highlight-abap .fm {color: #000; } /* Tok.name_function_magic */
+.highlight-abap .k {color: #00f; } /* Tok.keyword */
+.highlight-abap .kc {color: #00f; } /* Tok.keyword_constant */
+.highlight-abap .kd {color: #00f; } /* Tok.keyword_declaration */
+.highlight-abap .kn {color: #00f; } /* Tok.keyword_namespace */
+.highlight-abap .kp {color: #00f; } /* Tok.keyword_pseudo */
+.highlight-abap .kr {color: #00f; } /* Tok.keyword_reserved */
+.highlight-abap .kt {color: #00f; } /* Tok.keyword_type */
+.highlight-abap .n {color: #000; } /* Tok.name */
+.highlight-abap .na {color: #000; } /* Tok.name_attribute */
+.highlight-abap .nb {color: #000; } /* Tok.name_builtin */
+.highlight-abap .nc {color: #000; } /* Tok.name_class */
+.highlight-abap .nd {color: #000; } /* Tok.name_decorator */
+.highlight-abap .ne {color: #000; } /* Tok.name_exception */
+.highlight-abap .nf {color: #000; } /* Tok.name_function */
+.highlight-abap .ni {color: #000; } /* Tok.name_entity */
+.highlight-abap .nl {color: #000; } /* Tok.name_label */
+.highlight-abap .nn {color: #000; } /* Tok.name_namespace */
+.highlight-abap .no {color: #000; } /* Tok.name_constant */
+.highlight-abap .nt {color: #000; } /* Tok.name_tag */
+.highlight-abap .nv {color: #000; } /* Tok.name_variable */
+.highlight-abap .nx {color: #000; } /* Tok.name_other */
+.highlight-abap .ow {color: #00f; } /* Tok.operator_word */
+.highlight-abap .py {color: #000; } /* Tok.name_property */
+.highlight-abap .vc {color: #000; } /* Tok.name_variable_class */
+.highlight-abap .vg {color: #000; } /* Tok.name_variable_global */
+.highlight-abap .vi {color: #000; } /* Tok.name_variable_instance */
+.highlight-abap .vm {color: #000; } /* Tok.name_variable_magic */
+
+.highlight-algol .hll {background-color: #ffffcc}
+.highlight-algol {background-color: #ffffff}
+.highlight-algol .bp {font-style: italic; font-weight: bold; } /* Tok.name_builtin_pseudo */
+.highlight-algol .c {color: #888; font-style: italic; } /* Tok.comment */
+.highlight-algol .c1 {color: #888; font-style: italic; } /* Tok.comment_single */
+.highlight-algol .ch {color: #888; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-algol .cm {color: #888; font-style: italic; } /* Tok.comment_multiline */
+.highlight-algol .cp {color: #888; font-style: normal; font-weight: bold; } /* Tok.comment_preproc */
+.highlight-algol .cpf {color: #888; font-style: normal; font-weight: bold; } /* Tok.comment_preproc_file */
+.highlight-algol .cs {color: #888; font-style: normal; font-weight: bold; } /* Tok.comment_special */
+.highlight-algol .err {border: #FF0000; } /* Tok.error */
+.highlight-algol .fm {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_function_magic */
+.highlight-algol .k {font-weight: bold; text-decoration: underline; } /* Tok.keyword */
+.highlight-algol .kc {font-weight: bold; text-decoration: underline; } /* Tok.keyword_constant */
+.highlight-algol .kd {font-style: italic; font-weight: bold; text-decoration: underline; } /* Tok.keyword_declaration */
+.highlight-algol .kn {font-weight: bold; text-decoration: underline; } /* Tok.keyword_namespace */
+.highlight-algol .kp {font-weight: bold; text-decoration: underline; } /* Tok.keyword_pseudo */
+.highlight-algol .kr {font-weight: bold; text-decoration: underline; } /* Tok.keyword_reserved */
+.highlight-algol .kt {font-weight: bold; text-decoration: underline; } /* Tok.keyword_type */
+.highlight-algol .nb {font-style: italic; font-weight: bold; } /* Tok.name_builtin */
+.highlight-algol .nc {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_class */
+.highlight-algol .nf {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_function */
+.highlight-algol .nn {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_namespace */
+.highlight-algol .no {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_constant */
+.highlight-algol .nv {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable */
+.highlight-algol .ow {font-weight: bold; } /* Tok.operator_word */
+.highlight-algol .vc {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable_class */
+.highlight-algol .vg {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable_global */
+.highlight-algol .vi {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable_instance */
+.highlight-algol .vm {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable_magic */
+
+.highlight-algol_nu .hll {background-color: #ffffcc}
+.highlight-algol_nu {background-color: #ffffff}
+.highlight-algol_nu .bp {font-style: italic; font-weight: bold; } /* Tok.name_builtin_pseudo */
+.highlight-algol_nu .c {color: #888; font-style: italic; } /* Tok.comment */
+.highlight-algol_nu .c1 {color: #888; font-style: italic; } /* Tok.comment_single */
+.highlight-algol_nu .ch {color: #888; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-algol_nu .cm {color: #888; font-style: italic; } /* Tok.comment_multiline */
+.highlight-algol_nu .cp {color: #888; font-style: normal; font-weight: bold; } /* Tok.comment_preproc */
+.highlight-algol_nu .cpf {color: #888; font-style: normal; font-weight: bold; } /* Tok.comment_preproc_file */
+.highlight-algol_nu .cs {color: #888; font-style: normal; font-weight: bold; } /* Tok.comment_special */
+.highlight-algol_nu .err {border: #FF0000; } /* Tok.error */
+.highlight-algol_nu .fm {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_function_magic */
+.highlight-algol_nu .k {font-weight: bold; } /* Tok.keyword */
+.highlight-algol_nu .kc {font-weight: bold; } /* Tok.keyword_constant */
+.highlight-algol_nu .kd {font-style: italic; font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-algol_nu .kn {font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-algol_nu .kp {font-weight: bold; } /* Tok.keyword_pseudo */
+.highlight-algol_nu .kr {font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-algol_nu .kt {font-weight: bold; } /* Tok.keyword_type */
+.highlight-algol_nu .nb {font-style: italic; font-weight: bold; } /* Tok.name_builtin */
+.highlight-algol_nu .nc {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_class */
+.highlight-algol_nu .nf {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_function */
+.highlight-algol_nu .nn {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_namespace */
+.highlight-algol_nu .no {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_constant */
+.highlight-algol_nu .nv {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable */
+.highlight-algol_nu .ow {font-weight: bold; } /* Tok.operator_word */
+.highlight-algol_nu .vc {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable_class */
+.highlight-algol_nu .vg {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable_global */
+.highlight-algol_nu .vi {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable_instance */
+.highlight-algol_nu .vm {color: #666; font-style: italic; font-weight: bold; } /* Tok.name_variable_magic */
+
+.highlight-arduino .hll {background-color: #ffffcc}
+.highlight-arduino {background-color: #ffffff}
+.highlight-arduino .bp {color: #728E00; } /* Tok.name_builtin_pseudo */
+.highlight-arduino .c {color: #95a5a6; } /* Tok.comment */
+.highlight-arduino .c1 {color: #95a5a6; } /* Tok.comment_single */
+.highlight-arduino .ch {color: #95a5a6; } /* Tok.comment_hashbang */
+.highlight-arduino .cm {color: #95a5a6; } /* Tok.comment_multiline */
+.highlight-arduino .cp {color: #728E00; } /* Tok.comment_preproc */
+.highlight-arduino .cpf {color: #728E00; } /* Tok.comment_preproc_file */
+.highlight-arduino .cs {color: #95a5a6; } /* Tok.comment_special */
+.highlight-arduino .err {color: #a61717; } /* Tok.error */
+.highlight-arduino .fm {color: #D35400; } /* Tok.name_function_magic */
+.highlight-arduino .k {color: #728E00; } /* Tok.keyword */
+.highlight-arduino .kc {color: #00979D; } /* Tok.keyword_constant */
+.highlight-arduino .kd {color: #728E00; } /* Tok.keyword_declaration */
+.highlight-arduino .kn {color: #728E00; } /* Tok.keyword_namespace */
+.highlight-arduino .kp {color: #00979D; } /* Tok.keyword_pseudo */
+.highlight-arduino .kr {color: #00979D; } /* Tok.keyword_reserved */
+.highlight-arduino .kt {color: #00979D; } /* Tok.keyword_type */
+.highlight-arduino .n {color: #434f54; } /* Tok.name */
+.highlight-arduino .na {color: #434f54; } /* Tok.name_attribute */
+.highlight-arduino .nb {color: #728E00; } /* Tok.name_builtin */
+.highlight-arduino .nc {color: #434f54; } /* Tok.name_class */
+.highlight-arduino .nd {color: #434f54; } /* Tok.name_decorator */
+.highlight-arduino .ne {color: #434f54; } /* Tok.name_exception */
+.highlight-arduino .nf {color: #D35400; } /* Tok.name_function */
+.highlight-arduino .ni {color: #434f54; } /* Tok.name_entity */
+.highlight-arduino .nl {color: #434f54; } /* Tok.name_label */
+.highlight-arduino .nn {color: #434f54; } /* Tok.name_namespace */
+.highlight-arduino .no {color: #434f54; } /* Tok.name_constant */
+.highlight-arduino .nt {color: #434f54; } /* Tok.name_tag */
+.highlight-arduino .nv {color: #434f54; } /* Tok.name_variable */
+.highlight-arduino .nx {color: #728E00; } /* Tok.name_other */
+.highlight-arduino .o {color: #728E00; } /* Tok.operator */
+.highlight-arduino .ow {color: #728E00; } /* Tok.operator_word */
+.highlight-arduino .py {color: #434f54; } /* Tok.name_property */
+.highlight-arduino .vc {color: #434f54; } /* Tok.name_variable_class */
+.highlight-arduino .vg {color: #434f54; } /* Tok.name_variable_global */
+.highlight-arduino .vi {color: #434f54; } /* Tok.name_variable_instance */
+.highlight-arduino .vm {color: #434f54; } /* Tok.name_variable_magic */
+
+.highlight-autumn .hll {background-color: #ffffcc}
+.highlight-autumn {background-color: #ffffff}
+.highlight-autumn .bp {color: #00aaaa; } /* Tok.name_builtin_pseudo */
+.highlight-autumn .c {color: #aaaaaa; font-style: italic; } /* Tok.comment */
+.highlight-autumn .c1 {color: #aaaaaa; font-style: italic; } /* Tok.comment_single */
+.highlight-autumn .ch {color: #aaaaaa; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-autumn .cm {color: #aaaaaa; font-style: italic; } /* Tok.comment_multiline */
+.highlight-autumn .cp {color: #4c8317; font-style: normal; } /* Tok.comment_preproc */
+.highlight-autumn .cpf {color: #4c8317; font-style: normal; } /* Tok.comment_preproc_file */
+.highlight-autumn .cs {color: #0000aa; font-style: italic; } /* Tok.comment_special */
+.highlight-autumn .err {color: #F00; background-color: #FAA; } /* Tok.error */
+.highlight-autumn .fm {color: #00aa00; } /* Tok.name_function_magic */
+.highlight-autumn .gd {color: #aa0000; } /* Tok.generic_deleted */
+.highlight-autumn .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-autumn .gh {color: #000080; font-weight: bold; } /* Tok.generic_heading */
+.highlight-autumn .gi {color: #00aa00; } /* Tok.generic_inserted */
+.highlight-autumn .go {color: #888888; } /* Tok.generic_output */
+.highlight-autumn .gp {color: #555555; } /* Tok.generic_prompt */
+.highlight-autumn .gr {color: #aa0000; } /* Tok.generic_error */
+.highlight-autumn .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-autumn .gt {color: #aa0000; } /* Tok.generic_traceback */
+.highlight-autumn .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-autumn .k {color: #0000aa; } /* Tok.keyword */
+.highlight-autumn .kc {color: #0000aa; } /* Tok.keyword_constant */
+.highlight-autumn .kd {color: #0000aa; } /* Tok.keyword_declaration */
+.highlight-autumn .kn {color: #0000aa; } /* Tok.keyword_namespace */
+.highlight-autumn .kp {color: #0000aa; } /* Tok.keyword_pseudo */
+.highlight-autumn .kr {color: #0000aa; } /* Tok.keyword_reserved */
+.highlight-autumn .kt {color: #00aaaa; } /* Tok.keyword_type */
+.highlight-autumn .na {color: #1e90ff; } /* Tok.name_attribute */
+.highlight-autumn .nb {color: #00aaaa; } /* Tok.name_builtin */
+.highlight-autumn .nc {color: #00aa00; text-decoration: underline; } /* Tok.name_class */
+.highlight-autumn .nd {color: #888888; } /* Tok.name_decorator */
+.highlight-autumn .nf {color: #00aa00; } /* Tok.name_function */
+.highlight-autumn .ni {color: #800; font-weight: bold; } /* Tok.name_entity */
+.highlight-autumn .nn {color: #00aaaa; text-decoration: underline; } /* Tok.name_namespace */
+.highlight-autumn .no {color: #aa0000; } /* Tok.name_constant */
+.highlight-autumn .nt {color: #1e90ff; font-weight: bold; } /* Tok.name_tag */
+.highlight-autumn .nv {color: #aa0000; } /* Tok.name_variable */
+.highlight-autumn .ow {color: #0000aa; } /* Tok.operator_word */
+.highlight-autumn .vc {color: #aa0000; } /* Tok.name_variable_class */
+.highlight-autumn .vg {color: #aa0000; } /* Tok.name_variable_global */
+.highlight-autumn .vi {color: #aa0000; } /* Tok.name_variable_instance */
+.highlight-autumn .vm {color: #aa0000; } /* Tok.name_variable_magic */
+
+.highlight-borland .hll {background-color: #ffffcc}
+.highlight-borland {background-color: #ffffff}
+.highlight-borland .c {color: #008800; font-style: italic; } /* Tok.comment */
+.highlight-borland .c1 {color: #008800; font-style: italic; } /* Tok.comment_single */
+.highlight-borland .ch {color: #008800; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-borland .cm {color: #008800; font-style: italic; } /* Tok.comment_multiline */
+.highlight-borland .cp {color: #008080; font-style: normal; } /* Tok.comment_preproc */
+.highlight-borland .cpf {color: #008080; font-style: normal; } /* Tok.comment_preproc_file */
+.highlight-borland .cs {color: #008800; font-style: normal; font-weight: bold; } /* Tok.comment_special */
+.highlight-borland .err {color: #a61717; background-color: #e3d2d2; } /* Tok.error */
+.highlight-borland .gd {color: #000000; background-color: #ffdddd; } /* Tok.generic_deleted */
+.highlight-borland .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-borland .gh {color: #999999; } /* Tok.generic_heading */
+.highlight-borland .gi {color: #000000; background-color: #ddffdd; } /* Tok.generic_inserted */
+.highlight-borland .go {color: #888888; } /* Tok.generic_output */
+.highlight-borland .gp {color: #555555; } /* Tok.generic_prompt */
+.highlight-borland .gr {color: #aa0000; } /* Tok.generic_error */
+.highlight-borland .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-borland .gt {color: #aa0000; } /* Tok.generic_traceback */
+.highlight-borland .gu {color: #aaaaaa; } /* Tok.generic_subheading */
+.highlight-borland .k {color: #000080; font-weight: bold; } /* Tok.keyword */
+.highlight-borland .kc {color: #000080; font-weight: bold; } /* Tok.keyword_constant */
+.highlight-borland .kd {color: #000080; font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-borland .kn {color: #000080; font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-borland .kp {color: #000080; font-weight: bold; } /* Tok.keyword_pseudo */
+.highlight-borland .kr {color: #000080; font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-borland .kt {color: #000080; font-weight: bold; } /* Tok.keyword_type */
+.highlight-borland .na {color: #FF0000; } /* Tok.name_attribute */
+.highlight-borland .nt {color: #000080; font-weight: bold; } /* Tok.name_tag */
+.highlight-borland .ow {font-weight: bold; } /* Tok.operator_word */
+
+.highlight-bw .hll {background-color: #ffffcc}
+.highlight-bw {background-color: #ffffff}
+.highlight-bw .c {font-style: italic; } /* Tok.comment */
+.highlight-bw .c1 {font-style: italic; } /* Tok.comment_single */
+.highlight-bw .ch {font-style: italic; } /* Tok.comment_hashbang */
+.highlight-bw .cm {font-style: italic; } /* Tok.comment_multiline */
+.highlight-bw .cp {font-style: normal; } /* Tok.comment_preproc */
+.highlight-bw .cpf {font-style: normal; } /* Tok.comment_preproc_file */
+.highlight-bw .cs {font-style: italic; } /* Tok.comment_special */
+.highlight-bw .err {border: #FF0000; } /* Tok.error */
+.highlight-bw .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-bw .gh {font-weight: bold; } /* Tok.generic_heading */
+.highlight-bw .gp {font-weight: bold; } /* Tok.generic_prompt */
+.highlight-bw .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-bw .gu {font-weight: bold; } /* Tok.generic_subheading */
+.highlight-bw .k {font-weight: bold; } /* Tok.keyword */
+.highlight-bw .kc {font-weight: bold; } /* Tok.keyword_constant */
+.highlight-bw .kd {font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-bw .kn {font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-bw .kp {font-weight: normal; } /* Tok.keyword_pseudo */
+.highlight-bw .kr {font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-bw .kt {font-weight: normal; } /* Tok.keyword_type */
+.highlight-bw .nc {font-weight: bold; } /* Tok.name_class */
+.highlight-bw .ne {font-weight: bold; } /* Tok.name_exception */
+.highlight-bw .ni {font-weight: bold; } /* Tok.name_entity */
+.highlight-bw .nn {font-weight: bold; } /* Tok.name_namespace */
+.highlight-bw .nt {font-weight: bold; } /* Tok.name_tag */
+.highlight-bw .ow {font-weight: bold; } /* Tok.operator_word */
+
+.highlight-colorful .hll {background-color: #ffffcc}
+.highlight-colorful {background-color: #ffffff}
+.highlight-colorful .bp {color: #007020; } /* Tok.name_builtin_pseudo */
+.highlight-colorful .c {color: #888; } /* Tok.comment */
+.highlight-colorful .c1 {color: #888; } /* Tok.comment_single */
+.highlight-colorful .ch {color: #888; } /* Tok.comment_hashbang */
+.highlight-colorful .cm {color: #888; } /* Tok.comment_multiline */
+.highlight-colorful .cp {color: #579; } /* Tok.comment_preproc */
+.highlight-colorful .cpf {color: #579; } /* Tok.comment_preproc_file */
+.highlight-colorful .cs {color: #cc0000; font-weight: bold; } /* Tok.comment_special */
+.highlight-colorful .err {color: #F00; background-color: #FAA; } /* Tok.error */
+.highlight-colorful .fm {color: #06B; font-weight: bold; } /* Tok.name_function_magic */
+.highlight-colorful .gd {color: #A00000; } /* Tok.generic_deleted */
+.highlight-colorful .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-colorful .gh {color: #000080; font-weight: bold; } /* Tok.generic_heading */
+.highlight-colorful .gi {color: #00A000; } /* Tok.generic_inserted */
+.highlight-colorful .go {color: #888; } /* Tok.generic_output */
+.highlight-colorful .gp {color: #c65d09; font-weight: bold; } /* Tok.generic_prompt */
+.highlight-colorful .gr {color: #FF0000; } /* Tok.generic_error */
+.highlight-colorful .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-colorful .gt {color: #04D; } /* Tok.generic_traceback */
+.highlight-colorful .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-colorful .k {color: #080; font-weight: bold; } /* Tok.keyword */
+.highlight-colorful .kc {color: #080; font-weight: bold; } /* Tok.keyword_constant */
+.highlight-colorful .kd {color: #080; font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-colorful .kn {color: #080; font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-colorful .kp {color: #038; font-weight: bold; } /* Tok.keyword_pseudo */
+.highlight-colorful .kr {color: #080; font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-colorful .kt {color: #339; font-weight: bold; } /* Tok.keyword_type */
+.highlight-colorful .na {color: #00C; } /* Tok.name_attribute */
+.highlight-colorful .nb {color: #007020; } /* Tok.name_builtin */
+.highlight-colorful .nc {color: #B06; font-weight: bold; } /* Tok.name_class */
+.highlight-colorful .nd {color: #555; font-weight: bold; } /* Tok.name_decorator */
+.highlight-colorful .ne {color: #F00; font-weight: bold; } /* Tok.name_exception */
+.highlight-colorful .nf {color: #06B; font-weight: bold; } /* Tok.name_function */
+.highlight-colorful .ni {color: #800; font-weight: bold; } /* Tok.name_entity */
+.highlight-colorful .nl {color: #970; font-weight: bold; } /* Tok.name_label */
+.highlight-colorful .nn {color: #0e84b5; font-weight: bold; } /* Tok.name_namespace */
+.highlight-colorful .no {color: #036; font-weight: bold; } /* Tok.name_constant */
+.highlight-colorful .nt {color: #070; } /* Tok.name_tag */
+.highlight-colorful .nv {color: #963; } /* Tok.name_variable */
+.highlight-colorful .o {color: #333; } /* Tok.operator */
+.highlight-colorful .ow {color: #000; font-weight: bold; } /* Tok.operator_word */
+.highlight-colorful .vc {color: #369; } /* Tok.name_variable_class */
+.highlight-colorful .vg {color: #d70; font-weight: bold; } /* Tok.name_variable_global */
+.highlight-colorful .vi {color: #33B; } /* Tok.name_variable_instance */
+.highlight-colorful .vm {color: #963; } /* Tok.name_variable_magic */
+
+.highlight-default .hll {background-color: #ffffcc}
+.highlight-default {background-color: #f8f8f8}
+.highlight-default .bp {color: #008000; } /* Tok.name_builtin_pseudo */
+.highlight-default .c {color: #408080; font-style: italic; } /* Tok.comment */
+.highlight-default .c1 {color: #408080; font-style: italic; } /* Tok.comment_single */
+.highlight-default .ch {color: #408080; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-default .cm {color: #408080; font-style: italic; } /* Tok.comment_multiline */
+.highlight-default .cp {color: #BC7A00; font-style: normal; } /* Tok.comment_preproc */
+.highlight-default .cpf {color: #BC7A00; font-style: normal; } /* Tok.comment_preproc_file */
+.highlight-default .cs {color: #408080; font-style: italic; } /* Tok.comment_special */
+.highlight-default .err {border: #FF0000; } /* Tok.error */
+.highlight-default .fm {color: #0000FF; } /* Tok.name_function_magic */
+.highlight-default .gd {color: #A00000; } /* Tok.generic_deleted */
+.highlight-default .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-default .gh {color: #000080; font-weight: bold; } /* Tok.generic_heading */
+.highlight-default .gi {color: #00A000; } /* Tok.generic_inserted */
+.highlight-default .go {color: #888; } /* Tok.generic_output */
+.highlight-default .gp {color: #000080; font-weight: bold; } /* Tok.generic_prompt */
+.highlight-default .gr {color: #FF0000; } /* Tok.generic_error */
+.highlight-default .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-default .gt {color: #04D; } /* Tok.generic_traceback */
+.highlight-default .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-default .k {color: #008000; font-weight: bold; } /* Tok.keyword */
+.highlight-default .kc {color: #008000; font-weight: bold; } /* Tok.keyword_constant */
+.highlight-default .kd {color: #008000; font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-default .kn {color: #008000; font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-default .kp {color: #008000; font-weight: normal; } /* Tok.keyword_pseudo */
+.highlight-default .kr {color: #008000; font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-default .kt {color: #B00040; font-weight: normal; } /* Tok.keyword_type */
+.highlight-default .na {color: #7D9029; } /* Tok.name_attribute */
+.highlight-default .nb {color: #008000; } /* Tok.name_builtin */
+.highlight-default .nc {color: #0000FF; font-weight: bold; } /* Tok.name_class */
+.highlight-default .nd {color: #AA22FF; } /* Tok.name_decorator */
+.highlight-default .ne {color: #D2413A; font-weight: bold; } /* Tok.name_exception */
+.highlight-default .nf {color: #0000FF; } /* Tok.name_function */
+.highlight-default .ni {color: #999999; font-weight: bold; } /* Tok.name_entity */
+.highlight-default .nl {color: #A0A000; } /* Tok.name_label */
+.highlight-default .nn {color: #0000FF; font-weight: bold; } /* Tok.name_namespace */
+.highlight-default .no {color: #880000; } /* Tok.name_constant */
+.highlight-default .nt {color: #008000; font-weight: bold; } /* Tok.name_tag */
+.highlight-default .nv {color: #19177C; } /* Tok.name_variable */
+.highlight-default .o {color: #666666; } /* Tok.operator */
+.highlight-default .ow {color: #AA22FF; font-weight: bold; } /* Tok.operator_word */
+.highlight-default .vc {color: #19177C; } /* Tok.name_variable_class */
+.highlight-default .vg {color: #19177C; } /* Tok.name_variable_global */
+.highlight-default .vi {color: #19177C; } /* Tok.name_variable_instance */
+.highlight-default .vm {color: #19177C; } /* Tok.name_variable_magic */
+
+.highlight-emacs .hll {background-color: #ffffcc}
+.highlight-emacs {background-color: #f8f8f8}
+.highlight-emacs .bp {color: #AA22FF; } /* Tok.name_builtin_pseudo */
+.highlight-emacs .c {color: #008800; font-style: italic; } /* Tok.comment */
+.highlight-emacs .c1 {color: #008800; font-style: italic; } /* Tok.comment_single */
+.highlight-emacs .ch {color: #008800; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-emacs .cm {color: #008800; font-style: italic; } /* Tok.comment_multiline */
+.highlight-emacs .cp {color: #008800; font-style: normal; } /* Tok.comment_preproc */
+.highlight-emacs .cpf {color: #008800; font-style: normal; } /* Tok.comment_preproc_file */
+.highlight-emacs .cs {color: #008800; font-style: normal; font-weight: bold; } /* Tok.comment_special */
+.highlight-emacs .err {border: #FF0000; } /* Tok.error */
+.highlight-emacs .fm {color: #00A000; } /* Tok.name_function_magic */
+.highlight-emacs .gd {color: #A00000; } /* Tok.generic_deleted */
+.highlight-emacs .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-emacs .gh {color: #000080; font-weight: bold; } /* Tok.generic_heading */
+.highlight-emacs .gi {color: #00A000; } /* Tok.generic_inserted */
+.highlight-emacs .go {color: #888; } /* Tok.generic_output */
+.highlight-emacs .gp {color: #000080; font-weight: bold; } /* Tok.generic_prompt */
+.highlight-emacs .gr {color: #FF0000; } /* Tok.generic_error */
+.highlight-emacs .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-emacs .gt {color: #04D; } /* Tok.generic_traceback */
+.highlight-emacs .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-emacs .k {color: #AA22FF; font-weight: bold; } /* Tok.keyword */
+.highlight-emacs .kc {color: #AA22FF; font-weight: bold; } /* Tok.keyword_constant */
+.highlight-emacs .kd {color: #AA22FF; font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-emacs .kn {color: #AA22FF; font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-emacs .kp {color: #AA22FF; font-weight: normal; } /* Tok.keyword_pseudo */
+.highlight-emacs .kr {color: #AA22FF; font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-emacs .kt {color: #00BB00; font-weight: bold; } /* Tok.keyword_type */
+.highlight-emacs .na {color: #BB4444; } /* Tok.name_attribute */
+.highlight-emacs .nb {color: #AA22FF; } /* Tok.name_builtin */
+.highlight-emacs .nc {color: #0000FF; } /* Tok.name_class */
+.highlight-emacs .nd {color: #AA22FF; } /* Tok.name_decorator */
+.highlight-emacs .ne {color: #D2413A; font-weight: bold; } /* Tok.name_exception */
+.highlight-emacs .nf {color: #00A000; } /* Tok.name_function */
+.highlight-emacs .ni {color: #999999; font-weight: bold; } /* Tok.name_entity */
+.highlight-emacs .nl {color: #A0A000; } /* Tok.name_label */
+.highlight-emacs .nn {color: #0000FF; font-weight: bold; } /* Tok.name_namespace */
+.highlight-emacs .no {color: #880000; } /* Tok.name_constant */
+.highlight-emacs .nt {color: #008000; font-weight: bold; } /* Tok.name_tag */
+.highlight-emacs .nv {color: #B8860B; } /* Tok.name_variable */
+.highlight-emacs .o {color: #666666; } /* Tok.operator */
+.highlight-emacs .ow {color: #AA22FF; font-weight: bold; } /* Tok.operator_word */
+.highlight-emacs .vc {color: #B8860B; } /* Tok.name_variable_class */
+.highlight-emacs .vg {color: #B8860B; } /* Tok.name_variable_global */
+.highlight-emacs .vi {color: #B8860B; } /* Tok.name_variable_instance */
+.highlight-emacs .vm {color: #B8860B; } /* Tok.name_variable_magic */
+
+.highlight-friendly .hll {background-color: #ffffcc}
+.highlight-friendly {background-color: #f0f0f0}
+.highlight-friendly .bp {color: #007020; } /* Tok.name_builtin_pseudo */
+.highlight-friendly .c {color: #60a0b0; font-style: italic; } /* Tok.comment */
+.highlight-friendly .c1 {color: #60a0b0; font-style: italic; } /* Tok.comment_single */
+.highlight-friendly .ch {color: #60a0b0; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-friendly .cm {color: #60a0b0; font-style: italic; } /* Tok.comment_multiline */
+.highlight-friendly .cp {color: #007020; font-style: normal; } /* Tok.comment_preproc */
+.highlight-friendly .cpf {color: #007020; font-style: normal; } /* Tok.comment_preproc_file */
+.highlight-friendly .cs {color: #60a0b0; font-style: normal; background-color: #fff0f0; } /* Tok.comment_special */
+.highlight-friendly .err {border: #FF0000; } /* Tok.error */
+.highlight-friendly .fm {color: #06287e; } /* Tok.name_function_magic */
+.highlight-friendly .gd {color: #A00000; } /* Tok.generic_deleted */
+.highlight-friendly .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-friendly .gh {color: #000080; font-weight: bold; } /* Tok.generic_heading */
+.highlight-friendly .gi {color: #00A000; } /* Tok.generic_inserted */
+.highlight-friendly .go {color: #888; } /* Tok.generic_output */
+.highlight-friendly .gp {color: #c65d09; font-weight: bold; } /* Tok.generic_prompt */
+.highlight-friendly .gr {color: #FF0000; } /* Tok.generic_error */
+.highlight-friendly .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-friendly .gt {color: #04D; } /* Tok.generic_traceback */
+.highlight-friendly .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-friendly .k {color: #007020; font-weight: bold; } /* Tok.keyword */
+.highlight-friendly .kc {color: #007020; font-weight: bold; } /* Tok.keyword_constant */
+.highlight-friendly .kd {color: #007020; font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-friendly .kn {color: #007020; font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-friendly .kp {color: #007020; font-weight: normal; } /* Tok.keyword_pseudo */
+.highlight-friendly .kr {color: #007020; font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-friendly .kt {color: #902000; font-weight: normal; } /* Tok.keyword_type */
+.highlight-friendly .na {color: #4070a0; } /* Tok.name_attribute */
+.highlight-friendly .nb {color: #007020; } /* Tok.name_builtin */
+.highlight-friendly .nc {color: #0e84b5; font-weight: bold; } /* Tok.name_class */
+.highlight-friendly .nd {color: #555555; font-weight: bold; } /* Tok.name_decorator */
+.highlight-friendly .ne {color: #007020; } /* Tok.name_exception */
+.highlight-friendly .nf {color: #06287e; } /* Tok.name_function */
+.highlight-friendly .ni {color: #d55537; font-weight: bold; } /* Tok.name_entity */
+.highlight-friendly .nl {color: #002070; font-weight: bold; } /* Tok.name_label */
+.highlight-friendly .nn {color: #0e84b5; font-weight: bold; } /* Tok.name_namespace */
+.highlight-friendly .no {color: #60add5; } /* Tok.name_constant */
+.highlight-friendly .nt {color: #062873; font-weight: bold; } /* Tok.name_tag */
+.highlight-friendly .nv {color: #bb60d5; } /* Tok.name_variable */
+.highlight-friendly .o {color: #666666; } /* Tok.operator */
+.highlight-friendly .ow {color: #007020; font-weight: bold; } /* Tok.operator_word */
+.highlight-friendly .vc {color: #bb60d5; } /* Tok.name_variable_class */
+.highlight-friendly .vg {color: #bb60d5; } /* Tok.name_variable_global */
+.highlight-friendly .vi {color: #bb60d5; } /* Tok.name_variable_instance */
+.highlight-friendly .vm {color: #bb60d5; } /* Tok.name_variable_magic */
+
+.highlight-fruity .hll {background-color: #333333}
+.highlight-fruity {background-color: #111111}
+.highlight-fruity .c {color: #008800; font-style: italic; background-color: #0f140f; } /* Tok.comment */
+.highlight-fruity .c1 {color: #008800; font-style: italic; background-color: #0f140f; } /* Tok.comment_single */
+.highlight-fruity .ch {color: #008800; font-style: italic; background-color: #0f140f; } /* Tok.comment_hashbang */
+.highlight-fruity .cm {color: #008800; font-style: italic; background-color: #0f140f; } /* Tok.comment_multiline */
+.highlight-fruity .cp {color: #ff0007; font-style: italic; font-weight: bold; background-color: #0f140f; } /* Tok.comment_preproc */
+.highlight-fruity .cpf {color: #ff0007; font-style: italic; font-weight: bold; background-color: #0f140f; } /* Tok.comment_preproc_file */
+.highlight-fruity .cs {color: #008800; font-style: italic; background-color: #0f140f; } /* Tok.comment_special */
+.highlight-fruity .fm {color: #ff0086; font-weight: bold; } /* Tok.name_function_magic */
+.highlight-fruity .gh {color: #ffffff; font-weight: bold; } /* Tok.generic_heading */
+.highlight-fruity .go {color: #444444; background-color: #222222; } /* Tok.generic_output */
+.highlight-fruity .gu {color: #ffffff; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-fruity .k {color: #fb660a; font-weight: bold; } /* Tok.keyword */
+.highlight-fruity .kc {color: #fb660a; font-weight: bold; } /* Tok.keyword_constant */
+.highlight-fruity .kd {color: #fb660a; font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-fruity .kn {color: #fb660a; font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-fruity .kp {color: #fb660a; font-weight: normal; } /* Tok.keyword_pseudo */
+.highlight-fruity .kr {color: #fb660a; font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-fruity .kt {color: #cdcaa9; font-weight: bold; } /* Tok.keyword_type */
+.highlight-fruity .na {color: #ff0086; font-weight: bold; } /* Tok.name_attribute */
+.highlight-fruity .nf {color: #ff0086; font-weight: bold; } /* Tok.name_function */
+.highlight-fruity .no {color: #0086d2; } /* Tok.name_constant */
+.highlight-fruity .nt {color: #fb660a; font-weight: bold; } /* Tok.name_tag */
+.highlight-fruity .nv {color: #fb660a; } /* Tok.name_variable */
+.highlight-fruity .vc {color: #fb660a; } /* Tok.name_variable_class */
+.highlight-fruity .vg {color: #fb660a; } /* Tok.name_variable_global */
+.highlight-fruity .vi {color: #fb660a; } /* Tok.name_variable_instance */
+.highlight-fruity .vm {color: #fb660a; } /* Tok.name_variable_magic */
+
+.highlight-igor .hll {background-color: #ffffcc}
+.highlight-igor {background-color: #ffffff}
+.highlight-igor .c {color: #FF0000; font-style: italic; } /* Tok.comment */
+.highlight-igor .c1 {color: #FF0000; font-style: italic; } /* Tok.comment_single */
+.highlight-igor .ch {color: #FF0000; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-igor .cm {color: #FF0000; font-style: italic; } /* Tok.comment_multiline */
+.highlight-igor .cp {color: #FF0000; font-style: italic; } /* Tok.comment_preproc */
+.highlight-igor .cpf {color: #FF0000; font-style: italic; } /* Tok.comment_preproc_file */
+.highlight-igor .cs {color: #FF0000; font-style: italic; } /* Tok.comment_special */
+.highlight-igor .fm {color: #C34E00; } /* Tok.name_function_magic */
+.highlight-igor .k {color: #0000FF; } /* Tok.keyword */
+.highlight-igor .kc {color: #0000FF; } /* Tok.keyword_constant */
+.highlight-igor .kd {color: #0000FF; } /* Tok.keyword_declaration */
+.highlight-igor .kn {color: #0000FF; } /* Tok.keyword_namespace */
+.highlight-igor .kp {color: #0000FF; } /* Tok.keyword_pseudo */
+.highlight-igor .kr {color: #0000FF; } /* Tok.keyword_reserved */
+.highlight-igor .kt {color: #0000FF; } /* Tok.keyword_type */
+.highlight-igor .nc {color: #007575; } /* Tok.name_class */
+.highlight-igor .nd {color: #CC00A3; } /* Tok.name_decorator */
+.highlight-igor .nf {color: #C34E00; } /* Tok.name_function */
+
+.highlight-lovelace .hll {background-color: #ffffcc}
+.highlight-lovelace {background-color: #ffffff}
+.highlight-lovelace .bp {color: #388038; font-style: italic; } /* Tok.name_builtin_pseudo */
+.highlight-lovelace .c {color: #888888; font-style: italic; } /* Tok.comment */
+.highlight-lovelace .c1 {color: #888888; font-style: italic; } /* Tok.comment_single */
+.highlight-lovelace .ch {color: #287088; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-lovelace .cm {color: #888888; font-style: italic; } /* Tok.comment_multiline */
+.highlight-lovelace .cp {color: #289870; font-style: normal; } /* Tok.comment_preproc */
+.highlight-lovelace .cpf {color: #289870; font-style: normal; } /* Tok.comment_preproc_file */
+.highlight-lovelace .cs {color: #888888; font-style: italic; } /* Tok.comment_special */
+.highlight-lovelace .err {background-color: #a848a8; } /* Tok.error */
+.highlight-lovelace .fm {color: #b85820; } /* Tok.name_function_magic */
+.highlight-lovelace .gd {color: #c02828; } /* Tok.generic_deleted */
+.highlight-lovelace .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-lovelace .gh {color: #666666; } /* Tok.generic_heading */
+.highlight-lovelace .gi {color: #388038; } /* Tok.generic_inserted */
+.highlight-lovelace .go {color: #666666; } /* Tok.generic_output */
+.highlight-lovelace .gp {color: #444444; } /* Tok.generic_prompt */
+.highlight-lovelace .gr {color: #c02828; } /* Tok.generic_error */
+.highlight-lovelace .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-lovelace .gt {color: #2838b0; } /* Tok.generic_traceback */
+.highlight-lovelace .gu {color: #444444; } /* Tok.generic_subheading */
+.highlight-lovelace .k {color: #2838b0; } /* Tok.keyword */
+.highlight-lovelace .kc {color: #444444; font-style: italic; } /* Tok.keyword_constant */
+.highlight-lovelace .kd {color: #2838b0; font-style: italic; } /* Tok.keyword_declaration */
+.highlight-lovelace .kn {color: #2838b0; } /* Tok.keyword_namespace */
+.highlight-lovelace .kp {color: #2838b0; } /* Tok.keyword_pseudo */
+.highlight-lovelace .kr {color: #2838b0; } /* Tok.keyword_reserved */
+.highlight-lovelace .kt {color: #2838b0; font-style: italic; } /* Tok.keyword_type */
+.highlight-lovelace .na {color: #388038; } /* Tok.name_attribute */
+.highlight-lovelace .nb {color: #388038; } /* Tok.name_builtin */
+.highlight-lovelace .nc {color: #287088; } /* Tok.name_class */
+.highlight-lovelace .nd {color: #287088; } /* Tok.name_decorator */
+.highlight-lovelace .ne {color: #908828; } /* Tok.name_exception */
+.highlight-lovelace .nf {color: #785840; } /* Tok.name_function */
+.highlight-lovelace .ni {color: #709030; } /* Tok.name_entity */
+.highlight-lovelace .nl {color: #289870; } /* Tok.name_label */
+.highlight-lovelace .nn {color: #289870; } /* Tok.name_namespace */
+.highlight-lovelace .no {color: #b85820; } /* Tok.name_constant */
+.highlight-lovelace .nt {color: #2838b0; } /* Tok.name_tag */
+.highlight-lovelace .nv {color: #b04040; } /* Tok.name_variable */
+.highlight-lovelace .o {color: #666666; } /* Tok.operator */
+.highlight-lovelace .ow {color: #a848a8; } /* Tok.operator_word */
+.highlight-lovelace .p {color: #888888; } /* Tok.punctuation */
+.highlight-lovelace .vc {color: #b04040; } /* Tok.name_variable_class */
+.highlight-lovelace .vg {color: #908828; } /* Tok.name_variable_global */
+.highlight-lovelace .vi {color: #b04040; } /* Tok.name_variable_instance */
+.highlight-lovelace .vm {color: #b85820; } /* Tok.name_variable_magic */
+
+.highlight-manni .hll {background-color: #ffffcc}
+.highlight-manni {background-color: #f0f3f3}
+.highlight-manni .bp {color: #336666; } /* Tok.name_builtin_pseudo */
+.highlight-manni .c {color: #0099FF; font-style: italic; } /* Tok.comment */
+.highlight-manni .c1 {color: #0099FF; font-style: italic; } /* Tok.comment_single */
+.highlight-manni .ch {color: #0099FF; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-manni .cm {color: #0099FF; font-style: italic; } /* Tok.comment_multiline */
+.highlight-manni .cp {color: #009999; font-style: normal; } /* Tok.comment_preproc */
+.highlight-manni .cpf {color: #009999; font-style: normal; } /* Tok.comment_preproc_file */
+.highlight-manni .cs {color: #0099FF; font-style: italic; font-weight: bold; } /* Tok.comment_special */
+.highlight-manni .err {color: #AA0000; background-color: #FFAAAA; } /* Tok.error */
+.highlight-manni .fm {color: #CC00FF; } /* Tok.name_function_magic */
+.highlight-manni .gd {border: #CC0000; background-color: #FFCCCC; } /* Tok.generic_deleted */
+.highlight-manni .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-manni .gh {color: #003300; font-weight: bold; } /* Tok.generic_heading */
+.highlight-manni .gi {border: #00CC00; background-color: #CCFFCC; } /* Tok.generic_inserted */
+.highlight-manni .go {color: #AAAAAA; } /* Tok.generic_output */
+.highlight-manni .gp {color: #000099; font-weight: bold; } /* Tok.generic_prompt */
+.highlight-manni .gr {color: #FF0000; } /* Tok.generic_error */
+.highlight-manni .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-manni .gt {color: #99CC66; } /* Tok.generic_traceback */
+.highlight-manni .gu {color: #003300; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-manni .k {color: #006699; font-weight: bold; } /* Tok.keyword */
+.highlight-manni .kc {color: #006699; font-weight: bold; } /* Tok.keyword_constant */
+.highlight-manni .kd {color: #006699; font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-manni .kn {color: #006699; font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-manni .kp {color: #006699; font-weight: normal; } /* Tok.keyword_pseudo */
+.highlight-manni .kr {color: #006699; font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-manni .kt {color: #007788; font-weight: bold; } /* Tok.keyword_type */
+.highlight-manni .na {color: #330099; } /* Tok.name_attribute */
+.highlight-manni .nb {color: #336666; } /* Tok.name_builtin */
+.highlight-manni .nc {color: #00AA88; font-weight: bold; } /* Tok.name_class */
+.highlight-manni .nd {color: #9999FF; } /* Tok.name_decorator */
+.highlight-manni .ne {color: #CC0000; font-weight: bold; } /* Tok.name_exception */
+.highlight-manni .nf {color: #CC00FF; } /* Tok.name_function */
+.highlight-manni .ni {color: #999999; font-weight: bold; } /* Tok.name_entity */
+.highlight-manni .nl {color: #9999FF; } /* Tok.name_label */
+.highlight-manni .nn {color: #00CCFF; font-weight: bold; } /* Tok.name_namespace */
+.highlight-manni .no {color: #336600; } /* Tok.name_constant */
+.highlight-manni .nt {color: #330099; font-weight: bold; } /* Tok.name_tag */
+.highlight-manni .nv {color: #003333; } /* Tok.name_variable */
+.highlight-manni .o {color: #555555; } /* Tok.operator */
+.highlight-manni .ow {color: #000000; font-weight: bold; } /* Tok.operator_word */
+.highlight-manni .vc {color: #003333; } /* Tok.name_variable_class */
+.highlight-manni .vg {color: #003333; } /* Tok.name_variable_global */
+.highlight-manni .vi {color: #003333; } /* Tok.name_variable_instance */
+.highlight-manni .vm {color: #003333; } /* Tok.name_variable_magic */
+
+.highlight-monokai .hll {background-color: #49483e}
+.highlight-monokai {color: #f8f8f2; background-color: #272822}
+.highlight-monokai .bp {color: #f8f8f2; } /* Tok.name_builtin_pseudo */
+.highlight-monokai .c {color: #75715e; } /* Tok.comment */
+.highlight-monokai .c1 {color: #75715e; } /* Tok.comment_single */
+.highlight-monokai .ch {color: #75715e; } /* Tok.comment_hashbang */
+.highlight-monokai .cm {color: #75715e; } /* Tok.comment_multiline */
+.highlight-monokai .cp {color: #75715e; } /* Tok.comment_preproc */
+.highlight-monokai .cpf {color: #75715e; } /* Tok.comment_preproc_file */
+.highlight-monokai .cs {color: #75715e; } /* Tok.comment_special */
+.highlight-monokai .err {color: #960050; background-color: #1e0010; } /* Tok.error */
+.highlight-monokai .fm {color: #a6e22e; } /* Tok.name_function_magic */
+.highlight-monokai .gd {color: #f92672; } /* Tok.generic_deleted */
+.highlight-monokai .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-monokai .gi {color: #a6e22e; } /* Tok.generic_inserted */
+.highlight-monokai .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-monokai .gu {color: #75715e; } /* Tok.generic_subheading */
+.highlight-monokai .k {color: #66d9ef; } /* Tok.keyword */
+.highlight-monokai .kc {color: #66d9ef; } /* Tok.keyword_constant */
+.highlight-monokai .kd {color: #66d9ef; } /* Tok.keyword_declaration */
+.highlight-monokai .kn {color: #f92672; } /* Tok.keyword_namespace */
+.highlight-monokai .kp {color: #66d9ef; } /* Tok.keyword_pseudo */
+.highlight-monokai .kr {color: #66d9ef; } /* Tok.keyword_reserved */
+.highlight-monokai .kt {color: #66d9ef; } /* Tok.keyword_type */
+.highlight-monokai .l {color: #ae81ff; } /* Tok.literal */
+.highlight-monokai .ld {color: #e6db74; } /* Tok.literal_date */
+.highlight-monokai .n {color: #f8f8f2; } /* Tok.name */
+.highlight-monokai .na {color: #a6e22e; } /* Tok.name_attribute */
+.highlight-monokai .nb {color: #f8f8f2; } /* Tok.name_builtin */
+.highlight-monokai .nc {color: #a6e22e; } /* Tok.name_class */
+.highlight-monokai .nd {color: #a6e22e; } /* Tok.name_decorator */
+.highlight-monokai .ne {color: #a6e22e; } /* Tok.name_exception */
+.highlight-monokai .nf {color: #a6e22e; } /* Tok.name_function */
+.highlight-monokai .ni {color: #f8f8f2; } /* Tok.name_entity */
+.highlight-monokai .nl {color: #f8f8f2; } /* Tok.name_label */
+.highlight-monokai .nn {color: #f8f8f2; } /* Tok.name_namespace */
+.highlight-monokai .no {color: #66d9ef; } /* Tok.name_constant */
+.highlight-monokai .nt {color: #f92672; } /* Tok.name_tag */
+.highlight-monokai .nv {color: #f8f8f2; } /* Tok.name_variable */
+.highlight-monokai .nx {color: #a6e22e; } /* Tok.name_other */
+.highlight-monokai .o {color: #f92672; } /* Tok.operator */
+.highlight-monokai .ow {color: #f92672; } /* Tok.operator_word */
+.highlight-monokai .p {color: #f8f8f2; } /* Tok.punctuation */
+.highlight-monokai .py {color: #f8f8f2; } /* Tok.name_property */
+.highlight-monokai .vc {color: #f8f8f2; } /* Tok.name_variable_class */
+.highlight-monokai .vg {color: #f8f8f2; } /* Tok.name_variable_global */
+.highlight-monokai .vi {color: #f8f8f2; } /* Tok.name_variable_instance */
+.highlight-monokai .vm {color: #f8f8f2; } /* Tok.name_variable_magic */
+
+.highlight-murphy .hll {background-color: #ffffcc}
+.highlight-murphy {background-color: #ffffff}
+.highlight-murphy .bp {color: #072; } /* Tok.name_builtin_pseudo */
+.highlight-murphy .c {color: #666; font-style: italic; } /* Tok.comment */
+.highlight-murphy .c1 {color: #666; font-style: italic; } /* Tok.comment_single */
+.highlight-murphy .ch {color: #666; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-murphy .cm {color: #666; font-style: italic; } /* Tok.comment_multiline */
+.highlight-murphy .cp {color: #579; font-style: normal; } /* Tok.comment_preproc */
+.highlight-murphy .cpf {color: #579; font-style: normal; } /* Tok.comment_preproc_file */
+.highlight-murphy .cs {color: #c00; font-style: italic; font-weight: bold; } /* Tok.comment_special */
+.highlight-murphy .err {color: #F00; background-color: #FAA; } /* Tok.error */
+.highlight-murphy .fm {color: #5ed; font-weight: bold; } /* Tok.name_function_magic */
+.highlight-murphy .gd {color: #A00000; } /* Tok.generic_deleted */
+.highlight-murphy .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-murphy .gh {color: #000080; font-weight: bold; } /* Tok.generic_heading */
+.highlight-murphy .gi {color: #00A000; } /* Tok.generic_inserted */
+.highlight-murphy .go {color: #888; } /* Tok.generic_output */
+.highlight-murphy .gp {color: #c65d09; font-weight: bold; } /* Tok.generic_prompt */
+.highlight-murphy .gr {color: #FF0000; } /* Tok.generic_error */
+.highlight-murphy .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-murphy .gt {color: #04D; } /* Tok.generic_traceback */
+.highlight-murphy .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-murphy .k {color: #289; font-weight: bold; } /* Tok.keyword */
+.highlight-murphy .kc {color: #289; font-weight: bold; } /* Tok.keyword_constant */
+.highlight-murphy .kd {color: #289; font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-murphy .kn {color: #289; font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-murphy .kp {color: #08f; font-weight: bold; } /* Tok.keyword_pseudo */
+.highlight-murphy .kr {color: #289; font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-murphy .kt {color: #66f; font-weight: bold; } /* Tok.keyword_type */
+.highlight-murphy .na {color: #007; } /* Tok.name_attribute */
+.highlight-murphy .nb {color: #072; } /* Tok.name_builtin */
+.highlight-murphy .nc {color: #e9e; font-weight: bold; } /* Tok.name_class */
+.highlight-murphy .nd {color: #555; font-weight: bold; } /* Tok.name_decorator */
+.highlight-murphy .ne {color: #F00; font-weight: bold; } /* Tok.name_exception */
+.highlight-murphy .nf {color: #5ed; font-weight: bold; } /* Tok.name_function */
+.highlight-murphy .ni {color: #800; } /* Tok.name_entity */
+.highlight-murphy .nl {color: #970; font-weight: bold; } /* Tok.name_label */
+.highlight-murphy .nn {color: #0e84b5; font-weight: bold; } /* Tok.name_namespace */
+.highlight-murphy .no {color: #5ed; font-weight: bold; } /* Tok.name_constant */
+.highlight-murphy .nt {color: #070; } /* Tok.name_tag */
+.highlight-murphy .nv {color: #036; } /* Tok.name_variable */
+.highlight-murphy .o {color: #333; } /* Tok.operator */
+.highlight-murphy .ow {color: #000; font-weight: bold; } /* Tok.operator_word */
+.highlight-murphy .vc {color: #ccf; } /* Tok.name_variable_class */
+.highlight-murphy .vg {color: #f84; } /* Tok.name_variable_global */
+.highlight-murphy .vi {color: #aaf; } /* Tok.name_variable_instance */
+.highlight-murphy .vm {color: #036; } /* Tok.name_variable_magic */
+
+.highlight-native .hll {background-color: #404040}
+.highlight-native {background-color: #202020}
+.highlight-native .bp {color: #24909d; } /* Tok.name_builtin_pseudo */
+.highlight-native .c {color: #999999; font-style: italic; } /* Tok.comment */
+.highlight-native .c1 {color: #999999; font-style: italic; } /* Tok.comment_single */
+.highlight-native .ch {color: #999999; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-native .cm {color: #999999; font-style: italic; } /* Tok.comment_multiline */
+.highlight-native .cp {color: #cd2828; font-style: normal; font-weight: bold; } /* Tok.comment_preproc */
+.highlight-native .cpf {color: #cd2828; font-style: normal; font-weight: bold; } /* Tok.comment_preproc_file */
+.highlight-native .cs {color: #e50808; font-style: normal; font-weight: bold; background-color: #520000; } /* Tok.comment_special */
+.highlight-native .err {color: #a61717; background-color: #e3d2d2; } /* Tok.error */
+.highlight-native .fm {color: #447fcf; } /* Tok.name_function_magic */
+.highlight-native .gd {color: #d22323; } /* Tok.generic_deleted */
+.highlight-native .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-native .gh {color: #ffffff; font-weight: bold; } /* Tok.generic_heading */
+.highlight-native .gi {color: #589819; } /* Tok.generic_inserted */
+.highlight-native .go {color: #cccccc; } /* Tok.generic_output */
+.highlight-native .gp {color: #aaaaaa; } /* Tok.generic_prompt */
+.highlight-native .gr {color: #d22323; } /* Tok.generic_error */
+.highlight-native .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-native .gt {color: #d22323; } /* Tok.generic_traceback */
+.highlight-native .gu {color: #ffffff; text-decoration: underline; } /* Tok.generic_subheading */
+.highlight-native .k {color: #6ab825; font-weight: bold; } /* Tok.keyword */
+.highlight-native .kc {color: #6ab825; font-weight: bold; } /* Tok.keyword_constant */
+.highlight-native .kd {color: #6ab825; font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-native .kn {color: #6ab825; font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-native .kp {color: #6ab825; font-weight: normal; } /* Tok.keyword_pseudo */
+.highlight-native .kr {color: #6ab825; font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-native .kt {color: #6ab825; font-weight: bold; } /* Tok.keyword_type */
+.highlight-native .na {color: #bbbbbb; } /* Tok.name_attribute */
+.highlight-native .nb {color: #24909d; } /* Tok.name_builtin */
+.highlight-native .nc {color: #447fcf; text-decoration: underline; } /* Tok.name_class */
+.highlight-native .nd {color: #ffa500; } /* Tok.name_decorator */
+.highlight-native .ne {color: #bbbbbb; } /* Tok.name_exception */
+.highlight-native .nf {color: #447fcf; } /* Tok.name_function */
+.highlight-native .nn {color: #447fcf; text-decoration: underline; } /* Tok.name_namespace */
+.highlight-native .no {color: #40ffff; } /* Tok.name_constant */
+.highlight-native .nt {color: #6ab825; font-weight: bold; } /* Tok.name_tag */
+.highlight-native .nv {color: #40ffff; } /* Tok.name_variable */
+.highlight-native .ow {color: #6ab825; font-weight: bold; } /* Tok.operator_word */
+.highlight-native .vc {color: #40ffff; } /* Tok.name_variable_class */
+.highlight-native .vg {color: #40ffff; } /* Tok.name_variable_global */
+.highlight-native .vi {color: #40ffff; } /* Tok.name_variable_instance */
+.highlight-native .vm {color: #40ffff; } /* Tok.name_variable_magic */
+
+.highlight-paraiso_dark .hll {background-color: #4f424c}
+.highlight-paraiso_dark {color: #e7e9db; background-color: #2f1e2e}
+.highlight-paraiso_dark .bp {color: #e7e9db; } /* Tok.name_builtin_pseudo */
+.highlight-paraiso_dark .c {color: #776e71; } /* Tok.comment */
+.highlight-paraiso_dark .c1 {color: #776e71; } /* Tok.comment_single */
+.highlight-paraiso_dark .ch {color: #776e71; } /* Tok.comment_hashbang */
+.highlight-paraiso_dark .cm {color: #776e71; } /* Tok.comment_multiline */
+.highlight-paraiso_dark .cp {color: #776e71; } /* Tok.comment_preproc */
+.highlight-paraiso_dark .cpf {color: #776e71; } /* Tok.comment_preproc_file */
+.highlight-paraiso_dark .cs {color: #776e71; } /* Tok.comment_special */
+.highlight-paraiso_dark .err {color: #ef6155; } /* Tok.error */
+.highlight-paraiso_dark .fm {color: #06b6ef; } /* Tok.name_function_magic */
+.highlight-paraiso_dark .gd {color: #ef6155; } /* Tok.generic_deleted */
+.highlight-paraiso_dark .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-paraiso_dark .gh {color: #e7e9db; font-weight: bold; } /* Tok.generic_heading */
+.highlight-paraiso_dark .gi {color: #48b685; } /* Tok.generic_inserted */
+.highlight-paraiso_dark .gp {color: #776e71; font-weight: bold; } /* Tok.generic_prompt */
+.highlight-paraiso_dark .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-paraiso_dark .gu {color: #5bc4bf; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-paraiso_dark .k {color: #815ba4; } /* Tok.keyword */
+.highlight-paraiso_dark .kc {color: #815ba4; } /* Tok.keyword_constant */
+.highlight-paraiso_dark .kd {color: #815ba4; } /* Tok.keyword_declaration */
+.highlight-paraiso_dark .kn {color: #5bc4bf; } /* Tok.keyword_namespace */
+.highlight-paraiso_dark .kp {color: #815ba4; } /* Tok.keyword_pseudo */
+.highlight-paraiso_dark .kr {color: #815ba4; } /* Tok.keyword_reserved */
+.highlight-paraiso_dark .kt {color: #fec418; } /* Tok.keyword_type */
+.highlight-paraiso_dark .l {color: #f99b15; } /* Tok.literal */
+.highlight-paraiso_dark .ld {color: #48b685; } /* Tok.literal_date */
+.highlight-paraiso_dark .n {color: #e7e9db; } /* Tok.name */
+.highlight-paraiso_dark .na {color: #06b6ef; } /* Tok.name_attribute */
+.highlight-paraiso_dark .nb {color: #e7e9db; } /* Tok.name_builtin */
+.highlight-paraiso_dark .nc {color: #fec418; } /* Tok.name_class */
+.highlight-paraiso_dark .nd {color: #5bc4bf; } /* Tok.name_decorator */
+.highlight-paraiso_dark .ne {color: #ef6155; } /* Tok.name_exception */
+.highlight-paraiso_dark .nf {color: #06b6ef; } /* Tok.name_function */
+.highlight-paraiso_dark .ni {color: #e7e9db; } /* Tok.name_entity */
+.highlight-paraiso_dark .nl {color: #e7e9db; } /* Tok.name_label */
+.highlight-paraiso_dark .nn {color: #fec418; } /* Tok.name_namespace */
+.highlight-paraiso_dark .no {color: #ef6155; } /* Tok.name_constant */
+.highlight-paraiso_dark .nt {color: #5bc4bf; } /* Tok.name_tag */
+.highlight-paraiso_dark .nv {color: #ef6155; } /* Tok.name_variable */
+.highlight-paraiso_dark .nx {color: #06b6ef; } /* Tok.name_other */
+.highlight-paraiso_dark .o {color: #5bc4bf; } /* Tok.operator */
+.highlight-paraiso_dark .ow {color: #5bc4bf; } /* Tok.operator_word */
+.highlight-paraiso_dark .p {color: #e7e9db; } /* Tok.punctuation */
+.highlight-paraiso_dark .py {color: #e7e9db; } /* Tok.name_property */
+.highlight-paraiso_dark .vc {color: #ef6155; } /* Tok.name_variable_class */
+.highlight-paraiso_dark .vg {color: #ef6155; } /* Tok.name_variable_global */
+.highlight-paraiso_dark .vi {color: #ef6155; } /* Tok.name_variable_instance */
+.highlight-paraiso_dark .vm {color: #ef6155; } /* Tok.name_variable_magic */
+
+.highlight-paraiso_light .hll {background-color: #a39e9b}
+.highlight-paraiso_light {color: #2f1e2e; background-color: #e7e9db}
+.highlight-paraiso_light .bp {color: #2f1e2e; } /* Tok.name_builtin_pseudo */
+.highlight-paraiso_light .c {color: #8d8687; } /* Tok.comment */
+.highlight-paraiso_light .c1 {color: #8d8687; } /* Tok.comment_single */
+.highlight-paraiso_light .ch {color: #8d8687; } /* Tok.comment_hashbang */
+.highlight-paraiso_light .cm {color: #8d8687; } /* Tok.comment_multiline */
+.highlight-paraiso_light .cp {color: #8d8687; } /* Tok.comment_preproc */
+.highlight-paraiso_light .cpf {color: #8d8687; } /* Tok.comment_preproc_file */
+.highlight-paraiso_light .cs {color: #8d8687; } /* Tok.comment_special */
+.highlight-paraiso_light .err {color: #ef6155; } /* Tok.error */
+.highlight-paraiso_light .fm {color: #06b6ef; } /* Tok.name_function_magic */
+.highlight-paraiso_light .gd {color: #ef6155; } /* Tok.generic_deleted */
+.highlight-paraiso_light .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-paraiso_light .gh {color: #2f1e2e; font-weight: bold; } /* Tok.generic_heading */
+.highlight-paraiso_light .gi {color: #48b685; } /* Tok.generic_inserted */
+.highlight-paraiso_light .gp {color: #8d8687; font-weight: bold; } /* Tok.generic_prompt */
+.highlight-paraiso_light .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-paraiso_light .gu {color: #5bc4bf; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-paraiso_light .k {color: #815ba4; } /* Tok.keyword */
+.highlight-paraiso_light .kc {color: #815ba4; } /* Tok.keyword_constant */
+.highlight-paraiso_light .kd {color: #815ba4; } /* Tok.keyword_declaration */
+.highlight-paraiso_light .kn {color: #5bc4bf; } /* Tok.keyword_namespace */
+.highlight-paraiso_light .kp {color: #815ba4; } /* Tok.keyword_pseudo */
+.highlight-paraiso_light .kr {color: #815ba4; } /* Tok.keyword_reserved */
+.highlight-paraiso_light .kt {color: #fec418; } /* Tok.keyword_type */
+.highlight-paraiso_light .l {color: #f99b15; } /* Tok.literal */
+.highlight-paraiso_light .ld {color: #48b685; } /* Tok.literal_date */
+.highlight-paraiso_light .n {color: #2f1e2e; } /* Tok.name */
+.highlight-paraiso_light .na {color: #06b6ef; } /* Tok.name_attribute */
+.highlight-paraiso_light .nb {color: #2f1e2e; } /* Tok.name_builtin */
+.highlight-paraiso_light .nc {color: #fec418; } /* Tok.name_class */
+.highlight-paraiso_light .nd {color: #5bc4bf; } /* Tok.name_decorator */
+.highlight-paraiso_light .ne {color: #ef6155; } /* Tok.name_exception */
+.highlight-paraiso_light .nf {color: #06b6ef; } /* Tok.name_function */
+.highlight-paraiso_light .ni {color: #2f1e2e; } /* Tok.name_entity */
+.highlight-paraiso_light .nl {color: #2f1e2e; } /* Tok.name_label */
+.highlight-paraiso_light .nn {color: #fec418; } /* Tok.name_namespace */
+.highlight-paraiso_light .no {color: #ef6155; } /* Tok.name_constant */
+.highlight-paraiso_light .nt {color: #5bc4bf; } /* Tok.name_tag */
+.highlight-paraiso_light .nv {color: #ef6155; } /* Tok.name_variable */
+.highlight-paraiso_light .nx {color: #06b6ef; } /* Tok.name_other */
+.highlight-paraiso_light .o {color: #5bc4bf; } /* Tok.operator */
+.highlight-paraiso_light .ow {color: #5bc4bf; } /* Tok.operator_word */
+.highlight-paraiso_light .p {color: #2f1e2e; } /* Tok.punctuation */
+.highlight-paraiso_light .py {color: #2f1e2e; } /* Tok.name_property */
+.highlight-paraiso_light .vc {color: #ef6155; } /* Tok.name_variable_class */
+.highlight-paraiso_light .vg {color: #ef6155; } /* Tok.name_variable_global */
+.highlight-paraiso_light .vi {color: #ef6155; } /* Tok.name_variable_instance */
+.highlight-paraiso_light .vm {color: #ef6155; } /* Tok.name_variable_magic */
+
+.highlight-pastie .hll {background-color: #ffffcc}
+.highlight-pastie {background-color: #ffffff}
+.highlight-pastie .bp {color: #003388; } /* Tok.name_builtin_pseudo */
+.highlight-pastie .c {color: #888888; } /* Tok.comment */
+.highlight-pastie .c1 {color: #888888; } /* Tok.comment_single */
+.highlight-pastie .ch {color: #888888; } /* Tok.comment_hashbang */
+.highlight-pastie .cm {color: #888888; } /* Tok.comment_multiline */
+.highlight-pastie .cp {color: #cc0000; font-weight: bold; } /* Tok.comment_preproc */
+.highlight-pastie .cpf {color: #cc0000; font-weight: bold; } /* Tok.comment_preproc_file */
+.highlight-pastie .cs {color: #cc0000; font-weight: bold; background-color: #fff0f0; } /* Tok.comment_special */
+.highlight-pastie .err {color: #a61717; background-color: #e3d2d2; } /* Tok.error */
+.highlight-pastie .fm {color: #0066bb; font-weight: bold; } /* Tok.name_function_magic */
+.highlight-pastie .gd {color: #000000; background-color: #ffdddd; } /* Tok.generic_deleted */
+.highlight-pastie .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-pastie .gh {color: #333; } /* Tok.generic_heading */
+.highlight-pastie .gi {color: #000000; background-color: #ddffdd; } /* Tok.generic_inserted */
+.highlight-pastie .go {color: #888888; } /* Tok.generic_output */
+.highlight-pastie .gp {color: #555555; } /* Tok.generic_prompt */
+.highlight-pastie .gr {color: #aa0000; } /* Tok.generic_error */
+.highlight-pastie .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-pastie .gt {color: #aa0000; } /* Tok.generic_traceback */
+.highlight-pastie .gu {color: #666; } /* Tok.generic_subheading */
+.highlight-pastie .k {color: #008800; font-weight: bold; } /* Tok.keyword */
+.highlight-pastie .kc {color: #008800; font-weight: bold; } /* Tok.keyword_constant */
+.highlight-pastie .kd {color: #008800; font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-pastie .kn {color: #008800; font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-pastie .kp {color: #008800; font-weight: normal; } /* Tok.keyword_pseudo */
+.highlight-pastie .kr {color: #008800; font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-pastie .kt {color: #888888; font-weight: bold; } /* Tok.keyword_type */
+.highlight-pastie .na {color: #336699; } /* Tok.name_attribute */
+.highlight-pastie .nb {color: #003388; } /* Tok.name_builtin */
+.highlight-pastie .nc {color: #bb0066; font-weight: bold; } /* Tok.name_class */
+.highlight-pastie .nd {color: #555555; } /* Tok.name_decorator */
+.highlight-pastie .ne {color: #bb0066; font-weight: bold; } /* Tok.name_exception */
+.highlight-pastie .nf {color: #0066bb; font-weight: bold; } /* Tok.name_function */
+.highlight-pastie .nl {color: #336699; font-style: italic; } /* Tok.name_label */
+.highlight-pastie .nn {color: #bb0066; font-weight: bold; } /* Tok.name_namespace */
+.highlight-pastie .no {color: #003366; font-weight: bold; } /* Tok.name_constant */
+.highlight-pastie .nt {color: #bb0066; font-weight: bold; } /* Tok.name_tag */
+.highlight-pastie .nv {color: #336699; } /* Tok.name_variable */
+.highlight-pastie .ow {color: #008800; } /* Tok.operator_word */
+.highlight-pastie .py {color: #336699; font-weight: bold; } /* Tok.name_property */
+.highlight-pastie .vc {color: #336699; } /* Tok.name_variable_class */
+.highlight-pastie .vg {color: #dd7700; } /* Tok.name_variable_global */
+.highlight-pastie .vi {color: #3333bb; } /* Tok.name_variable_instance */
+.highlight-pastie .vm {color: #336699; } /* Tok.name_variable_magic */
+
+.highlight-perldoc .hll {background-color: #ffffcc}
+.highlight-perldoc {background-color: #eeeedd}
+.highlight-perldoc .bp {color: #658b00; } /* Tok.name_builtin_pseudo */
+.highlight-perldoc .c {color: #228B22; } /* Tok.comment */
+.highlight-perldoc .c1 {color: #228B22; } /* Tok.comment_single */
+.highlight-perldoc .ch {color: #228B22; } /* Tok.comment_hashbang */
+.highlight-perldoc .cm {color: #228B22; } /* Tok.comment_multiline */
+.highlight-perldoc .cp {color: #1e889b; } /* Tok.comment_preproc */
+.highlight-perldoc .cpf {color: #1e889b; } /* Tok.comment_preproc_file */
+.highlight-perldoc .cs {color: #8B008B; font-weight: bold; } /* Tok.comment_special */
+.highlight-perldoc .err {color: #a61717; background-color: #e3d2d2; } /* Tok.error */
+.highlight-perldoc .fm {color: #008b45; } /* Tok.name_function_magic */
+.highlight-perldoc .gd {color: #aa0000; } /* Tok.generic_deleted */
+.highlight-perldoc .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-perldoc .gh {color: #000080; font-weight: bold; } /* Tok.generic_heading */
+.highlight-perldoc .gi {color: #00aa00; } /* Tok.generic_inserted */
+.highlight-perldoc .go {color: #888888; } /* Tok.generic_output */
+.highlight-perldoc .gp {color: #555555; } /* Tok.generic_prompt */
+.highlight-perldoc .gr {color: #aa0000; } /* Tok.generic_error */
+.highlight-perldoc .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-perldoc .gt {color: #aa0000; } /* Tok.generic_traceback */
+.highlight-perldoc .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-perldoc .k {color: #8B008B; font-weight: bold; } /* Tok.keyword */
+.highlight-perldoc .kc {color: #8B008B; font-weight: bold; } /* Tok.keyword_constant */
+.highlight-perldoc .kd {color: #8B008B; font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-perldoc .kn {color: #8B008B; font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-perldoc .kp {color: #8B008B; font-weight: bold; } /* Tok.keyword_pseudo */
+.highlight-perldoc .kr {color: #8B008B; font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-perldoc .kt {color: #00688B; font-weight: bold; } /* Tok.keyword_type */
+.highlight-perldoc .na {color: #658b00; } /* Tok.name_attribute */
+.highlight-perldoc .nb {color: #658b00; } /* Tok.name_builtin */
+.highlight-perldoc .nc {color: #008b45; font-weight: bold; } /* Tok.name_class */
+.highlight-perldoc .nd {color: #707a7c; } /* Tok.name_decorator */
+.highlight-perldoc .ne {color: #008b45; font-weight: bold; } /* Tok.name_exception */
+.highlight-perldoc .nf {color: #008b45; } /* Tok.name_function */
+.highlight-perldoc .nn {color: #008b45; text-decoration: underline; } /* Tok.name_namespace */
+.highlight-perldoc .no {color: #00688B; } /* Tok.name_constant */
+.highlight-perldoc .nt {color: #8B008B; font-weight: bold; } /* Tok.name_tag */
+.highlight-perldoc .nv {color: #00688B; } /* Tok.name_variable */
+.highlight-perldoc .ow {color: #8B008B; } /* Tok.operator_word */
+.highlight-perldoc .vc {color: #00688B; } /* Tok.name_variable_class */
+.highlight-perldoc .vg {color: #00688B; } /* Tok.name_variable_global */
+.highlight-perldoc .vi {color: #00688B; } /* Tok.name_variable_instance */
+.highlight-perldoc .vm {color: #00688B; } /* Tok.name_variable_magic */
+
+.highlight-rainbow_dash .hll {background-color: #ffffcc}
+.highlight-rainbow_dash {color: #4d4d4d; background-color: #ffffff}
+.highlight-rainbow_dash .bp {color: #5918bb; font-weight: bold; } /* Tok.name_builtin_pseudo */
+.highlight-rainbow_dash .c {color: #0080ff; font-style: italic; } /* Tok.comment */
+.highlight-rainbow_dash .c1 {color: #0080ff; font-style: italic; } /* Tok.comment_single */
+.highlight-rainbow_dash .ch {color: #0080ff; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-rainbow_dash .cm {color: #0080ff; font-style: italic; } /* Tok.comment_multiline */
+.highlight-rainbow_dash .cp {color: #0080ff; font-style: normal; } /* Tok.comment_preproc */
+.highlight-rainbow_dash .cpf {color: #0080ff; font-style: normal; } /* Tok.comment_preproc_file */
+.highlight-rainbow_dash .cs {color: #0080ff; font-style: italic; font-weight: bold; } /* Tok.comment_special */
+.highlight-rainbow_dash .err {color: #ffffff; background-color: #cc0000; } /* Tok.error */
+.highlight-rainbow_dash .fm {color: #ff8000; font-weight: bold; } /* Tok.name_function_magic */
+.highlight-rainbow_dash .gd {border: #c5060b; background-color: #ffcccc; } /* Tok.generic_deleted */
+.highlight-rainbow_dash .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-rainbow_dash .gh {color: #2c5dcd; font-weight: bold; } /* Tok.generic_heading */
+.highlight-rainbow_dash .gi {border: #00cc00; background-color: #ccffcc; } /* Tok.generic_inserted */
+.highlight-rainbow_dash .go {color: #aaaaaa; } /* Tok.generic_output */
+.highlight-rainbow_dash .gp {color: #2c5dcd; font-weight: bold; } /* Tok.generic_prompt */
+.highlight-rainbow_dash .gr {color: #ff0000; } /* Tok.generic_error */
+.highlight-rainbow_dash .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-rainbow_dash .gt {color: #c5060b; } /* Tok.generic_traceback */
+.highlight-rainbow_dash .gu {color: #2c5dcd; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-rainbow_dash .k {color: #2c5dcd; font-weight: bold; } /* Tok.keyword */
+.highlight-rainbow_dash .kc {color: #2c5dcd; font-weight: bold; } /* Tok.keyword_constant */
+.highlight-rainbow_dash .kd {color: #2c5dcd; font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-rainbow_dash .kn {color: #2c5dcd; font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-rainbow_dash .kp {color: #2c5dcd; font-weight: normal; } /* Tok.keyword_pseudo */
+.highlight-rainbow_dash .kr {color: #2c5dcd; font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-rainbow_dash .kt {color: #5918bb; font-weight: bold; } /* Tok.keyword_type */
+.highlight-rainbow_dash .na {color: #2c5dcd; font-style: italic; } /* Tok.name_attribute */
+.highlight-rainbow_dash .nb {color: #5918bb; font-weight: bold; } /* Tok.name_builtin */
+.highlight-rainbow_dash .nc {text-decoration: underline; } /* Tok.name_class */
+.highlight-rainbow_dash .nd {color: #ff8000; font-weight: bold; } /* Tok.name_decorator */
+.highlight-rainbow_dash .ne {color: #5918bb; font-weight: bold; } /* Tok.name_exception */
+.highlight-rainbow_dash .nf {color: #ff8000; font-weight: bold; } /* Tok.name_function */
+.highlight-rainbow_dash .ni {color: #5918bb; font-weight: bold; } /* Tok.name_entity */
+.highlight-rainbow_dash .no {color: #318495; } /* Tok.name_constant */
+.highlight-rainbow_dash .nt {color: #2c5dcd; font-weight: bold; } /* Tok.name_tag */
+.highlight-rainbow_dash .o {color: #2c5dcd; } /* Tok.operator */
+.highlight-rainbow_dash .ow {color: #2c5dcd; font-weight: bold; } /* Tok.operator_word */
+
+.highlight-rrt .hll {background-color: #0000ff}
+.highlight-rrt {background-color: #000000}
+.highlight-rrt .c {color: #00ff00; } /* Tok.comment */
+.highlight-rrt .c1 {color: #00ff00; } /* Tok.comment_single */
+.highlight-rrt .ch {color: #00ff00; } /* Tok.comment_hashbang */
+.highlight-rrt .cm {color: #00ff00; } /* Tok.comment_multiline */
+.highlight-rrt .cp {color: #e5e5e5; } /* Tok.comment_preproc */
+.highlight-rrt .cpf {color: #e5e5e5; } /* Tok.comment_preproc_file */
+.highlight-rrt .cs {color: #00ff00; } /* Tok.comment_special */
+.highlight-rrt .fm {color: #ffff00; } /* Tok.name_function_magic */
+.highlight-rrt .k {color: #ff0000; } /* Tok.keyword */
+.highlight-rrt .kc {color: #ff0000; } /* Tok.keyword_constant */
+.highlight-rrt .kd {color: #ff0000; } /* Tok.keyword_declaration */
+.highlight-rrt .kn {color: #ff0000; } /* Tok.keyword_namespace */
+.highlight-rrt .kp {color: #ff0000; } /* Tok.keyword_pseudo */
+.highlight-rrt .kr {color: #ff0000; } /* Tok.keyword_reserved */
+.highlight-rrt .kt {color: #ee82ee; } /* Tok.keyword_type */
+.highlight-rrt .nf {color: #ffff00; } /* Tok.name_function */
+.highlight-rrt .no {color: #7fffd4; } /* Tok.name_constant */
+.highlight-rrt .nv {color: #eedd82; } /* Tok.name_variable */
+.highlight-rrt .vc {color: #eedd82; } /* Tok.name_variable_class */
+.highlight-rrt .vg {color: #eedd82; } /* Tok.name_variable_global */
+.highlight-rrt .vi {color: #eedd82; } /* Tok.name_variable_instance */
+.highlight-rrt .vm {color: #eedd82; } /* Tok.name_variable_magic */
+
+.highlight-tango .hll {background-color: #ffffcc}
+.highlight-tango {background-color: #f8f8f8}
+.highlight-tango .bp {color: #3465a4; } /* Tok.name_builtin_pseudo */
+.highlight-tango .c {color: #8f5902; font-style: italic; } /* Tok.comment */
+.highlight-tango .c1 {color: #8f5902; font-style: italic; } /* Tok.comment_single */
+.highlight-tango .ch {color: #8f5902; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-tango .cm {color: #8f5902; font-style: italic; } /* Tok.comment_multiline */
+.highlight-tango .cp {color: #8f5902; font-style: italic; } /* Tok.comment_preproc */
+.highlight-tango .cpf {color: #8f5902; font-style: italic; } /* Tok.comment_preproc_file */
+.highlight-tango .cs {color: #8f5902; font-style: italic; } /* Tok.comment_special */
+.highlight-tango .err {color: #a40000; border: #ef2929; } /* Tok.error */
+.highlight-tango .fm {color: #000000; } /* Tok.name_function_magic */
+.highlight-tango .g {color: #000000; } /* Tok.generic */
+.highlight-tango .gd {color: #a40000; } /* Tok.generic_deleted */
+.highlight-tango .ge {color: #000000; font-style: italic; } /* Tok.generic_emph */
+.highlight-tango .gh {color: #000080; font-weight: bold; } /* Tok.generic_heading */
+.highlight-tango .gi {color: #00A000; } /* Tok.generic_inserted */
+.highlight-tango .go {color: #000000; font-style: italic; } /* Tok.generic_output */
+.highlight-tango .gp {color: #8f5902; } /* Tok.generic_prompt */
+.highlight-tango .gr {color: #ef2929; } /* Tok.generic_error */
+.highlight-tango .gs {color: #000000; font-weight: bold; } /* Tok.generic_strong */
+.highlight-tango .gt {color: #a40000; font-weight: bold; } /* Tok.generic_traceback */
+.highlight-tango .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-tango .k {color: #204a87; font-weight: bold; } /* Tok.keyword */
+.highlight-tango .kc {color: #204a87; font-weight: bold; } /* Tok.keyword_constant */
+.highlight-tango .kd {color: #204a87; font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-tango .kn {color: #204a87; font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-tango .kp {color: #204a87; font-weight: bold; } /* Tok.keyword_pseudo */
+.highlight-tango .kr {color: #204a87; font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-tango .kt {color: #204a87; font-weight: bold; } /* Tok.keyword_type */
+.highlight-tango .l {color: #000000; } /* Tok.literal */
+.highlight-tango .ld {color: #000000; } /* Tok.literal_date */
+.highlight-tango .n {color: #000000; } /* Tok.name */
+.highlight-tango .na {color: #c4a000; } /* Tok.name_attribute */
+.highlight-tango .nb {color: #204a87; } /* Tok.name_builtin */
+.highlight-tango .nc {color: #000000; } /* Tok.name_class */
+.highlight-tango .nd {color: #5c35cc; font-weight: bold; } /* Tok.name_decorator */
+.highlight-tango .ne {color: #cc0000; font-weight: bold; } /* Tok.name_exception */
+.highlight-tango .nf {color: #000000; } /* Tok.name_function */
+.highlight-tango .ni {color: #ce5c00; } /* Tok.name_entity */
+.highlight-tango .nl {color: #f57900; } /* Tok.name_label */
+.highlight-tango .nn {color: #000000; } /* Tok.name_namespace */
+.highlight-tango .no {color: #000000; } /* Tok.name_constant */
+.highlight-tango .nt {color: #204a87; font-weight: bold; } /* Tok.name_tag */
+.highlight-tango .nv {color: #000000; } /* Tok.name_variable */
+.highlight-tango .nx {color: #000000; } /* Tok.name_other */
+.highlight-tango .o {color: #ce5c00; font-weight: bold; } /* Tok.operator */
+.highlight-tango .ow {color: #204a87; font-weight: bold; } /* Tok.operator_word */
+.highlight-tango .p {color: #000000; font-weight: bold; } /* Tok.punctuation */
+.highlight-tango .py {color: #000000; } /* Tok.name_property */
+.highlight-tango .vc {color: #000000; } /* Tok.name_variable_class */
+.highlight-tango .vg {color: #000000; } /* Tok.name_variable_global */
+.highlight-tango .vi {color: #000000; } /* Tok.name_variable_instance */
+.highlight-tango .vm {color: #000000; } /* Tok.name_variable_magic */
+.highlight-tango .x {color: #000000; } /* Tok.other */
+
+.highlight-trac .hll {background-color: #ffffcc}
+.highlight-trac {background-color: #ffffff}
+.highlight-trac .bp {color: #999999; } /* Tok.name_builtin_pseudo */
+.highlight-trac .c {color: #999988; font-style: italic; } /* Tok.comment */
+.highlight-trac .c1 {color: #999988; font-style: italic; } /* Tok.comment_single */
+.highlight-trac .ch {color: #999988; font-style: italic; } /* Tok.comment_hashbang */
+.highlight-trac .cm {color: #999988; font-style: italic; } /* Tok.comment_multiline */
+.highlight-trac .cp {color: #999999; font-style: normal; font-weight: bold; } /* Tok.comment_preproc */
+.highlight-trac .cpf {color: #999999; font-style: normal; font-weight: bold; } /* Tok.comment_preproc_file */
+.highlight-trac .cs {color: #999999; font-style: italic; font-weight: bold; } /* Tok.comment_special */
+.highlight-trac .err {color: #a61717; background-color: #e3d2d2; } /* Tok.error */
+.highlight-trac .fm {color: #990000; font-weight: bold; } /* Tok.name_function_magic */
+.highlight-trac .gd {color: #000000; background-color: #ffdddd; } /* Tok.generic_deleted */
+.highlight-trac .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-trac .gh {color: #999999; } /* Tok.generic_heading */
+.highlight-trac .gi {color: #000000; background-color: #ddffdd; } /* Tok.generic_inserted */
+.highlight-trac .go {color: #888888; } /* Tok.generic_output */
+.highlight-trac .gp {color: #555555; } /* Tok.generic_prompt */
+.highlight-trac .gr {color: #aa0000; } /* Tok.generic_error */
+.highlight-trac .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-trac .gt {color: #aa0000; } /* Tok.generic_traceback */
+.highlight-trac .gu {color: #aaaaaa; } /* Tok.generic_subheading */
+.highlight-trac .k {font-weight: bold; } /* Tok.keyword */
+.highlight-trac .kc {font-weight: bold; } /* Tok.keyword_constant */
+.highlight-trac .kd {font-weight: bold; } /* Tok.keyword_declaration */
+.highlight-trac .kn {font-weight: bold; } /* Tok.keyword_namespace */
+.highlight-trac .kp {font-weight: bold; } /* Tok.keyword_pseudo */
+.highlight-trac .kr {font-weight: bold; } /* Tok.keyword_reserved */
+.highlight-trac .kt {color: #445588; font-weight: bold; } /* Tok.keyword_type */
+.highlight-trac .na {color: #008080; } /* Tok.name_attribute */
+.highlight-trac .nb {color: #999999; } /* Tok.name_builtin */
+.highlight-trac .nc {color: #445588; font-weight: bold; } /* Tok.name_class */
+.highlight-trac .ne {color: #990000; font-weight: bold; } /* Tok.name_exception */
+.highlight-trac .nf {color: #990000; font-weight: bold; } /* Tok.name_function */
+.highlight-trac .ni {color: #800080; } /* Tok.name_entity */
+.highlight-trac .nn {color: #555555; } /* Tok.name_namespace */
+.highlight-trac .no {color: #008080; } /* Tok.name_constant */
+.highlight-trac .nt {color: #000080; } /* Tok.name_tag */
+.highlight-trac .nv {color: #008080; } /* Tok.name_variable */
+.highlight-trac .o {font-weight: bold; } /* Tok.operator */
+.highlight-trac .ow {font-weight: bold; } /* Tok.operator_word */
+.highlight-trac .vc {color: #008080; } /* Tok.name_variable_class */
+.highlight-trac .vg {color: #008080; } /* Tok.name_variable_global */
+.highlight-trac .vi {color: #008080; } /* Tok.name_variable_instance */
+.highlight-trac .vm {color: #008080; } /* Tok.name_variable_magic */
+
+.highlight-vim .hll {background-color: #222222}
+.highlight-vim {background-color: #000000}
+.highlight-vim .bp {color: #cd00cd; } /* Tok.name_builtin_pseudo */
+.highlight-vim .c {color: #000080; } /* Tok.comment */
+.highlight-vim .c1 {color: #000080; } /* Tok.comment_single */
+.highlight-vim .ch {color: #000080; } /* Tok.comment_hashbang */
+.highlight-vim .cm {color: #000080; } /* Tok.comment_multiline */
+.highlight-vim .cp {color: #000080; } /* Tok.comment_preproc */
+.highlight-vim .cpf {color: #000080; } /* Tok.comment_preproc_file */
+.highlight-vim .cs {color: #cd0000; font-weight: bold; } /* Tok.comment_special */
+.highlight-vim .err {border: #FF0000; } /* Tok.error */
+.highlight-vim .gd {color: #cd0000; } /* Tok.generic_deleted */
+.highlight-vim .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-vim .gh {color: #000080; font-weight: bold; } /* Tok.generic_heading */
+.highlight-vim .gi {color: #00cd00; } /* Tok.generic_inserted */
+.highlight-vim .go {color: #888; } /* Tok.generic_output */
+.highlight-vim .gp {color: #000080; font-weight: bold; } /* Tok.generic_prompt */
+.highlight-vim .gr {color: #FF0000; } /* Tok.generic_error */
+.highlight-vim .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-vim .gt {color: #04D; } /* Tok.generic_traceback */
+.highlight-vim .gu {color: #800080; font-weight: bold; } /* Tok.generic_subheading */
+.highlight-vim .k {color: #cdcd00; } /* Tok.keyword */
+.highlight-vim .kc {color: #cdcd00; } /* Tok.keyword_constant */
+.highlight-vim .kd {color: #00cd00; } /* Tok.keyword_declaration */
+.highlight-vim .kn {color: #cd00cd; } /* Tok.keyword_namespace */
+.highlight-vim .kp {color: #cdcd00; } /* Tok.keyword_pseudo */
+.highlight-vim .kr {color: #cdcd00; } /* Tok.keyword_reserved */
+.highlight-vim .kt {color: #00cd00; } /* Tok.keyword_type */
+.highlight-vim .nb {color: #cd00cd; } /* Tok.name_builtin */
+.highlight-vim .nc {color: #00cdcd; } /* Tok.name_class */
+.highlight-vim .ne {color: #666699; font-weight: bold; } /* Tok.name_exception */
+.highlight-vim .nv {color: #00cdcd; } /* Tok.name_variable */
+.highlight-vim .o {color: #3399cc; } /* Tok.operator */
+.highlight-vim .ow {color: #cdcd00; } /* Tok.operator_word */
+.highlight-vim .vc {color: #00cdcd; } /* Tok.name_variable_class */
+.highlight-vim .vg {color: #00cdcd; } /* Tok.name_variable_global */
+.highlight-vim .vi {color: #00cdcd; } /* Tok.name_variable_instance */
+.highlight-vim .vm {color: #00cdcd; } /* Tok.name_variable_magic */
+
+.highlight-vs .hll {background-color: #ffffcc}
+.highlight-vs {background-color: #ffffff}
+.highlight-vs .c {color: #008000; } /* Tok.comment */
+.highlight-vs .c1 {color: #008000; } /* Tok.comment_single */
+.highlight-vs .ch {color: #008000; } /* Tok.comment_hashbang */
+.highlight-vs .cm {color: #008000; } /* Tok.comment_multiline */
+.highlight-vs .cp {color: #0000ff; } /* Tok.comment_preproc */
+.highlight-vs .cpf {color: #0000ff; } /* Tok.comment_preproc_file */
+.highlight-vs .cs {color: #008000; } /* Tok.comment_special */
+.highlight-vs .err {border: #FF0000; } /* Tok.error */
+.highlight-vs .ge {font-style: italic; } /* Tok.generic_emph */
+.highlight-vs .gh {font-weight: bold; } /* Tok.generic_heading */
+.highlight-vs .gp {font-weight: bold; } /* Tok.generic_prompt */
+.highlight-vs .gs {font-weight: bold; } /* Tok.generic_strong */
+.highlight-vs .gu {font-weight: bold; } /* Tok.generic_subheading */
+.highlight-vs .k {color: #0000ff; } /* Tok.keyword */
+.highlight-vs .kc {color: #0000ff; } /* Tok.keyword_constant */
+.highlight-vs .kd {color: #0000ff; } /* Tok.keyword_declaration */
+.highlight-vs .kn {color: #0000ff; } /* Tok.keyword_namespace */
+.highlight-vs .kp {color: #0000ff; } /* Tok.keyword_pseudo */
+.highlight-vs .kr {color: #0000ff; } /* Tok.keyword_reserved */
+.highlight-vs .kt {color: #2b91af; } /* Tok.keyword_type */
+.highlight-vs .nc {color: #2b91af; } /* Tok.name_class */
+.highlight-vs .ow {color: #0000ff; } /* Tok.operator_word */
+
+.highlight-xcode .hll {background-color: #ffffcc}
+.highlight-xcode {background-color: #ffffff}
+.highlight-xcode .bp {color: #5B269A; } /* Tok.name_builtin_pseudo */
+.highlight-xcode .c {color: #177500; } /* Tok.comment */
+.highlight-xcode .c1 {color: #177500; } /* Tok.comment_single */
+.highlight-xcode .ch {color: #177500; } /* Tok.comment_hashbang */
+.highlight-xcode .cm {color: #177500; } /* Tok.comment_multiline */
+.highlight-xcode .cp {color: #633820; } /* Tok.comment_preproc */
+.highlight-xcode .cpf {color: #633820; } /* Tok.comment_preproc_file */
+.highlight-xcode .cs {color: #177500; } /* Tok.comment_special */
+.highlight-xcode .err {color: #000000; } /* Tok.error */
+.highlight-xcode .fm {color: #000000; } /* Tok.name_function_magic */
+.highlight-xcode .k {color: #A90D91; } /* Tok.keyword */
+.highlight-xcode .kc {color: #A90D91; } /* Tok.keyword_constant */
+.highlight-xcode .kd {color: #A90D91; } /* Tok.keyword_declaration */
+.highlight-xcode .kn {color: #A90D91; } /* Tok.keyword_namespace */
+.highlight-xcode .kp {color: #A90D91; } /* Tok.keyword_pseudo */
+.highlight-xcode .kr {color: #A90D91; } /* Tok.keyword_reserved */
+.highlight-xcode .kt {color: #A90D91; } /* Tok.keyword_type */
+.highlight-xcode .l {color: #1C01CE; } /* Tok.literal */
+.highlight-xcode .ld {color: #1C01CE; } /* Tok.literal_date */
+.highlight-xcode .n {color: #000000; } /* Tok.name */
+.highlight-xcode .na {color: #836C28; } /* Tok.name_attribute */
+.highlight-xcode .nb {color: #A90D91; } /* Tok.name_builtin */
+.highlight-xcode .nc {color: #3F6E75; } /* Tok.name_class */
+.highlight-xcode .nd {color: #000000; } /* Tok.name_decorator */
+.highlight-xcode .ne {color: #000000; } /* Tok.name_exception */
+.highlight-xcode .nf {color: #000000; } /* Tok.name_function */
+.highlight-xcode .ni {color: #000000; } /* Tok.name_entity */
+.highlight-xcode .nl {color: #000000; } /* Tok.name_label */
+.highlight-xcode .nn {color: #000000; } /* Tok.name_namespace */
+.highlight-xcode .no {color: #000000; } /* Tok.name_constant */
+.highlight-xcode .nt {color: #000000; } /* Tok.name_tag */
+.highlight-xcode .nv {color: #000000; } /* Tok.name_variable */
+.highlight-xcode .nx {color: #000000; } /* Tok.name_other */
+.highlight-xcode .o {color: #000000; } /* Tok.operator */
+.highlight-xcode .ow {color: #000000; } /* Tok.operator_word */
+.highlight-xcode .py {color: #000000; } /* Tok.name_property */
+.highlight-xcode .vc {color: #000000; } /* Tok.name_variable_class */
+.highlight-xcode .vg {color: #000000; } /* Tok.name_variable_global */
+.highlight-xcode .vi {color: #000000; } /* Tok.name_variable_instance */
+.highlight-xcode .vm {color: #000000; } /* Tok.name_variable_magic */
