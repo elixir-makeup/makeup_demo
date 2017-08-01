@@ -225,9 +225,9 @@
 
   It will render the text inside an HTML element accoring to the tag name.
 
-  For example, the text inside an <code><em></em></code> element
-  will be <em>italic</em> and the element inside an <code>&lt;em&gt;&lt;/em&gt;</code>
-  will be <strong>bold</strong>.
+  For example, the text inside a <code>&lt;em&gt;&lt;/em&gt;</code> element
+  will be <em>italic</em> and the element inside a
+  <code>&lt;strong&gt;&lt;/strong&gt;</code> element will be <strong>bold</strong>.
 
   Take a look, for example, at the <a href="#tango">Tango</a> and the
   <a href="#colorful">Colorful</a> styles.
@@ -263,9 +263,9 @@
   </p>
 
   <pre class="highlight-abap"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">abap</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">abap</span><span class="w">
 </span></code></pre>
 
   
@@ -273,8 +273,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-abap"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">abap</span><span>
+  <pre class="highlight-abap"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">abap</span><span class="w">
 </span></code></pre>
 
 
@@ -283,22 +283,22 @@
       small.html<a class="headerlink" href="#abap-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-abap"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-abap"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -313,9 +313,9 @@
   </p>
 
   <pre class="highlight-algol"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">algol</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">algol</span><span class="w">
 </span></code></pre>
 
   
@@ -323,8 +323,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-algol"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">algol</span><span>
+  <pre class="highlight-algol"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">algol</span><span class="w">
 </span></code></pre>
 
 
@@ -333,22 +333,22 @@
       small.html<a class="headerlink" href="#algol-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-algol"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-algol"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -363,9 +363,9 @@
   </p>
 
   <pre class="highlight-algol_nu"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">algol_nu</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">algol_nu</span><span class="w">
 </span></code></pre>
 
   
@@ -373,8 +373,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-algol_nu"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">algol_nu</span><span>
+  <pre class="highlight-algol_nu"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">algol_nu</span><span class="w">
 </span></code></pre>
 
 
@@ -383,22 +383,22 @@
       small.html<a class="headerlink" href="#algol_nu-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-algol_nu"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-algol_nu"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -413,9 +413,9 @@
   </p>
 
   <pre class="highlight-arduino"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">arduino</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">arduino</span><span class="w">
 </span></code></pre>
 
   
@@ -423,8 +423,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-arduino"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">arduino</span><span>
+  <pre class="highlight-arduino"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">arduino</span><span class="w">
 </span></code></pre>
 
 
@@ -433,22 +433,22 @@
       small.html<a class="headerlink" href="#arduino-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-arduino"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-arduino"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -463,9 +463,9 @@
   </p>
 
   <pre class="highlight-autumn"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">autumn</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">autumn</span><span class="w">
 </span></code></pre>
 
   
@@ -473,8 +473,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-autumn"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">autumn</span><span>
+  <pre class="highlight-autumn"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">autumn</span><span class="w">
 </span></code></pre>
 
 
@@ -483,22 +483,22 @@
       small.html<a class="headerlink" href="#autumn-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-autumn"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-autumn"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -513,9 +513,9 @@
   </p>
 
   <pre class="highlight-borland"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">borland</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">borland</span><span class="w">
 </span></code></pre>
 
   
@@ -523,8 +523,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-borland"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">borland</span><span>
+  <pre class="highlight-borland"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">borland</span><span class="w">
 </span></code></pre>
 
 
@@ -533,22 +533,22 @@
       small.html<a class="headerlink" href="#borland-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-borland"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-borland"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -563,9 +563,9 @@
   </p>
 
   <pre class="highlight-bw"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">bw</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">bw</span><span class="w">
 </span></code></pre>
 
   
@@ -573,8 +573,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-bw"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">bw</span><span>
+  <pre class="highlight-bw"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">bw</span><span class="w">
 </span></code></pre>
 
 
@@ -583,22 +583,22 @@
       small.html<a class="headerlink" href="#bw-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-bw"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-bw"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -613,9 +613,9 @@
   </p>
 
   <pre class="highlight-colorful"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">colorful</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">colorful</span><span class="w">
 </span></code></pre>
 
   
@@ -623,8 +623,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-colorful"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">colorful</span><span>
+  <pre class="highlight-colorful"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">colorful</span><span class="w">
 </span></code></pre>
 
 
@@ -633,22 +633,22 @@
       small.html<a class="headerlink" href="#colorful-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-colorful"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-colorful"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -663,9 +663,9 @@
   </p>
 
   <pre class="highlight-default"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">default</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">default</span><span class="w">
 </span></code></pre>
 
   
@@ -673,8 +673,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-default"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">default</span><span>
+  <pre class="highlight-default"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">default</span><span class="w">
 </span></code></pre>
 
 
@@ -683,22 +683,22 @@
       small.html<a class="headerlink" href="#default-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-default"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-default"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -713,9 +713,9 @@
   </p>
 
   <pre class="highlight-emacs"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">emacs</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">emacs</span><span class="w">
 </span></code></pre>
 
   
@@ -723,8 +723,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-emacs"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">emacs</span><span>
+  <pre class="highlight-emacs"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">emacs</span><span class="w">
 </span></code></pre>
 
 
@@ -733,22 +733,22 @@
       small.html<a class="headerlink" href="#emacs-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-emacs"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-emacs"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -763,9 +763,9 @@
   </p>
 
   <pre class="highlight-friendly"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">friendly</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">friendly</span><span class="w">
 </span></code></pre>
 
   
@@ -773,8 +773,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-friendly"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">friendly</span><span>
+  <pre class="highlight-friendly"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">friendly</span><span class="w">
 </span></code></pre>
 
 
@@ -783,22 +783,22 @@
       small.html<a class="headerlink" href="#friendly-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-friendly"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-friendly"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -813,9 +813,9 @@
   </p>
 
   <pre class="highlight-fruity"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">fruity</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">fruity</span><span class="w">
 </span></code></pre>
 
   
@@ -823,8 +823,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-fruity"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">fruity</span><span>
+  <pre class="highlight-fruity"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">fruity</span><span class="w">
 </span></code></pre>
 
 
@@ -833,22 +833,22 @@
       small.html<a class="headerlink" href="#fruity-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-fruity"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-fruity"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -863,9 +863,9 @@
   </p>
 
   <pre class="highlight-igor"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">igor</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">igor</span><span class="w">
 </span></code></pre>
 
   
@@ -873,8 +873,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-igor"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">igor</span><span>
+  <pre class="highlight-igor"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">igor</span><span class="w">
 </span></code></pre>
 
 
@@ -883,22 +883,22 @@
       small.html<a class="headerlink" href="#igor-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-igor"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-igor"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -913,9 +913,9 @@
   </p>
 
   <pre class="highlight-lovelace"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">lovelace</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">lovelace</span><span class="w">
 </span></code></pre>
 
   
@@ -923,8 +923,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-lovelace"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">lovelace</span><span>
+  <pre class="highlight-lovelace"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">lovelace</span><span class="w">
 </span></code></pre>
 
 
@@ -933,22 +933,22 @@
       small.html<a class="headerlink" href="#lovelace-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-lovelace"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-lovelace"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -963,9 +963,9 @@
   </p>
 
   <pre class="highlight-manni"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">manni</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">manni</span><span class="w">
 </span></code></pre>
 
   
@@ -973,8 +973,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-manni"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">manni</span><span>
+  <pre class="highlight-manni"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">manni</span><span class="w">
 </span></code></pre>
 
 
@@ -983,22 +983,22 @@
       small.html<a class="headerlink" href="#manni-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-manni"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-manni"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -1013,9 +1013,9 @@
   </p>
 
   <pre class="highlight-monokai"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">monokai</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">monokai</span><span class="w">
 </span></code></pre>
 
   
@@ -1023,8 +1023,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-monokai"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">monokai</span><span>
+  <pre class="highlight-monokai"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">monokai</span><span class="w">
 </span></code></pre>
 
 
@@ -1033,22 +1033,22 @@
       small.html<a class="headerlink" href="#monokai-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-monokai"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-monokai"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -1063,9 +1063,9 @@
   </p>
 
   <pre class="highlight-murphy"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">murphy</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">murphy</span><span class="w">
 </span></code></pre>
 
   
@@ -1073,8 +1073,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-murphy"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">murphy</span><span>
+  <pre class="highlight-murphy"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">murphy</span><span class="w">
 </span></code></pre>
 
 
@@ -1083,22 +1083,22 @@
       small.html<a class="headerlink" href="#murphy-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-murphy"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-murphy"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -1113,9 +1113,9 @@
   </p>
 
   <pre class="highlight-native"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">native</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">native</span><span class="w">
 </span></code></pre>
 
   
@@ -1123,8 +1123,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-native"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">native</span><span>
+  <pre class="highlight-native"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">native</span><span class="w">
 </span></code></pre>
 
 
@@ -1133,22 +1133,22 @@
       small.html<a class="headerlink" href="#native-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-native"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-native"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -1163,9 +1163,9 @@
   </p>
 
   <pre class="highlight-paraiso_dark"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">paraiso_dark</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">paraiso_dark</span><span class="w">
 </span></code></pre>
 
   
@@ -1173,8 +1173,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-paraiso_dark"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">paraiso_dark</span><span>
+  <pre class="highlight-paraiso_dark"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">paraiso_dark</span><span class="w">
 </span></code></pre>
 
 
@@ -1183,22 +1183,22 @@
       small.html<a class="headerlink" href="#paraiso_dark-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-paraiso_dark"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-paraiso_dark"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -1213,9 +1213,9 @@
   </p>
 
   <pre class="highlight-paraiso_light"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">paraiso_light</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">paraiso_light</span><span class="w">
 </span></code></pre>
 
   
@@ -1223,8 +1223,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-paraiso_light"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">paraiso_light</span><span>
+  <pre class="highlight-paraiso_light"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">paraiso_light</span><span class="w">
 </span></code></pre>
 
 
@@ -1233,22 +1233,22 @@
       small.html<a class="headerlink" href="#paraiso_light-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-paraiso_light"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-paraiso_light"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -1263,9 +1263,9 @@
   </p>
 
   <pre class="highlight-pastie"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">pastie</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">pastie</span><span class="w">
 </span></code></pre>
 
   
@@ -1273,8 +1273,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-pastie"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">pastie</span><span>
+  <pre class="highlight-pastie"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">pastie</span><span class="w">
 </span></code></pre>
 
 
@@ -1283,22 +1283,22 @@
       small.html<a class="headerlink" href="#pastie-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-pastie"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-pastie"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -1313,9 +1313,9 @@
   </p>
 
   <pre class="highlight-perldoc"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">perldoc</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">perldoc</span><span class="w">
 </span></code></pre>
 
   
@@ -1323,8 +1323,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-perldoc"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">perldoc</span><span>
+  <pre class="highlight-perldoc"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">perldoc</span><span class="w">
 </span></code></pre>
 
 
@@ -1333,22 +1333,22 @@
       small.html<a class="headerlink" href="#perldoc-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-perldoc"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-perldoc"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -1363,9 +1363,9 @@
   </p>
 
   <pre class="highlight-rainbow_dash"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">rainbow_dash</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">rainbow_dash</span><span class="w">
 </span></code></pre>
 
   
@@ -1373,8 +1373,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-rainbow_dash"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">rainbow_dash</span><span>
+  <pre class="highlight-rainbow_dash"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">rainbow_dash</span><span class="w">
 </span></code></pre>
 
 
@@ -1383,22 +1383,22 @@
       small.html<a class="headerlink" href="#rainbow_dash-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-rainbow_dash"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-rainbow_dash"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -1413,9 +1413,9 @@
   </p>
 
   <pre class="highlight-rrt"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">rrt</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">rrt</span><span class="w">
 </span></code></pre>
 
   
@@ -1423,8 +1423,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-rrt"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">rrt</span><span>
+  <pre class="highlight-rrt"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">rrt</span><span class="w">
 </span></code></pre>
 
 
@@ -1433,22 +1433,22 @@
       small.html<a class="headerlink" href="#rrt-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-rrt"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-rrt"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -1463,9 +1463,9 @@
   </p>
 
   <pre class="highlight-tango"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">tango</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">tango</span><span class="w">
 </span></code></pre>
 
   
@@ -1473,8 +1473,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-tango"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">tango</span><span>
+  <pre class="highlight-tango"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">tango</span><span class="w">
 </span></code></pre>
 
 
@@ -1483,22 +1483,22 @@
       small.html<a class="headerlink" href="#tango-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-tango"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-tango"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -1513,9 +1513,9 @@
   </p>
 
   <pre class="highlight-trac"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">trac</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">trac</span><span class="w">
 </span></code></pre>
 
   
@@ -1523,8 +1523,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-trac"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">trac</span><span>
+  <pre class="highlight-trac"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">trac</span><span class="w">
 </span></code></pre>
 
 
@@ -1533,22 +1533,22 @@
       small.html<a class="headerlink" href="#trac-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-trac"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-trac"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -1563,9 +1563,9 @@
   </p>
 
   <pre class="highlight-vim"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">vim</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">vim</span><span class="w">
 </span></code></pre>
 
   
@@ -1573,8 +1573,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-vim"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">vim</span><span>
+  <pre class="highlight-vim"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">vim</span><span class="w">
 </span></code></pre>
 
 
@@ -1583,22 +1583,22 @@
       small.html<a class="headerlink" href="#vim-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-vim"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-vim"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -1613,9 +1613,9 @@
   </p>
 
   <pre class="highlight-vs"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">vs</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">vs</span><span class="w">
 </span></code></pre>
 
   
@@ -1623,8 +1623,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-vs"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">vs</span><span>
+  <pre class="highlight-vs"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">vs</span><span class="w">
 </span></code></pre>
 
 
@@ -1633,22 +1633,22 @@
       small.html<a class="headerlink" href="#vs-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-vs"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-vs"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
@@ -1663,9 +1663,9 @@
   </p>
 
   <pre class="highlight-xcode"><code><span class="c1"># styles are macros that expand to constants
-</span><span class="kn">require</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="kn">alias</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">xcode</span><span>
+</span><span class="kn">require</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="kn">alias</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="nc">StyleMap</span><span class="o">.</span><span class="n">xcode</span><span class="w">
 </span></code></pre>
 
   
@@ -1673,8 +1673,8 @@
     Or <code>import</code> the module and use the constant defined there:
   </p>
 
-  <pre class="highlight-xcode"><code><span class="kn">import</span><span> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span>
-</span><span class="n">xcode</span><span>
+  <pre class="highlight-xcode"><code><span class="kn">import</span><span class="w"> </span><span class="nc">Makeup.Styles.HTML.StyleMap</span><span class="w">
+</span><span class="n">xcode</span><span class="w">
 </span></code></pre>
 
 
@@ -1683,22 +1683,22 @@
       small.html<a class="headerlink" href="#xcode-small.html" title="Permalink">¶</a>
     </h3>
 
-    <pre class="highlight-xcode"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span>
-</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span>
+    <pre class="highlight-xcode"><code><span class="p">&lt;</span><span class="nt">!DOCTYPE</span><span> </span><span class="na">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span><span>Page Title</span><span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span><span class="w">
+</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="gh">This is a Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span><span class="gu">This is a Subheading</span><span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span>
-  This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span> a paragraph.
-  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span> sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
+  </span><span>This </span><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span><span class="ge">is</span><span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span><span class="w"> </span><span>a paragraph.
+  It contains </span><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span><span class="gs">several</span><span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span><span class="w"> </span><span>sentences</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span><span class="w">
 
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span><span class="w">
 </span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre>
 
   
