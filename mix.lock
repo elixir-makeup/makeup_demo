@@ -1,4 +1,8 @@
-%{"ex_const": {:hex, :ex_const, "0.1.0", "7b04d0b65f00cfb8afc0b778bd58dec4804612a54f57122524ee097e9f2c5443", [:mix], []},
-  "ex_spirit": {:git, "https://github.com/OvermindDL1/ex_spirit.git", "f1a627e0b75c17db946e7c90ee8cc5e1d8f0cbd4", []},
+%{"earmark": {:hex, :earmark, "1.2.3", "206eb2e2ac1a794aa5256f3982de7a76bf4579ff91cb28d0e17ea2c9491e46a4", [:mix], []},
+  "ex_const": {:hex, :ex_const, "0.1.0", "7b04d0b65f00cfb8afc0b778bd58dec4804612a54f57122524ee097e9f2c5443", [:mix], []},
+  "ex_spirit": {:hex, :ex_spirit, "0.3.3", "89bd061c68a63b8a4321d768d87e918a7ba60f5a044e5961b14544d1f062901d", [:mix], []},
   "exconstructor": {:hex, :exconstructor, "1.1.0", "272623a7b203cb2901c20cbb92c5c3ab103cc0087ff7c881979e046043346752", [:mix], []},
-  "html_entities": {:hex, :html_entities, "0.3.0", "2f278ffc69c3f0cbd5996628fef37cf922fa715f3e04b9f38924c8adced3f25a", [:mix], []}}
+  "html_entities": {:hex, :html_entities, "0.3.0", "2f278ffc69c3f0cbd5996628fef37cf922fa715f3e04b9f38924c8adced3f25a", [:mix], []},
+  "makeup": {:hex, :makeup, "0.2.0", "558327c02cd4bc75e54d6aa2e31752c0a906eb4b40b392237921348c4ce455a9", [:mix], [{:ex_const, "~> 0.1.0", [hex: :ex_const, optional: false]}, {:ex_spirit, "~> 0.3.0", [hex: :ex_spirit, optional: false]}, {:exconstructor, "~> 1.1.0", [hex: :exconstructor, optional: false]}, {:html_entities, "~> 0.3.0", [hex: :html_entities, optional: false]}]},
+  "makeup_elixir": {:hex, :makeup_elixir, "0.2.0", "2a16854b9ecc44386241b03e2be50b83d0cdeac38c1cbeed1b16812238443f3a", [:mix], [{:makeup, "0.2.0", [hex: :makeup, optional: false]}]},
+  "makeup_html5": {:hex, :makeup_html5, "0.2.0", "5d9e82632d58d206e9157b62a925cb8b828382c51b0d4f4965986f873fd2ba07", [:mix], [{:makeup, "~> 0.2.0", [hex: :makeup, optional: false]}]}}

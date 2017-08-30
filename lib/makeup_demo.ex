@@ -8,6 +8,8 @@ defmodule MakeupDemo do
     File.cp_r!("assets/_static", output_dir <> "/_static")
     # Write the stylesheets for the themes
     MakeupDemo.Languages.write_makeup_stylesheets(output_dir <> "/_static/css")
+    # Write the group highlighter javascript file
+    MakeupDemo.Languages.write_group_highlighter_js_file(output_dir <> "/_static/js")
     # Webpages:
     # - Index
     File.write!(
@@ -16,7 +18,7 @@ defmodule MakeupDemo do
     # Language pages
     for %{slug: slug} = language <- MakeupDemo.Languages.languages() do
       content = MakeupDemo.Views.render_language(language)
-      File.write!(
+      File.write(
         output_dir <> "/#{slug}.html",
         content
       )

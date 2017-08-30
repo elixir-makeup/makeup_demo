@@ -3,7 +3,7 @@ defmodule MakeupDemo.Languages do
   require Makeup.Styles.HTML.StyleMap
   alias Makeup.Styles.HTML.StyleMap
 
-  alias  Makeup.Formatters.HTML.Simple, as: HTMLFormatter
+  alias  Makeup.Formatters.HTML.HTMLFormatter
 
   def get_sources(url) do
     dir = "lib/makeup_demo/examples/#{url}/"
@@ -30,17 +30,22 @@ defmodule MakeupDemo.Languages do
     File.write!(static_dir <> "/makeup.css", contents)
   end
 
+  def write_group_highlighter_js_file(static_dir) do
+    contents = HTMLFormatter.group_highlighter_javascript()
+    File.write!(static_dir <> "/matching_groups_highlighter.js", contents)
+  end
+
   def languages(), do:   [
     %{name: "Elixir",
       title: "Elixir Language",
       slug: "elixir",
-      lexer: Makeup.Lexers.Elixir,
+      lexer: Makeup.Lexers.ElixirLexer,
       intro: ""
     },
     %{name: "HTML5",
       title: "HTML5 Language",
       slug: "html5",
-      lexer: Makeup.Lexers.HTML5,
+      lexer: Makeup.Lexers.HTML5Lexer,
       intro: """
       <p>
         HTML5 is extremely liberal regarding what is valid HTML5.
@@ -56,9 +61,9 @@ defmodule MakeupDemo.Languages do
 
         It will render the text inside an HTML element accoring to the tag name.
 
-        For example, the text inside an <code><em></em></code> element
-        will be <em>italic</em> and the element inside an <code>&lt;em&gt;&lt;/em&gt;</code>
-        will be <strong>bold</strong>.
+        For example, the text inside a <code>&lt;em&gt;&lt;/em&gt;</code> element
+        will be <em>italic</em> and the element inside a
+        <code>&lt;strong&gt;&lt;/strong&gt;</code> element will be <strong>bold</strong>.
 
         Take a look, for example, at the <a href="#tango">Tango</a> and the
         <a href="#colorful">Colorful</a> styles.
@@ -72,35 +77,35 @@ defmodule MakeupDemo.Languages do
 
    def html_styles() do
     [
-      StyleMap.abap,
-      StyleMap.algol,
-      StyleMap.algol_nu,
-      StyleMap.arduino,
-      StyleMap.autumn,
-      StyleMap.borland,
-      StyleMap.bw,
-      StyleMap.colorful,
-      StyleMap.default,
-      StyleMap.emacs,
-      StyleMap.friendly,
-      StyleMap.fruity,
-      StyleMap.igor,
-      StyleMap.lovelace,
-      StyleMap.manni,
-      StyleMap.monokai,
-      StyleMap.murphy,
-      StyleMap.native,
-      StyleMap.paraiso_dark,
-      StyleMap.paraiso_light,
-      StyleMap.pastie,
-      StyleMap.perldoc,
-      StyleMap.rainbow_dash,
-      StyleMap.rrt,
-      StyleMap.tango,
-      StyleMap.trac,
-      StyleMap.vim,
-      StyleMap.vs,
-      StyleMap.xcode
+      StyleMap.abap_style,
+      StyleMap.algol_style,
+      StyleMap.algol_nu_style,
+      StyleMap.arduino_style,
+      StyleMap.autumn_style,
+      StyleMap.borland_style,
+      StyleMap.bw_style,
+      StyleMap.colorful_style,
+      StyleMap.default_style,
+      StyleMap.emacs_style,
+      StyleMap.friendly_style,
+      StyleMap.fruity_style,
+      StyleMap.igor_style,
+      StyleMap.lovelace_style,
+      StyleMap.manni_style,
+      StyleMap.monokai_style,
+      StyleMap.murphy_style,
+      StyleMap.native_style,
+      StyleMap.paraiso_dark_style,
+      StyleMap.paraiso_light_style,
+      StyleMap.pastie_style,
+      StyleMap.perldoc_style,
+      StyleMap.rainbow_dash_style,
+      StyleMap.rrt_style,
+      StyleMap.tango_style,
+      StyleMap.trac_style,
+      StyleMap.vim_style,
+      StyleMap.vs_style,
+      StyleMap.xcode_style
     ]
   end
 
