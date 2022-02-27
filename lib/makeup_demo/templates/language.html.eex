@@ -11,7 +11,7 @@
 
 <p>
   Some styles are richer than others in that they define more different token categories.
-  
+
   Examples of such richer styles are the <a href="#default">Default</a> style,
   the <a href="#tango">Tango</a> style and the <a href="#colorful">Colorful</a> style.
 </p>
@@ -36,7 +36,7 @@
   alias Makeup.Styles.HTML.StyleMap
   StyleMap.#{style.short_name}_style
   """, Makeup.Lexers.ElixirLexer, style) %>
-  
+
   <p>
     Or <code>import</code> the module and use the constant defined there:
   </p>

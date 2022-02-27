@@ -6,21 +6,21 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!-- Licensed under the Apache 2.0 License -->
-    <link rel="stylesheet" type="text/css" href="_static/fonts/open-sans/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="static/fonts/open-sans/stylesheet.css" />
     <!-- Licensed under the SIL Open Font License -->
-    <link rel="stylesheet" type="text/css" href="_static/fonts/source-serif-pro/source-serif-pro.css" />
-    <link rel="stylesheet" type="text/css" href="_static/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/fonts/source-serif-pro/source-serif-pro.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap-theme.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Makeup Demo</title>
     
-    <link rel="stylesheet" href="_static/css/guzzle.css" type="text/css" />
-    <link rel="stylesheet" href="_static/css/makeup.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/guzzle.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/makeup.css" type="text/css" />
 
-    <script type="text/javascript" src="_static/js/jquery-2.js"></script>
-    <script type="text/javascript" src="_static/js/jquery-migrate-1.js"></script>
-    <script type="text/javascript" src="_static/js/underscore.js"></script>
+    <script type="text/javascript" src="static/js/jquery-2.js"></script>
+    <script type="text/javascript" src="static/js/jquery-migrate-1.js"></script>
+    <script type="text/javascript" src="static/js/underscore.js"></script>
 
   </head>
 
@@ -130,8 +130,8 @@
         $("#left-column").toggle();
       });
     </script>
-    <script type="text/javascript" src="_static/js/bootstrap.js"></script>
-    <script type="text/javascript" src="_static/js/matching_groups_highlighter.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap.js"></script>
+    <script type="text/javascript" src="static/js/matching_groups_highlighter.js"></script>
 
     <div class="footer">
       &copy; Copyright 2015, Michael Dowling. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.

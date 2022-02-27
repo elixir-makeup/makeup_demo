@@ -23,5 +23,5 @@
 </p>
 
 <p>
-  The formatter is the SimpleHTML formatter.
+  The formatter is the <code>HTMLFormatter</code>.
 </p>
