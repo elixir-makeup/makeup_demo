@@ -52,37 +52,40 @@ defmodule MakeupDemo.Languages do
           The same lexer is used for "normal" elixir code and for an IEx session.
         </p>
         """
+      },
+      %{
+        name: "HTML",
+        title: "HTML Language",
+        slug: "html",
+        lexer: Makeup.Lexers.HTMLLexer,
+        intro: """
+        <p>
+          HTML lexed by makeup and rendered into HTML
+        </p>
+        """
+      },
+      %{
+        name: "Erlang",
+        title: "Erlang Language",
+        slug: "erlang",
+        lexer: Makeup.Lexers.ErlangLexer,
+        intro: """
+        <p>
+          A lexer for the Erlang language.
+        </p>
+        """
+      },
+      %{
+        name: "C",
+        title: "C Language",
+        slug: "c",
+        lexer: Makeup.Lexers.CLexer,
+        intro: """
+        <p>
+          A lexer for the C programming language.
+        </p>
+        """
       }
-      # %{name: "HTML5",
-      #   title: "HTML5 Language",
-      #   slug: "html5",
-      #   lexer: Makeup.Lexers.HTML5Lexer,
-      #   intro: """
-      #   <p>
-      #     HTML5 is extremely liberal regarding what is valid HTML5.
-      #     This lexer tries to recognize a sensible subset
-      #     (and in certain aspects it's even more permissive than HTML5 itself)
-      #   </p>
-
-      #   <p>
-      #     The lexer is smart, and tries to match the opening and closing tags
-      #     of an HTML element.
-
-      #     It is in act an HTML parser, and not only a lexer.
-
-      #     It will render the text inside an HTML element accoring to the tag name.
-
-      #     For example, the text inside a <code>&lt;em&gt;&lt;/em&gt;</code> element
-      #     will be <em>italic</em> and the element inside a
-      #     <code>&lt;strong&gt;&lt;/strong&gt;</code> element will be <strong>bold</strong>.
-
-      #     Take a look, for example, at the <a href="#tango">Tango</a> and the
-      #     <a href="#colorful">Colorful</a> styles.
-
-      #     In the future, hyperlinks will be underlined.
-      #   </p>
-      #   """
-      # }
     ]
 
   def html_styles() do
