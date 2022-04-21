@@ -4,6 +4,8 @@ To visit the demo, go [here](https://elixir-makeup.github.io/makeup_demo/).
 
 To regenerate the website, run:
 
-    mix run tasks/website_builder.exs
+    $ mix deps.get
+    $ mix run tasks/website_builder.exs
 
-
+For updating the production website, checkout the `gh-pages` branch
+and move the contents of the website folder to the root.
