@@ -6,11 +6,13 @@
   Makeup currently supports the following languages (in alphabetical order).
 </p>
 
-<ul class="d-flex">
+<ul class="languages d-flex flex-wrap">
   <%= for %{name: name, slug: slug} <- @languages do %>
-    <li class="d-flex flex-column align-items-center p-4">
-      <img src="/assets/static/img/<%= name %>.png" width="100px">
-      <a href="<%= slug %>.html"><%= name %></a>
+    <li class="languages-slug d-flex flex-column align-items-center p-4">
+      <a href="<%= slug %>.html">
+        <img class="languages-logo" src="/assets/static/img/<%= name %>.png" width="100px">
+      </a>
+      <a class="mt-2 p-1 languages-name" href="<%= slug %>.html"><%= name %></a>
     </li>
   <% end %>
 </ul>

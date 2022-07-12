@@ -11,7 +11,7 @@ body {
   line-height: 1.5;
 }
 
-#left-column {
+.left-column {
   float: left;
   position: fixed;
   height: 100%;
@@ -76,16 +76,16 @@ h3 {
 
 h1 {
   font-size: 38px;
-  padding: 10px 10px 10px 45px;
-  margin: 10px 0 35px -45px;
-  width: calc(100% + 90px);
-  border-bottom: 2px solid #ededed;
+  padding: 0.5rem 0;
+  margin: 15px 0 35px 0;
+  border-bottom: 2px solid #ffa929;
 }
 
 h2 {
   font-size: 34px;
-  padding: 0.2em 0;
-  border-bottom: 2px solid #ededed;
+  padding: 0.5rem 0;
+  margin: 15px 0 35px 0;
+  border-bottom: 2px solid #ffa929;
 }
 
 h3 {
@@ -144,12 +144,12 @@ pre {
   line-height: 23px;
   margin: 20px 0;
   word-wrap: normal;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 pre {
   color: #3d3d3d;
-  background-color: #fff;
+  background-color: transparent;
   overflow: auto;
   border-width: 0 0 0 2px;
   border-color: #eee;
@@ -190,6 +190,30 @@ blockquote {
   margin: 20px 0;
   padding: 15px 20px;
   font-size: 16px;
+}
+
+.menu-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.languages {
+  padding: 0;
+}
+
+:hover.languages-slug {
+  transform: scale(1.1);
+  transition: 0.2ms;
+}
+
+.languages-name {
+  color: #563f5e;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+:hover.languages-name {
+  color: #ffa929;
 }
 
 /* Sphinx sidebar
@@ -342,6 +366,22 @@ div.sphinxsidebar input {
 
 .text-logo:hover {
   color: #fff;
+}
+
+.text-logo--mobile {
+  color: #ffa929;
+  font-size: 2rem;
+  padding: 1rem 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+:hover.text-logo--mobile {
+  color: #ffa929;
+}
+
+.menu-icon {
+  padding: 1rem;
 }
 
 /* Left-nav search box
@@ -907,15 +947,14 @@ span.eqno {
 -------------------------------------------------- */
 
 #mobile-toggle {
-  height: 40px;
+  height: 90px;
   width: 100%;
-  display: none;
   padding: 12px;
-  border-bottom: 1px solid #ccc;
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #fff;
+  background-color: #44294d;
   z-index: 1;
 }
 
@@ -932,18 +971,26 @@ span.eqno {
   h1 {
     margin-left: 0;
     width: 100%;
-    padding: 10px;
-    font-size: 40px;
+    font-size: 1.75rem;
   }
 
-  #left-column {
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .left-column {
     position: relative;
     top: 0;
     left: 0;
     display: none;
     width: 100%;
     float: none;
-    margin: 40px 0 0 0;
+    margin-bottom: -70px;
+    border: none;
+  }
+
+  .left-column--active {
+    display: block;
   }
 
   .footer-relations {
@@ -952,8 +999,8 @@ span.eqno {
 
   #right-column {
     margin-left: 0;
-    margin-top: 0;
-    padding: 50px 20px 8px 20px;
+    margin-top: 90px;
+    padding: 20px 20px 8px 20px;
     width: 100%;
     float: none;
   }
@@ -969,7 +1016,14 @@ span.eqno {
   }
 
   #mobile-toggle {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .languages {
+    padding: 0;
+    justify-content: center;
   }
 
   p {
@@ -981,7 +1035,7 @@ span.eqno {
 -------------------------------------------------- */
 
 @media screen and (min-width: 769px) {
-  #left-column {
+  .left-column {
     display: block !important;
   }
 }
