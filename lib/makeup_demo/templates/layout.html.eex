@@ -42,7 +42,7 @@
           <span>Makeup Demo</span>
         </a>
         <button class="menu-btn" area-label="Menu">
-          <img class="menu-icon" src="/assets/static/img/menu-line.svg">
+          <img class="menu-icon" src="static/img/menu-line.svg">
         </button>        
       </div>
 
