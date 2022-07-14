@@ -2,23 +2,24 @@
 -------------------------------------------------- */
 
 body {
-  background-color: #edf0f2;
+  background-color: #fff;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  color: #333;
+  color: #3d3d3d;
   line-height: 1.5;
 }
 
-#left-column {
+.left-column {
   float: left;
   position: fixed;
   height: 100%;
   border-right: 1px solid #e0e0e0;
   width: 300px;
   overflow: auto;
-  background: #fafafa;
+  background: #563f5e;
+  color: #fff;
 }
 
 #right-column {
@@ -30,7 +31,7 @@ body {
 
 a.headerlink {
   visibility: hidden;
-  color: #ddd;
+  color: #ffa929;
   padding: 0 4px;
   text-decoration: none;
 }
@@ -45,35 +46,46 @@ dt:hover > a.headerlink {
   visibility: visible;
 }
 
-h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
-  color: #5C7C98;
+h1 > a,
+h2 > a,
+h3 > a,
+h4 > a,
+h5 > a,
+h6 > a {
+  color: #5c7c98;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: black;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #563f5e;
   font-weight: normal;
   padding: 0;
-  font-family: "Source Serif Pro", "serif";
+  font-family: "Montserrat", "serif";
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
 h1 {
   font-size: 38px;
-  padding: 10px 10px 10px 45px;
-  margin: 20px 0 35px -45px;
-  background-color: aliceblue;
-  width: calc(100% + 90px);
-  border-bottom: 1px solid #D8E4EF;
+  padding: 0.5rem 0;
+  margin: 15px 0 35px 0;
+  border-bottom: 2px solid #ffa929;
 }
 
 h2 {
   font-size: 34px;
-  padding: .2em 0;
-  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 0;
+  margin: 15px 0 35px 0;
+  border-bottom: 2px solid #ffa929;
 }
 
 h3 {
@@ -108,32 +120,36 @@ p {
   padding: 0;
   font-family: inherit;
   font-size: inherit;
-  color: #333;
+  color: #3d3d3d;
 }
 
-code, pre, tt {
+code,
+pre,
+tt {
   font-size: 15px;
   font-family: Consolas, monospace;
 }
 
-code, tt {
-  color: #8D1A38;
+code,
+tt {
+  color: #ffa929;
 }
 
 tt {
   padding: 0 2px;
 }
 
-code, pre {
+code,
+pre {
   line-height: 23px;
   margin: 20px 0;
   word-wrap: normal;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 pre {
-  color: #333;
-  background-color: #fff;
+  color: #3d3d3d;
+  background-color: transparent;
   overflow: auto;
   border-width: 0 0 0 2px;
   border-color: #eee;
@@ -160,13 +176,13 @@ dl.method {
 }
 
 .breadcrumb {
-  font-size: 15px;
-  margin-bottom: 12px;
+  font-size: 1rem;
+  margin: 1rem 0 2.25rem 2.8125rem;
   background: #fff;
 }
 
 blockquote {
-  border-width: .1em 0 .1em 0;
+  border-width: 0.1em 0 0.1em 0;
   border-color: #e5eef2;
   border-style: solid;
   background-color: #f3f8f9;
@@ -174,6 +190,30 @@ blockquote {
   margin: 20px 0;
   padding: 15px 20px;
   font-size: 16px;
+}
+
+.menu-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.languages {
+  padding: 0;
+}
+
+:hover.languages-slug {
+  transform: scale(1.1);
+  transition: 0.2ms;
+}
+
+.languages-name {
+  color: #563f5e;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+:hover.languages-name {
+  color: #ffa929;
 }
 
 /* Sphinx sidebar
@@ -184,7 +224,7 @@ div.sphinxsidebar {
 }
 
 div.sphinxsidebar .panel-default > .panel-heading {
-    background-image: none;
+  background-image: none;
 }
 
 .sidebar-wrapper {
@@ -193,7 +233,7 @@ div.sphinxsidebar .panel-default > .panel-heading {
 
 div.sphinxsidebar h3,
 div.sphinxsidebar h4 {
-  color: #444;
+  color: #fff;
   font-size: 20px;
   font-weight: normal;
   margin: 0;
@@ -205,7 +245,7 @@ div.sphinxsidebar h4 {
 }
 
 div.sphinxsidebar p {
-  color: #555;
+  color: #fff;
   margin: 10px 0;
 }
 
@@ -220,15 +260,15 @@ div.sphinxsidebar .sidebar-toc ul {
 }
 
 div.sphinxsidebar .sidebar-toc a {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #444;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
   text-decoration: none;
 }
 
 .sidebar-toc > ul {
-    padding: 0 !important;
-    list-style-type: none;
-    margin: 0;
+  padding: 0 !important;
+  list-style-type: none;
+  margin: 0;
 }
 
 .sidebar-toc ul li a {
@@ -236,8 +276,9 @@ div.sphinxsidebar .sidebar-toc a {
 }
 
 .sidebar-toc ul li a:hover {
-  background-color: #428bca;
-  color: #fff;
+  background-color: #ffa929;
+  color: #44294d;
+  font-weight: bold;
 }
 
 .sidebar-toc ul li.current > a,
@@ -269,12 +310,12 @@ div.sphinxsidebar .sidebar-toc ul ul {
 }
 
 .sidebar-localtoc ul {
-    padding-left: 24px;
+  padding-left: 24px;
 }
 
 div.sphinxsidebar input {
   border: 1px solid #ccc;
-  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-family: "Montserrat", arial, freesans, clean, sans-serif;
   font-size: 1em;
 }
 
@@ -291,11 +332,11 @@ div.sphinxsidebar input {
   border-bottom: none;
   margin: 0 0 17px 0;
   font-size: 14px;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   padding: 0 0 6px 0;
   font-weight: bold;
   text-transform: uppercase;
-  color: #606060;
+  color: #ffa929;
 }
 
 .sidebar-block .bd {
@@ -303,27 +344,44 @@ div.sphinxsidebar input {
 }
 
 .sphinxsidebar > .sidebar-block:not(:last-child):after {
-    content: '';
-    display:block;
-    border-top: 1px solid #ccc;
-    margin: 24px 22px 0 22px;
+  content: "";
+  display: block;
+  border-top: 1px solid #ccc;
+  margin: 24px 22px 0 22px;
 }
 
 .text-logo {
-  font-size: 18px;
+  font-size: 2rem;
   text-align: center;
   display: block;
-  padding: 8px;
-  color: #fff;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 1.5rem;
+  color: #ffa929;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0 0 20px 0;
-  font-weight: bold;
-  background-color: #337ab7;
+  font-weight: 600;
+  background-color: #44294d;
   border-bottom: 1px solid #fff;
+  text-decoration: none;
 }
 
 .text-logo:hover {
   color: #fff;
+}
+
+.text-logo--mobile {
+  color: #ffa929;
+  font-size: 2rem;
+  padding: 1rem 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+:hover.text-logo--mobile {
+  color: #ffa929;
+}
+
+.menu-icon {
+  padding: 1rem;
 }
 
 /* Left-nav search box
@@ -351,17 +409,17 @@ div.sphinxsidebar input {
 /* Two-pane table list
 -------------------------------------------------- */
 
-.table-bordered>thead>tr>th,
-.table-bordered>tbody>tr>th,
-.table-bordered>tfoot>tr>th,
-.table-bordered>thead>tr>td,
-.table-bordered>tbody>tr>td,
-.table-bordered>tfoot>tr>td,
-table.two-column.table-bordered caption+thead tr:first-child th:first-child,
-table.two-column.table-bordered caption+tbody tr:first-child td:first-child,
-table.two-column.table-bordered colgroup+thead tr:first-child th:first-child,
-table.two-column.table-bordered colgroup+tbody tr:first-child td:first-child,
-table.two-column tbody td
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td,
+table.two-column.table-bordered caption + thead tr:first-child th:first-child,
+table.two-column.table-bordered caption + tbody tr:first-child td:first-child,
+table.two-column.table-bordered colgroup + thead tr:first-child th:first-child,
+table.two-column.table-bordered colgroup + tbody tr:first-child td:first-child,
+table.two-column tbody td {
   border: 0 0 1px 0 solid #eee;
   border-left: none;
   padding: 8px 4px;
@@ -479,7 +537,8 @@ table.indextable td {
   vertical-align: top;
 }
 
-table.indextable dl, table.indextable dd {
+table.indextable dl,
+table.indextable dd {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -551,19 +610,25 @@ p.rubric {
   font-weight: bold;
 }
 
-img.align-left, .figure.align-left, object.align-left {
+img.align-left,
+.figure.align-left,
+object.align-left {
   clear: left;
   float: left;
   margin-right: 1em;
 }
 
-img.align-right, .figure.align-right, object.align-right {
+img.align-right,
+.figure.align-right,
+object.align-right {
   clear: right;
   float: right;
   margin-left: 1em;
 }
 
-img.align-center, .figure.align-center, object.align-center {
+img.align-center,
+.figure.align-center,
+object.align-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -599,13 +664,13 @@ p.topic-title {
 /* -- contents-------------------------------------------------------------- */
 
 div.topic.contents {
-    display: inline-block;
-    border-radius: 3px;
-    padding: 24px 36px 18px 36px;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 24px 36px 18px 36px;
 }
 
 div.topic.contents > ul {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 /* -- admonitions ----------------------------------------------------------- */
@@ -633,7 +698,7 @@ div.topic.contents > ul {
   font-weight: bold;
   font-size: 18px;
   line-height: 1.1;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .admonition.danger,
@@ -657,7 +722,7 @@ div.topic.contents > ul {
 .admonition.warning .admonition-title,
 .admonition.attention .admonition-title,
 .admonition.caution .admonition-title {
-  color: #9B581F;
+  color: #9b581f;
 }
 
 .admonition.note,
@@ -688,7 +753,8 @@ div.seealso {
   border: 1px solid #ff6;
 }
 
-div.admonition tt.xref, div.admonition a tt {
+div.admonition tt.xref,
+div.admonition a tt {
   border-bottom: 1px solid #fafafa;
 }
 
@@ -750,7 +816,7 @@ dl.glossary dt {
   border: 3px solid red;
 }
 
-.footnote:target  {
+.footnote:target {
   background-color: #ffa;
 }
 
@@ -766,7 +832,8 @@ dl.glossary dt {
   margin-left: 1.5em;
 }
 
-.guilabel, .menuselection {
+.guilabel,
+.menuselection {
   font-family: sans-serif;
 }
 
@@ -778,13 +845,15 @@ dl.glossary dt {
   font-style: oblique;
 }
 
-abbr, acronym {
+abbr,
+acronym {
   border-bottom: dotted 1px;
   cursor: help;
 }
 
-dt:target, .highlight {
-  background: #FAF3E8;
+dt:target,
+.highlight {
+  background: #faf3e8;
 }
 
 /* -- code displays --------------------------------------------------------- */
@@ -814,16 +883,23 @@ tt.descclassname {
   background-color: transparent;
 }
 
-tt.descname, tt.descclassname {
+tt.descname,
+tt.descclassname {
   font-size: 0.95em;
 }
 
-tt.xref, a tt {
+tt.xref,
+a tt {
   background-color: transparent;
   font-weight: bold;
 }
 
-h1 tt, h2 tt, h3 tt, h4 tt, h5 tt, h6 tt {
+h1 tt,
+h2 tt,
+h3 tt,
+h4 tt,
+h5 tt,
+h6 tt {
   background-color: transparent;
 }
 
@@ -871,15 +947,14 @@ span.eqno {
 -------------------------------------------------- */
 
 #mobile-toggle {
-  height: 40px;
+  height: 90px;
   width: 100%;
-  display: none;
   padding: 12px;
-  border-bottom: 1px solid #ccc;
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #fff;
+  background-color: #44294d;
   z-index: 1;
 }
 
@@ -887,7 +962,6 @@ span.eqno {
 -------------------------------------------------- */
 
 @media screen and (max-width: 768px) {
-
   body {
     padding: 0px;
     margin: 0px;
@@ -897,18 +971,26 @@ span.eqno {
   h1 {
     margin-left: 0;
     width: 100%;
-    padding: 10px;
-    font-size: 40px;
+    font-size: 1.75rem;
   }
 
-  #left-column {
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .left-column {
     position: relative;
     top: 0;
     left: 0;
     display: none;
     width: 100%;
     float: none;
-    margin: 40px 0 0 0;
+    margin-bottom: -70px;
+    border: none;
+  }
+
+  .left-column--active {
+    display: block;
   }
 
   .footer-relations {
@@ -917,8 +999,8 @@ span.eqno {
 
   #right-column {
     margin-left: 0;
-    margin-top: 0;
-    padding: 50px 20px 8px 20px;
+    margin-top: 90px;
+    padding: 20px 20px 8px 20px;
     width: 100%;
     float: none;
   }
@@ -926,7 +1008,7 @@ span.eqno {
   .document {
     position: relative;
     padding: 0;
-    width: 100%
+    width: 100%;
   }
 
   .body {
@@ -934,7 +1016,14 @@ span.eqno {
   }
 
   #mobile-toggle {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .languages {
+    padding: 0;
+    justify-content: center;
   }
 
   p {
@@ -946,7 +1035,7 @@ span.eqno {
 -------------------------------------------------- */
 
 @media screen and (min-width: 769px) {
-  #left-column {
+  .left-column {
     display: block !important;
   }
 }

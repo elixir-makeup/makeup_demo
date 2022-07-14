@@ -1,14 +1,19 @@
 <h1 id="#makeup-demo" >
-  Makeup Demo<a class="headerlink" href="#makeup-demo" title="Permalink to this headline">¶</a>
+  Supported Languages<a class="headerlink" href="#makeup-demo" title="Permalink to this headline">¶</a>
 </h1>
 
 <p>
   Makeup currently supports the following languages (in alphabetical order).
 </p>
 
-<ul>
+<ul class="languages d-flex flex-wrap">
   <%= for %{name: name, slug: slug} <- @languages do %>
-    <li><a href="<%= slug %>.html"><%= name %></a></li>
+    <li class="languages-slug d-flex flex-column align-items-center p-4">
+      <a href="<%= slug %>.html">
+        <img class="languages-logo" src="static/img/<%= String.downcase(name) %>.png" width="100">
+      </a>
+      <a class="mt-2 p-1 languages-name" href="<%= slug %>.html"><%= name %></a>
+    </li>
   <% end %>
 </ul>
 

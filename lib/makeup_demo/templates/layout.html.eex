@@ -9,19 +9,15 @@
     <link rel="stylesheet" type="text/css" href="static/fonts/open-sans/stylesheet.css" />
     <!-- Licensed under the SIL Open Font License -->
     <link rel="stylesheet" type="text/css" href="static/fonts/source-serif-pro/source-serif-pro.css" />
-    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="static/css/bootstrap-theme.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Makeup Demo</title>
     
+    <!--Bootstrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="static/css/guzzle.css" type="text/css" />
     <link rel="stylesheet" href="static/css/makeup.css" type="text/css" />
-
-    <script type="text/javascript" src="static/js/jquery-2.js"></script>
-    <script type="text/javascript" src="static/js/jquery-migrate-1.js"></script>
-    <script type="text/javascript" src="static/js/underscore.js"></script>
-
   </head>
 
   <body role="document">
@@ -42,10 +38,15 @@
 
     <div class="container-wrapper">
       <div id="mobile-toggle">
-        <a href="#"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
+        <a class="text-logo--mobile"  href="index.html">
+          <span>Makeup Demo</span>
+        </a>
+        <button class="menu-btn" area-label="Menu">
+          <img class="menu-icon" src="static/img/menu-line.svg">
+        </button>        
       </div>
 
-      <div id="left-column">
+      <div id="left-column" class="left-column">
         <div class="sphinxsidebar"><a href="index.html" class="text-logo">Makeup Demo</a>
 
           <%= if @sidebar_styles do %>
@@ -83,12 +84,6 @@
 
       <div id="right-column">
         
-        <div role="navigation" aria-label="breadcrumbs navigation">
-          <ol class="breadcrumb">
-            <li><a href="index.html">Index</a></li>
-          </ol>
-        </div>
-        
         <div class="document clearer body">
 
           <div class="section">
@@ -96,12 +91,6 @@
           </div>
 
 
-        </div>
-            
-        <div class="footer-relations">  
-          <div class="pull-right">
-            <a class="btn btn-default" href="overview.html" title="next chapter (use the right arrow)">Overview</a>
-          </div>
         </div>
         
         <div class="clearer"></div>
@@ -124,17 +113,13 @@
         <li class="nav-item nav-item-0"><a href="#">Makeup Demo</a> &raquo;</li> 
       </ul>
     </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-      $("#mobile-toggle a").click(function () {
-        $("#left-column").toggle();
+      document.querySelector(".menu-btn").addEventListener("click", () => { 
+        document.querySelector(".left-column").classList.toggle("left-column--active");
       });
     </script>
-    <script type="text/javascript" src="static/js/bootstrap.js"></script>
-    <script type="text/javascript" src="static/js/matching_groups_highlighter.js"></script>
-
-    <div class="footer">
-      &copy; Copyright 2015, Michael Dowling. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
-    </div>
   </body>
 </html>
