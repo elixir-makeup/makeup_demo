@@ -219,11 +219,11 @@ blockquote {
 /* Sphinx sidebar
 -------------------------------------------------- */
 
-div.sphinxsidebar {
+div.makeupsidebar {
   word-wrap: break-word;
 }
 
-div.sphinxsidebar .panel-default > .panel-heading {
+div.makeupsidebar .panel-default > .panel-heading {
   background-image: none;
 }
 
@@ -231,8 +231,8 @@ div.sphinxsidebar .panel-default > .panel-heading {
   padding: 0 22px;
 }
 
-div.sphinxsidebar h3,
-div.sphinxsidebar h4 {
+div.makeupsidebar h3,
+div.makeupsidebar h4 {
   color: #fff;
   font-size: 20px;
   font-weight: normal;
@@ -240,11 +240,11 @@ div.sphinxsidebar h4 {
   padding: 0;
 }
 
-div.sphinxsidebar h4 {
+div.makeupsidebar h4 {
   font-size: 16px;
 }
 
-div.sphinxsidebar p {
+div.makeupsidebar p {
   color: #fff;
   margin: 10px 0;
 }
@@ -253,13 +253,13 @@ div.sphinxsidebar p {
   font-size: 15px;
 }
 
-div.sphinxsidebar .sidebar-toc ul {
+div.makeupsidebar .sidebar-toc ul {
   margin: 0 0 4px 0;
   list-style-type: none;
   color: #000;
 }
 
-div.sphinxsidebar .sidebar-toc a {
+div.makeupsidebar .sidebar-toc a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   text-decoration: none;
@@ -299,12 +299,12 @@ div.sphinxsidebar .sidebar-toc a {
   padding: 5px 75px;
 }
 
-div.sphinxsidebar ul.want-points {
+div.makeupsidebar ul.want-points {
   padding-left: 20px;
   margin: 0;
 }
 
-div.sphinxsidebar .sidebar-toc ul ul {
+div.makeupsidebar .sidebar-toc ul ul {
   margin: 0;
   padding: 0;
 }
@@ -313,7 +313,7 @@ div.sphinxsidebar .sidebar-toc ul ul {
   padding-left: 24px;
 }
 
-div.sphinxsidebar input {
+div.makeupsidebar input {
   border: 1px solid #ccc;
   font-family: "Montserrat", arial, freesans, clean, sans-serif;
   font-size: 1em;
@@ -343,7 +343,7 @@ div.sphinxsidebar input {
   font-size: 16px;
 }
 
-.sphinxsidebar > .sidebar-block:not(:last-child):after {
+.makeupsidebar > .sidebar-block:not(:last-child):after {
   content: "";
   display: block;
   border-top: 1px solid #ccc;
@@ -352,9 +352,8 @@ div.sphinxsidebar input {
 
 .text-logo {
   font-size: 2rem;
-  text-align: center;
   display: block;
-  padding: 1.5rem;
+  padding: 1.5rem 22px;
   color: #ffa929;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0 0 20px 0;

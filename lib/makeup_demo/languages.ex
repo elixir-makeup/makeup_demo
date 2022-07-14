@@ -39,6 +39,17 @@ defmodule MakeupDemo.Languages do
   def languages(),
     do: [
       %{
+        name: "C",
+        title: "C Language",
+        slug: "c",
+        lexer: Makeup.Lexers.CLexer,
+        intro: """
+        <p>
+          A lexer for the C programming language.
+        </p>
+        """
+      },
+      %{
         name: "Elixir",
         title: "Elixir Language",
         slug: "elixir",
@@ -54,17 +65,6 @@ defmodule MakeupDemo.Languages do
         """
       },
       %{
-        name: "HTML",
-        title: "HTML Language",
-        slug: "html",
-        lexer: Makeup.Lexers.HTMLLexer,
-        intro: """
-        <p>
-          HTML lexed by makeup and rendered into HTML
-        </p>
-        """
-      },
-      %{
         name: "Erlang",
         title: "Erlang Language",
         slug: "erlang",
@@ -76,13 +76,13 @@ defmodule MakeupDemo.Languages do
         """
       },
       %{
-        name: "C",
-        title: "C Language",
-        slug: "c",
-        lexer: Makeup.Lexers.CLexer,
+        name: "HTML",
+        title: "HTML Language",
+        slug: "html",
+        lexer: Makeup.Lexers.HTMLLexer,
         intro: """
         <p>
-          A lexer for the C programming language.
+          A lexer for HTML.
         </p>
         """
       }

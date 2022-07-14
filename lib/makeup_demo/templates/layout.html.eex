@@ -21,21 +21,6 @@
   </head>
 
   <body role="document">
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-             accesskey="I">index</a></li>
-        <li class="right" >
-          <a href="overview.html" title="Overview"
-             accesskey="N">next</a> |</li>
-        <li class="nav-item nav-item-0">
-          <a href="#">Makeup Demo</a> &raquo;
-        </li> 
-      </ul>
-    </div>
-
     <div class="container-wrapper">
       <div id="mobile-toggle">
         <a class="text-logo--mobile"  href="index.html">
@@ -47,7 +32,7 @@
       </div>
 
       <div id="left-column" class="left-column">
-        <div class="sphinxsidebar"><a href="index.html" class="text-logo">Makeup Demo</a>
+        <div class="makeupsidebar"><a href="index.html" class="text-logo">Makeup Demo</a>
 
           <%= if @sidebar_styles do %>
             <div class="sidebar-block">
@@ -99,22 +84,6 @@
 
       <div class="clearfix"></div>
     </div>
-
-
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-              >index</a></li>
-        <li class="right" >
-          <a href="overview.html" title="Overview"
-              >next</a> |</li>
-        <li class="nav-item nav-item-0"><a href="#">Makeup Demo</a> &raquo;</li> 
-      </ul>
-    </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
       document.querySelector(".menu-btn").addEventListener("click", () => { 
