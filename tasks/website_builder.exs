@@ -1,15 +1,20 @@
 defmodule MakeupDemo.WebsiteBuilder do
   def run() do
     output_dir = "website"
-    # Create the output dir if it doesn't exist already
-    File.mkdir_p!(output_dir)
-    # Copy the static files (not the code stylesheets,
-    # those are dynamically generated)
+
+    # Create output dirs if they don't exist already
+    File.mkdir_p!(output_dir <> "/static/css")
+    File.mkdir_p!(output_dir <> "/static/js")
+
+    # Copy the static files (not the code stylesheets, those are dynamically generated)
     File.cp_r!("assets/static", output_dir <> "/static")
+
     # Write the stylesheets for the themes
     MakeupDemo.Languages.write_makeup_stylesheets(output_dir <> "/static/css")
+
     # Write the group highlighter javascript file
     MakeupDemo.Languages.write_group_highlighter_js_file(output_dir <> "/static/js")
+
     # Webpages:
     # - Index
     File.write!(
