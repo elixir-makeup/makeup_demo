@@ -28,7 +28,8 @@ defmodule MakeupDemo.Mixfile do
       {:makeup_erlang, "~> 0.1"},
       {:makeup_c, "~> 0.1"},
       {:makeup_diff, "~> 0.1"},
-      {:makeup_eex, "~> 0.1"}
+      {:makeup_eex, "~> 0.1"},
+      {:makeup_json, "~> 0.1"}
     ]
   end
 end
