@@ -11,5 +11,6 @@
   "makeup_erlang": {:hex, :makeup_erlang, "0.1.1", "3fcb7f09eb9d98dc4d208f49cc955a34218fc41ff6b84df7c75b3e6e533cc65f", [:mix], [{:makeup, "~> 1.0", [hex: :makeup, repo: "hexpm", optional: false]}], "hexpm", "174d0809e98a4ef0b3309256cbf97101c6ec01c4ab0b23e926a9e17df2077cbb"},
   "makeup_html": {:hex, :makeup_html, "0.1.0", "b0228fda985e311d8f0d25bed58f8280826633a38d7448cabdd723e116165bcf", [:mix], [{:makeup, "~> 1.0", [hex: :makeup, repo: "hexpm", optional: false]}], "hexpm", "0ca44e7dcb8d933e010740324470dd8ec947243b51304bd34b8165ef3281edc2"},
   "makeup_html5": {:hex, :makeup_html5, "0.2.0", "5d9e82632d58d206e9157b62a925cb8b828382c51b0d4f4965986f873fd2ba07", [:mix], [{:makeup, "~> 0.2.0", [hex: :makeup, optional: false]}]},
+  "makeup_json": {:git, "https://github.com/elixir-makeup/makeup_json", "3bfed89c9d86264a906bce99ae2604b52c4015d2", []},
   "nimble_parsec": {:hex, :nimble_parsec, "1.2.2", "b99ca56bbce410e9d5ee4f9155a212e942e224e259c7ebbf8f2c86ac21d4fa3c", [:mix], [], "hexpm", "98d51bd64d5f6a2a9c6bb7586ee8129e27dfaab1140b5a4753f24dac0ba27d2f"},
 }
