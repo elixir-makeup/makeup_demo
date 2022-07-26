@@ -34,7 +34,7 @@
   """, Makeup.Lexers.ElixirLexer, style) %>
 
   <p>
-    And invoke <code>Makeup.stylesheet(style)</code> to generate the apporpriate stylesheets for you.
+    And invoke <code>Makeup.stylesheet(style)</code> to generate the appropriate stylesheets for you.
   </p>
 
   <%= for {filename, source} <- @sources do %>
