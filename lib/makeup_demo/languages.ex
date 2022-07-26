@@ -85,6 +85,17 @@ defmodule MakeupDemo.Languages do
           A lexer for HTML.
         </p>
         """
+      },
+      %{
+        name: "Diff",
+        title: "Diffs and patches",
+        slug: "diff",
+        lexer: Makeup.Lexers.DiffLexer,
+        intro: """
+        <p>
+          A lexer for diffs and patches.
+        </p>
+        """
       }
     ]
 
