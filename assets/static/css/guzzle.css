@@ -223,12 +223,17 @@ blockquote {
 :hover.languages-slug {
   transform: scale(1.1);
   transition: 0.2ms;
+  cursor: pointer;
 }
 
 .languages-name {
   color: #563f5e;
   font-weight: 700;
   text-decoration: none;
+}
+
+.languages-slug:hover .languages-name {
+  color: #ffa929;
 }
 
 :hover.languages-name {
