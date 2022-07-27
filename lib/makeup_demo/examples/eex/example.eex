@@ -1,0 +1,14 @@
+<% Elixir expression - inline with output %>
+<%= Elixir expression - replace with result %>
+<%% EEx quotation - returns the contents inside %>
+<%# Comments - they are discarded from source %>
+
+<%= if true do %>
+  It is obviously true
+<% else %>
+  This will never appear
+<% end %>
+
+<%%= x + 3 %>
+
+<%= {:ok, v} = Access.fetch(assigns, :foo); v %>
