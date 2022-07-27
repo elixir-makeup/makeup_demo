@@ -1,5 +1,5 @@
 <h1 id="heading">
-  <%= @language.name %> Language<a class="headerlink" href="#heading" title="Permalink">¶</a>
+  <%= @language.title %><a class="headerlink" href="#heading" title="Permalink">¶</a>
 </h1>
 
 <%= @language.intro %>
