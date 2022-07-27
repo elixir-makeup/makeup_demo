@@ -199,17 +199,41 @@ blockquote {
 
 .languages {
   padding: 0;
+  display: flex;
+  justify-content: start;
+}
+
+.language-bg {
+  background: rgb(255, 153, 0);
+  background: linear-gradient(
+    140deg,
+    rgba(255, 153, 0, 1) 0%,
+    rgba(255, 153, 0, 1) 50%,
+    rgba(255, 169, 41, 1) 51%,
+    rgba(255, 169, 41, 1) 100%
+  );
+  border-radius: 9999px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 :hover.languages-slug {
   transform: scale(1.1);
   transition: 0.2ms;
+  cursor: pointer;
 }
 
 .languages-name {
   color: #563f5e;
   font-weight: 700;
   text-decoration: none;
+}
+
+.languages-slug:hover .languages-name {
+  color: #ffa929;
 }
 
 :hover.languages-name {
