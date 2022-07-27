@@ -50,6 +50,28 @@ defmodule MakeupDemo.Languages do
         """
       },
       %{
+        name: "Diff",
+        title: "Diffs and patches",
+        slug: "diff",
+        lexer: Makeup.Lexers.DiffLexer,
+        intro: """
+        <p>
+          A lexer for diffs and patches.
+        </p>
+        """
+      },
+      %{
+        name: "EEx",
+        title: "EEx -  Embedded Elixir template language",
+        slug: "eex",
+        lexer: Makeup.Lexers.EExLexer,
+        intro: """
+        <p>
+          A lexer for EEx (Embedded Elixir).
+        </p>
+        """
+      },
+      %{
         name: "Elixir",
         title: "Elixir Language",
         slug: "elixir",
@@ -76,6 +98,17 @@ defmodule MakeupDemo.Languages do
         """
       },
       %{
+        name: "HEEx",
+        title: "HEEx - Phoenix template language (HTML+EEx)",
+        slug: "heex",
+        lexer: Makeup.Lexers.HEExLexer,
+        intro: """
+        <p>
+          A lexer for HEEx (HTML + Embedded Elixir).
+        </p>
+        """
+      },
+      %{
         name: "HTML",
         title: "HTML Language",
         slug: "html",
@@ -83,39 +116,6 @@ defmodule MakeupDemo.Languages do
         intro: """
         <p>
           A lexer for HTML.
-        </p>
-        """
-      },
-      %{
-        name: "Diff",
-        title: "Diffs and patches",
-        slug: "diff",
-        lexer: Makeup.Lexers.DiffLexer,
-        intro: """
-        <p>
-          A lexer for diffs and patches.
-        </p>
-        """
-      },
-      %{
-        name: "HEEx",
-        title: "HEEx - Phoenix template language (HTML+EEx)",
-        slug: "heex",
-        lexer: Makeup.Lexers.HEExLexer,
-        intro: """
-        <p>
-          A lexer for HEEx.
-        </p>
-        """
-      },
-      %{
-        name: "EEx",
-        title: "EEx -  Embedded Elixir template language",
-        slug: "eex",
-        lexer: Makeup.Lexers.EExLexer,
-        intro: """
-        <p>
-          A lexer for EEx.
         </p>
         """
       }
