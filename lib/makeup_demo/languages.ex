@@ -107,6 +107,17 @@ defmodule MakeupDemo.Languages do
           A lexer for HEEx.
         </p>
         """
+      },
+      %{
+        name: "EEx",
+        title: "EEx -  Embedded Elixir template language",
+        slug: "eex",
+        lexer: Makeup.Lexers.EExLexer,
+        intro: """
+        <p>
+          A lexer for EEx.
+        </p>
+        """
       }
     ]
 
