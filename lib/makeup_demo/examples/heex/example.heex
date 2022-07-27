@@ -1,0 +1,10 @@
+<h1><%= expand_title(@title) %></h1>
+<div id={"user_#{@user.id}"}>
+  <%= @user.name %>
+</div>
+<%= render "child_template.html", assigns %>
+<.show_name name={@user.name} />
+
+<%= for user <- Repo.all(User) do %>
+  <%= user.name %>
+<% end %>

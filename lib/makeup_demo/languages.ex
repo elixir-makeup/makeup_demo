@@ -96,6 +96,17 @@ defmodule MakeupDemo.Languages do
           A lexer for diffs and patches.
         </p>
         """
+      },
+      %{
+        name: "HEEx",
+        title: "HEEx - Phoenix template language (HTML+EEx).",
+        slug: "heex",
+        lexer: Makeup.Lexers.HEExLexer,
+        intro: """
+        <p>
+          A lexer for HEEx.
+        </p>
+        """
       }
     ]
 

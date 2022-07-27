@@ -23,11 +23,12 @@ defmodule MakeupDemo.Mixfile do
   defp deps do
     [
       {:makeup, "~> 1.1"},
-      {:makeup_elixir, "~> 0.15"},
+      {:makeup_elixir, "~> 0.16"},
       {:makeup_html, "~> 0.1"},
       {:makeup_erlang, "~> 0.1"},
       {:makeup_c, "~> 0.1"},
-      {:makeup_diff, "~> 0.1"}
+      {:makeup_diff, "~> 0.1"},
+      {:makeup_eex, "~> 0.1"}
     ]
   end
 end
