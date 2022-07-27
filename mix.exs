@@ -27,7 +27,8 @@ defmodule MakeupDemo.Mixfile do
       {:makeup_html, "~> 0.1"},
       {:makeup_erlang, "~> 0.1"},
       {:makeup_c, "~> 0.1"},
-      {:makeup_diff, "~> 0.1"}
+      {:makeup_diff, "~> 0.1"},
+      {:makeup_json, git: "https://github.com/elixir-makeup/makeup_json"}
     ]
   end
 end

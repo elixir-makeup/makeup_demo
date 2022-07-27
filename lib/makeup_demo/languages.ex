@@ -96,6 +96,17 @@ defmodule MakeupDemo.Languages do
           A lexer for diffs and patches.
         </p>
         """
+      },
+      %{
+        name: "JSON",
+        title: "JSON (JavaScript Object Notation)",
+        slug: "json",
+        lexer: Makeup.Lexers.JsonLexer,
+        intro: """
+        <p>
+          A lexer for JSON.
+        </p>
+        """
       }
     ]
 
