@@ -99,7 +99,7 @@ defmodule MakeupDemo.Languages do
       },
       %{
         name: "HEEx",
-        title: "HEEx - Phoenix template language (HTML+EEx).",
+        title: "HEEx - Phoenix template language (HTML+EEx)",
         slug: "heex",
         lexer: Makeup.Lexers.HEExLexer,
         intro: """
