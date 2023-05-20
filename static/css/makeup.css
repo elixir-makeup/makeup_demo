@@ -591,6 +591,91 @@
 .highlight-default .vi {color: #19177C; } /* :name_variable_instance */
 .highlight-default .vm {color: #19177C; } /* :name_variable_magic */
 
+.highlight-dracula .hll {background-color: #44475A}
+.highlight-dracula {color: #6272A4; background-color: #282a36}.highlight-dracula .unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.highlight-dracula .bp {color: #6272A4; } /* :name_builtin_pseudo */
+.highlight-dracula .c {color: #6272A4; } /* :comment */
+.highlight-dracula .c1 {color: #6272A4; } /* :comment_single */
+.highlight-dracula .ch {color: #6272A4; } /* :comment_hashbang */
+.highlight-dracula .cm {color: #6272A4; } /* :comment_multiline */
+.highlight-dracula .cp {color: #6272A4; } /* :comment_preproc */
+.highlight-dracula .cpf {color: #6272A4; } /* :comment_preproc_file */
+.highlight-dracula .cs {color: #6272A4; } /* :comment_special */
+.highlight-dracula .dl {color: #F1FA8C; } /* :string_delimiter */
+.highlight-dracula .err {color: #FF5555; } /* :error */
+.highlight-dracula .fm {color: #50FA7B; } /* :name_function_magic */
+.highlight-dracula .g {color: #6272A4; } /* :generic */
+.highlight-dracula .gd {color: #FF5555; } /* :generic_deleted */
+.highlight-dracula .ge {color: #6272A4; } /* :generic_emph */
+.highlight-dracula .gh {color: #6272A4; } /* :generic_heading */
+.highlight-dracula .gi {color: #50FA7B; } /* :generic_inserted */
+.highlight-dracula .go {color: #6272A4; } /* :generic_output */
+.highlight-dracula .gp {color: #6272A4; font-weight: bold; } /* :generic_prompt */
+.highlight-dracula .gr {color: #6272A4; } /* :generic_error */
+.highlight-dracula .gs {color: #6272A4; } /* :generic_strong */
+.highlight-dracula .gt {color: #FFB86C; } /* :generic_traceback */
+.highlight-dracula .gu {color: #6272A4; } /* :generic_subheading */
+.highlight-dracula .il {color: #BD93F9; } /* :number_integer_long */
+.highlight-dracula .k {color: #FF92DF; } /* :keyword */
+.highlight-dracula .kc {color: #FF92DF; } /* :keyword_constant */
+.highlight-dracula .kd {color: #FF92DF; } /* :keyword_declaration */
+.highlight-dracula .kn {color: #FF92DF; } /* :keyword_namespace */
+.highlight-dracula .kp {color: #FF92DF; } /* :keyword_pseudo */
+.highlight-dracula .kr {color: #BD93F9; font-style: italic; } /* :keyword_reserved */
+.highlight-dracula .kt {color: #FF92DF; } /* :keyword_type */
+.highlight-dracula .l {color: #FFB86C; } /* :literal */
+.highlight-dracula .ld {color: #FFB86C; } /* :literal_date */
+.highlight-dracula .m {color: #BD93F9; } /* :number */
+.highlight-dracula .mb {color: #BD93F9; } /* :number_bin */
+.highlight-dracula .mf {color: #BD93F9; } /* :number_float */
+.highlight-dracula .mh {color: #BD93F9; } /* :number_hex */
+.highlight-dracula .mi {color: #BD93F9; } /* :number_integer */
+.highlight-dracula .mo {color: #BD93F9; } /* :number_oct */
+.highlight-dracula .n {color: #FFB86C; } /* :name */
+.highlight-dracula .na {color: #BD93F9; } /* :name_attribute */
+.highlight-dracula .nb {color: #FFB86C; } /* :name_builtin */
+.highlight-dracula .nc {color: #A4FFFF; } /* :name_class */
+.highlight-dracula .nd {color: #50FA7B; } /* :name_decorator */
+.highlight-dracula .ne {color: #FFB86C; } /* :name_exception */
+.highlight-dracula .nf {color: #50FA7B; } /* :name_function */
+.highlight-dracula .ni {color: #FFB86C; } /* :name_entity */
+.highlight-dracula .nl {color: #FFB86C; } /* :name_label */
+.highlight-dracula .nn {color: #FFB86C; } /* :name_namespace */
+.highlight-dracula .no {color: #BD93F9; } /* :name_constant */
+.highlight-dracula .nt {color: #FFB86C; } /* :name_tag */
+.highlight-dracula .nv {color: #FFB86C; } /* :name_variable */
+.highlight-dracula .nx {color: #FFB86C; } /* :name_other */
+.highlight-dracula .o {color: #FF92DF; } /* :operator */
+.highlight-dracula .ow {color: #FF92DF; } /* :operator_word */
+.highlight-dracula .p {color: #FF92DF; } /* :punctuation */
+.highlight-dracula .py {color: #FFB86C; } /* :name_property */
+.highlight-dracula .s {color: #F1FA8C; } /* :string */
+.highlight-dracula .s1 {color: #F1FA8C; } /* :string_single */
+.highlight-dracula .s2 {color: #F1FA8C; } /* :string_double */
+.highlight-dracula .sa {color: #F1FA8C; } /* :string_affix */
+.highlight-dracula .sb {color: #F1FA8C; } /* :string_backtick */
+.highlight-dracula .sc {color: #F1FA8C; } /* :string_char */
+.highlight-dracula .sd {color: #FF92DF; } /* :string_doc */
+.highlight-dracula .se {color: #FF92DF; } /* :string_escape */
+.highlight-dracula .sh {color: #FF92DF; } /* :string_heredoc */
+.highlight-dracula .si {color: #F1FA8C; } /* :string_interpol */
+.highlight-dracula .sr {color: #FF5555; } /* :string_regex */
+.highlight-dracula .ss {color: #F8F8F2; } /* :string_symbol */
+.highlight-dracula .sx {color: #F1FA8C; } /* :string_other */
+.highlight-dracula .sx {color: #F1FA8C; } /* :string_sigil */
+.highlight-dracula .vc {color: #FFB86C; } /* :name_variable_class */
+.highlight-dracula .vg {color: #FFB86C; } /* :name_variable_global */
+.highlight-dracula .vi {color: #FFB86C; } /* :name_variable_instance */
+.highlight-dracula .vm {color: #FFB86C; } /* :name_variable_magic */
+
 .highlight-emacs .hll {background-color: #ffffcc}
 .highlight-emacs {background-color: #f8f8f8}.highlight-emacs .unselectable {
   -webkit-touch-callout: none;
