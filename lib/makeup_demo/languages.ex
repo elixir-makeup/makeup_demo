@@ -132,6 +132,7 @@ defmodule MakeupDemo.Languages do
       StyleMap.bw_style(),
       StyleMap.colorful_style(),
       StyleMap.default_style(),
+      StyleMap.dracula_style(),
       StyleMap.emacs_style(),
       StyleMap.friendly_style(),
       StyleMap.fruity_style(),
