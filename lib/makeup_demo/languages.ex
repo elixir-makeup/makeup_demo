@@ -129,6 +129,17 @@ defmodule MakeupDemo.Languages do
           A lexer for JSON.
         </p>
         """
+      },
+      %{
+        name: "Rust",
+        title: "Rust language",
+        slug: "rust",
+        lexer: Makeup.Lexers.RustLexer,
+        intro: """
+        <p>
+          A lexer for the Rust language.
+        </p>
+        """
       }
     ]
 
