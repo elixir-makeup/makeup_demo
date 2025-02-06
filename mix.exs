@@ -22,15 +22,14 @@ defmodule MakeupDemo.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:makeup, "~> 1.2"},
-      {:makeup_elixir, "~> 0.16"},
+      {:makeup, "~> 1.1"},
+      {:makeup_elixir, "~> 1.0"},
+      {:makeup_erlang, "~> 1.0"},
+      {:makeup_eex, "~> 2.0"},
       {:makeup_html, "~> 0.1"},
-      {:makeup_erlang, "~> 0.1"},
       {:makeup_c, "~> 0.1"},
       {:makeup_diff, "~> 0.1"},
-      {:makeup_eex, "~> 0.1"},
-      {:makeup_json, "~> 0.1"},
-      {:makeup_rust, "~> 0.3"}
+      {:makeup_json, "~> 0.1"}
     ]
   end
 end
